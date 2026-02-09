@@ -1,0 +1,162 @@
+---
+layout: default
+title: "HVAC Compliance & Business Resources"
+description: "Expert guides on EPA Section 608, Subpart C, A2L refrigerant safety, and business operations for solo HVAC technicians. Free regulatory guidance and practical advice."
+permalink: /articles/
+---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "HVAC Compliance & Business Resources",
+  "description": "Expert guides on EPA regulations, A2L safety protocols, and business operations for solo HVAC technicians.",
+  "url": "https://fieldpadpro.com/articles/",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Huggler Holdings LLC"
+  }
+}
+</script>
+
+<section class="py-16 sm:py-20">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- Header -->
+    <div class="text-center mb-12">
+      <h1 class="text-3xl sm:text-4xl font-bold text-fieldpad-900 mb-4">HVAC Compliance & Business Resources</h1>
+      <p class="text-lg text-gray-500 max-w-2xl mx-auto">Expert guides on EPA regulations, A2L safety, and running a successful solo HVAC business. Written for field technicians, by industry professionals.</p>
+    </div>
+
+    <!-- Category Filter -->
+    <div class="flex flex-wrap justify-center gap-3 mb-12" id="category-filters">
+      <button onclick="filterArticles('all')" class="filter-btn active px-4 py-2 rounded-full text-sm font-semibold bg-fieldpad-700 text-white transition-colors" data-category="all">All Articles</button>
+      <button onclick="filterArticles('compliance')" class="filter-btn px-4 py-2 rounded-full text-sm font-semibold bg-gray-100 text-gray-600 hover:bg-blue-100 hover:text-blue-700 transition-colors" data-category="compliance">Compliance</button>
+      <button onclick="filterArticles('safety')" class="filter-btn px-4 py-2 rounded-full text-sm font-semibold bg-gray-100 text-gray-600 hover:bg-amber-100 hover:text-amber-700 transition-colors" data-category="safety">Safety</button>
+      <button onclick="filterArticles('business')" class="filter-btn px-4 py-2 rounded-full text-sm font-semibold bg-gray-100 text-gray-600 hover:bg-green-100 hover:text-green-700 transition-colors" data-category="business">Business</button>
+      <button onclick="filterArticles('tools')" class="filter-btn px-4 py-2 rounded-full text-sm font-semibold bg-gray-100 text-gray-600 hover:bg-purple-100 hover:text-purple-700 transition-colors" data-category="tools">Tools & Tech</button>
+    </div>
+
+    <!-- Compliance Articles -->
+    <div id="compliance" class="category-section mb-12">
+      <h2 class="text-2xl font-bold text-fieldpad-900 mb-6 flex items-center gap-2">
+        <span class="w-3 h-3 bg-blue-500 rounded-full"></span>
+        Compliance Deep Dives
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {% assign compliance_articles = site.articles | where: "category", "compliance" | sort: "date" | reverse %}
+        {% for article in compliance_articles %}
+        <a href="{{ article.url | relative_url }}" class="article-card group block bg-white border border-gray-200 rounded-2xl p-6 hover:border-blue-300 hover:shadow-md transition-all" data-category="compliance">
+          <span class="inline-block px-2 py-0.5 text-xs font-semibold uppercase tracking-wider rounded-full bg-blue-100 text-blue-700 mb-3">Compliance</span>
+          <h3 class="text-base font-bold text-fieldpad-900 group-hover:text-fieldpad-600 mb-2 leading-snug transition-colors">{{ article.title }}</h3>
+          <p class="text-sm text-gray-500 line-clamp-3 mb-3">{{ article.summary | truncatewords: 25 }}</p>
+          <div class="flex items-center gap-3 text-xs text-gray-400">
+            <time>{{ article.date | date: "%b %d, %Y" }}</time>
+            {% if article.read_time %}<span>{{ article.read_time }} min read</span>{% endif %}
+          </div>
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+
+    <!-- Safety Articles -->
+    <div id="safety" class="category-section mb-12">
+      <h2 class="text-2xl font-bold text-fieldpad-900 mb-6 flex items-center gap-2">
+        <span class="w-3 h-3 bg-amber-500 rounded-full"></span>
+        Safety Protocols
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {% assign safety_articles = site.articles | where: "category", "safety" | sort: "date" | reverse %}
+        {% for article in safety_articles %}
+        <a href="{{ article.url | relative_url }}" class="article-card group block bg-white border border-gray-200 rounded-2xl p-6 hover:border-amber-300 hover:shadow-md transition-all" data-category="safety">
+          <span class="inline-block px-2 py-0.5 text-xs font-semibold uppercase tracking-wider rounded-full bg-amber-100 text-amber-700 mb-3">Safety</span>
+          <h3 class="text-base font-bold text-fieldpad-900 group-hover:text-fieldpad-600 mb-2 leading-snug transition-colors">{{ article.title }}</h3>
+          <p class="text-sm text-gray-500 line-clamp-3 mb-3">{{ article.summary | truncatewords: 25 }}</p>
+          <div class="flex items-center gap-3 text-xs text-gray-400">
+            <time>{{ article.date | date: "%b %d, %Y" }}</time>
+            {% if article.read_time %}<span>{{ article.read_time }} min read</span>{% endif %}
+          </div>
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+
+    <!-- Business Articles -->
+    <div id="business" class="category-section mb-12">
+      <h2 class="text-2xl font-bold text-fieldpad-900 mb-6 flex items-center gap-2">
+        <span class="w-3 h-3 bg-green-500 rounded-full"></span>
+        Business Operations
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {% assign business_articles = site.articles | where: "category", "business" | sort: "date" | reverse %}
+        {% for article in business_articles %}
+        <a href="{{ article.url | relative_url }}" class="article-card group block bg-white border border-gray-200 rounded-2xl p-6 hover:border-green-300 hover:shadow-md transition-all" data-category="business">
+          <span class="inline-block px-2 py-0.5 text-xs font-semibold uppercase tracking-wider rounded-full bg-green-100 text-green-700 mb-3">Business</span>
+          <h3 class="text-base font-bold text-fieldpad-900 group-hover:text-fieldpad-600 mb-2 leading-snug transition-colors">{{ article.title }}</h3>
+          <p class="text-sm text-gray-500 line-clamp-3 mb-3">{{ article.summary | truncatewords: 25 }}</p>
+          <div class="flex items-center gap-3 text-xs text-gray-400">
+            <time>{{ article.date | date: "%b %d, %Y" }}</time>
+            {% if article.read_time %}<span>{{ article.read_time }} min read</span>{% endif %}
+          </div>
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+
+    <!-- Tools Articles -->
+    <div id="tools" class="category-section mb-12">
+      <h2 class="text-2xl font-bold text-fieldpad-900 mb-6 flex items-center gap-2">
+        <span class="w-3 h-3 bg-purple-500 rounded-full"></span>
+        Tools & Technology
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {% assign tools_articles = site.articles | where: "category", "tools" | sort: "date" | reverse %}
+        {% for article in tools_articles %}
+        <a href="{{ article.url | relative_url }}" class="article-card group block bg-white border border-gray-200 rounded-2xl p-6 hover:border-purple-300 hover:shadow-md transition-all" data-category="tools">
+          <span class="inline-block px-2 py-0.5 text-xs font-semibold uppercase tracking-wider rounded-full bg-purple-100 text-purple-700 mb-3">Tools</span>
+          <h3 class="text-base font-bold text-fieldpad-900 group-hover:text-fieldpad-600 mb-2 leading-snug transition-colors">{{ article.title }}</h3>
+          <p class="text-sm text-gray-500 line-clamp-3 mb-3">{{ article.summary | truncatewords: 25 }}</p>
+          <div class="flex items-center gap-3 text-xs text-gray-400">
+            <time>{{ article.date | date: "%b %d, %Y" }}</time>
+            {% if article.read_time %}<span>{{ article.read_time }} min read</span>{% endif %}
+          </div>
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="bg-gradient-to-r from-fieldpad-800 to-fieldpad-950 py-16">
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <h2 class="text-2xl sm:text-3xl font-bold text-white mb-4">Put This Knowledge to Work</h2>
+    <p class="text-fieldpad-200 mb-6">FieldPad helps you apply these compliance and business practices directly from the field — offline, with glove-friendly controls.</p>
+    <a href="https://apps.apple.com/app/fieldpad-hvac-service-pro/id6745066925" class="inline-block bg-white text-fieldpad-800 px-6 py-3 rounded-xl font-semibold hover:bg-fieldpad-50 transition-colors">
+      Download FieldPad Free
+    </a>
+  </div>
+</section>
+
+<script>
+function filterArticles(category) {
+  const sections = document.querySelectorAll('.category-section');
+  const buttons = document.querySelectorAll('.filter-btn');
+
+  buttons.forEach(btn => {
+    btn.classList.remove('bg-fieldpad-700', 'text-white', 'active');
+    btn.classList.add('bg-gray-100', 'text-gray-600');
+  });
+
+  const activeBtn = document.querySelector(`[data-category="${category}"]`);
+  activeBtn.classList.remove('bg-gray-100', 'text-gray-600');
+  activeBtn.classList.add('bg-fieldpad-700', 'text-white', 'active');
+
+  if (category === 'all') {
+    sections.forEach(s => s.style.display = 'block');
+  } else {
+    sections.forEach(s => {
+      s.style.display = s.id === category ? 'block' : 'none';
+    });
+  }
+}
+</script>

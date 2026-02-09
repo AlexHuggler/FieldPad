@@ -1,0 +1,79 @@
+# FieldPad: HVAC Service Pro
+
+> Offline-first iOS app for HVAC and refrigeration technicians to track EPA compliance, calculate leak rates, manage refrigerant inventory, and generate professional invoices.
+
+## About FieldPad
+
+FieldPad is a mobile application (iOS 17+) designed for solo HVAC technicians and small refrigeration service companies. It provides offline-first EPA Section 608 and AIM Act Subpart C compliance tracking, leak rate calculations, A2L refrigerant safety checklists, refrigerant cylinder inventory management with OCR scanning, and professional invoicing with digital signatures.
+
+**Developer**: Huggler Holdings LLC
+**Contact**: fieldpad@hugglerholdings.com
+**Website**: https://fieldpadpro.com
+**App Store**: https://apps.apple.com/app/fieldpad-hvac-service-pro/id6745066925
+
+## Key Features
+
+- **EPA Section 608 Compliance**: Track ODS refrigerant service events for systems with 50+ lbs of charge. Leak rate thresholds: Commercial 20%, Comfort Cooling 15%, Industrial 30%.
+- **AIM Act Subpart C Compliance**: Track HFC refrigerant service events (GWP > 53) for systems with 15+ lbs of charge (effective January 1, 2026). Leak rate thresholds: Commercial 20%, Comfort Cooling 10%, Industrial 30%, Transport 10%.
+- **Leak Rate Calculations**: Automatic Method 1 (Annualized) and Method 2 (Screening) calculations with threshold comparison.
+- **A2L Safety Checklists**: 6 mandatory safety checks for flammable refrigerants (R-454B, R-32, R-452B): dissipation risk, spark-free tools, ventilation, PPE, A2L leak detector, grounding.
+- **5,000 Rule Calculator**: Repair vs replace recommendations based on refrigerant cost and equipment charge.
+- **OCR Cylinder Scanning**: On-device Vision OCR to read refrigerant cylinder labels.
+- **Professional Invoicing**: PDF invoices with digital signatures, split tax rates, and refrigerant line items.
+- **Offline-First**: All features work without internet connectivity. Data syncs via iCloud when online.
+- **Glove Mode**: 48pt minimum touch targets for field use with protective gloves.
+- **Chronic Leaker Detection**: Monitors cumulative refrigerant additions against 125% annual threshold with March 1 reporting deadline tracking.
+
+## Regulatory Frameworks
+
+### Section 608 (ODS Refrigerants)
+- Applies to: Systems with 50+ lbs of ODS refrigerant (e.g., R-22)
+- Leak thresholds: Commercial 20%, Comfort Cooling 15%, Industrial 30%
+- Repair deadline: 30 days (120 days for industrial process)
+- Record retention: Minimum 3 years
+
+### Subpart C (HFC Refrigerants, effective Jan 1, 2026)
+- Applies to: Systems with 15+ lbs of HFC refrigerant with GWP > 53 (e.g., R-410A, R-454B, R-32)
+- Leak thresholds: Commercial 20%, Comfort Cooling 10%, Industrial 30%, Transport 10%
+- Repair deadline: 30 days for all types
+- Follow-up verification: 10 days (vs 30 days under Section 608)
+- Record retention: Minimum 3 years
+
+## Supported Refrigerants
+
+| Refrigerant | GWP | Category | Regulatory Framework |
+|-------------|-----|----------|---------------------|
+| R-22 | 1,810 | ODS Legacy | Section 608 |
+| R-410A | 2,088 | HFC | Subpart C |
+| R-407C | 1,774 | HFC | Subpart C |
+| R-134a | 1,430 | HFC | Subpart C |
+| R-404A | 3,922 | HFC | Subpart C |
+| R-32 | 675 | A2L | Subpart C |
+| R-454B | 466 | A2L | Subpart C |
+| R-452B | 701 | A2L | Subpart C |
+| R-466A | 732 | A2L | Subpart C |
+| R-290 (Propane) | 3 | Natural | Exempt (GWP ≤ 53) |
+| R-744 (CO₂) | 1 | Natural | Exempt (GWP ≤ 53) |
+| R-717 (Ammonia) | 0 | Natural | Exempt (GWP ≤ 53) |
+
+## Pricing
+
+- **Free Tier**: 5 clients, 10 jobs, 10 invoices, 5 estimates, 20 compliance logs, 10 cylinders, 15 OCR scans, 8 PDF generations
+- **FieldPad Pro**: Unlimited everything, data export, compliance log export, recurring jobs, business logo on invoices
+
+## Privacy
+
+- All data stored locally on device (SwiftData/SQLite) and in user's private iCloud container
+- No server-side storage — Huggler Holdings LLC does not operate any servers
+- No analytics, tracking, or advertising
+- Only third-party services: RevenueCat (anonymous subscription management), Apple MapKit (address autocomplete), Apple iCloud (data sync)
+
+## Documentation
+
+- [Privacy Policy](https://fieldpadpro.com/privacy-policy/)
+- [Terms of Use](https://fieldpadpro.com/terms-of-use/)
+- [Compliance Articles](https://fieldpadpro.com/articles/)
+
+## Disclaimer
+
+FieldPad is a record-keeping and calculation tool. It is not a substitute for professional legal, regulatory, or compliance advice. Users are solely responsible for the accuracy of data entered and for meeting EPA compliance obligations.

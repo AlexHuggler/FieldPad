@@ -1,0 +1,59 @@
+<header class="bg-white/95 backdrop-blur-sm border-b border-gray-100 sticky top-0 z-50">
+  <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-16">
+      <!-- Logo -->
+      <a href="{{ '/' | relative_url }}" class="flex items-center gap-2 text-fieldpad-800 hover:text-fieldpad-600 transition-colors">
+        <svg class="w-8 h-8" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="32" height="32" rx="8" fill="currentColor"/>
+          <path d="M8 10h16M8 16h12M8 22h8" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+          <circle cx="24" cy="22" r="3" fill="#22c55e"/>
+        </svg>
+        <span class="font-bold text-lg hidden sm:inline">FieldPad</span>
+      </a>
+
+      <!-- Desktop Nav -->
+      <div class="hidden md:flex items-center gap-6">
+        <a href="{{ '/' | relative_url }}#features" class="text-gray-600 hover:text-fieldpad-700 text-sm font-medium transition-colors">Features</a>
+        <a href="{{ '/' | relative_url }}#compliance" class="text-gray-600 hover:text-fieldpad-700 text-sm font-medium transition-colors">Compliance</a>
+        <a href="{{ '/' | relative_url }}#pricing" class="text-gray-600 hover:text-fieldpad-700 text-sm font-medium transition-colors">Pricing</a>
+        <a href="{{ '/articles/' | relative_url }}" class="text-gray-600 hover:text-fieldpad-700 text-sm font-medium transition-colors">Resources</a>
+        <a href="https://apps.apple.com/app/fieldpad-hvac-service-pro/id6745066925" class="bg-fieldpad-700 hover:bg-fieldpad-800 text-white px-4 py-2 rounded-lg text-sm font-semibold transition-colors">
+          Download on iOS
+        </a>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <button id="mobile-menu-btn" class="md:hidden p-2 text-gray-600 hover:text-fieldpad-700" aria-label="Toggle menu">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path id="menu-open-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+          <path id="menu-close-icon" class="hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden pb-4 border-t border-gray-100 mt-2 pt-4">
+      <div class="flex flex-col gap-3">
+        <a href="{{ '/' | relative_url }}#features" class="text-gray-600 hover:text-fieldpad-700 text-sm font-medium px-2 py-1">Features</a>
+        <a href="{{ '/' | relative_url }}#compliance" class="text-gray-600 hover:text-fieldpad-700 text-sm font-medium px-2 py-1">Compliance</a>
+        <a href="{{ '/' | relative_url }}#pricing" class="text-gray-600 hover:text-fieldpad-700 text-sm font-medium px-2 py-1">Pricing</a>
+        <a href="{{ '/articles/' | relative_url }}" class="text-gray-600 hover:text-fieldpad-700 text-sm font-medium px-2 py-1">Resources</a>
+        <a href="https://apps.apple.com/app/fieldpad-hvac-service-pro/id6745066925" class="bg-fieldpad-700 hover:bg-fieldpad-800 text-white px-4 py-2 rounded-lg text-sm font-semibold text-center transition-colors mt-2">
+          Download on iOS
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <script>
+    const btn = document.getElementById('mobile-menu-btn');
+    const menu = document.getElementById('mobile-menu');
+    const openIcon = document.getElementById('menu-open-icon');
+    const closeIcon = document.getElementById('menu-close-icon');
+    btn.addEventListener('click', () => {
+      menu.classList.toggle('hidden');
+      openIcon.classList.toggle('hidden');
+      closeIcon.classList.toggle('hidden');
+    });
+  </script>
+</header>

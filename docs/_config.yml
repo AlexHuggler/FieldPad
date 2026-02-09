@@ -1,0 +1,57 @@
+# FieldPad: HVAC Service Pro - Website Configuration
+# GitHub Pages Jekyll Configuration
+
+title: "FieldPad: HVAC Service Pro"
+description: "Offline-first EPA compliance tracking app for HVAC and refrigeration technicians. Section 608 & Subpart C leak rate calculations, A2L safety checklists, digital invoicing, and refrigerant cylinder management — all from your iPhone or iPad."
+url: "https://fieldpadpro.com"
+baseurl: ""
+lang: "en-US"
+
+# Company Info
+author: "Huggler Holdings LLC"
+email: "fieldpad@hugglerholdings.com"
+
+# Build Settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Collections
+collections:
+  articles:
+    output: true
+    permalink: /articles/:slug/
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+      type: "articles"
+    values:
+      layout: "article"
+      author: "FieldPad Team"
+
+# Plugins (GitHub Pages supported)
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+
+# SEO
+twitter:
+  card: summary_large_image
+social:
+  name: "FieldPad: HVAC Service Pro"
+  links: []
+
+# Google verification (placeholder - update with actual)
+# google_site_verification: "YOUR_VERIFICATION_CODE"
+
+# Timezone
+timezone: America/Chicago

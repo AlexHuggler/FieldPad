@@ -1,0 +1,135 @@
+/* FieldPad Custom Styles */
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Prose overrides for article content */
+.prose h2 {
+  margin-top: 2em;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.prose h3 {
+  margin-top: 1.5em;
+}
+
+.prose table {
+  font-size: 0.9em;
+}
+
+.prose table th {
+  white-space: nowrap;
+}
+
+.prose blockquote {
+  border-left-color: #2563eb;
+  background-color: #eff6ff;
+  padding: 1em 1.5em;
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+
+/* Feature card hover effect */
+.feature-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.feature-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+/* Gradient text */
+.gradient-text {
+  background: linear-gradient(135deg, #1d4ed8, #3b82f6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Hero pattern background */
+.hero-pattern {
+  background-image: radial-gradient(circle at 1px 1px, rgba(59, 130, 246, 0.08) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+/* Fade in animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-up {
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+.fade-in-up-delay-1 {
+  animation: fadeInUp 0.6s ease-out 0.1s forwards;
+  opacity: 0;
+}
+
+.fade-in-up-delay-2 {
+  animation: fadeInUp 0.6s ease-out 0.2s forwards;
+  opacity: 0;
+}
+
+.fade-in-up-delay-3 {
+  animation: fadeInUp 0.6s ease-out 0.3s forwards;
+  opacity: 0;
+}
+
+/* Threshold table colors */
+.threshold-exceed {
+  color: #ef4444;
+  font-weight: 600;
+}
+
+.threshold-ok {
+  color: #22c55e;
+  font-weight: 600;
+}
+
+/* Mobile-friendly table wrapper */
+.table-wrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* App Store badge styling */
+.app-store-badge {
+  transition: opacity 0.2s ease;
+}
+.app-store-badge:hover {
+  opacity: 0.85;
+}
+
+/* Skip to content (accessibility) */
+.skip-to-content {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 100;
+}
+.skip-to-content:focus {
+  left: 0;
+  background: #1d4ed8;
+  color: white;
+  padding: 0.5em 1em;
+}
+
+/* Print styles */
+@media print {
+  header, footer, .no-print {
+    display: none !important;
+  }
+  .prose {
+    max-width: 100% !important;
+  }
+}
