@@ -2,13 +2,18 @@
   <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex items-center justify-between h-16">
       <!-- Logo -->
-      <a href="{{ '/' | relative_url }}" class="flex items-center gap-2 text-fieldpad-800 hover:text-fieldpad-600 transition-colors">
-        <svg class="w-8 h-8" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect width="32" height="32" rx="8" fill="currentColor"/>
-          <path d="M8 10h16M8 16h12M8 22h8" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
-          <circle cx="24" cy="22" r="3" fill="#22c55e"/>
+      <a href="{{ '/' | relative_url }}" class="flex items-center gap-2.5 hover:opacity-90 transition-opacity">
+        <svg class="w-9 h-9" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="32" height="32" rx="8" fill="#0a1628"/>
+          <path d="M16 4 L6 8 L6 16 C6 22 10 27 16 29 L16 4Z" fill="url(#hBlueGrad)"/>
+          <path d="M16 4 L26 8 L26 16 C26 22 22 27 16 29 L16 4Z" fill="url(#hOrangeGrad)"/>
+          <path d="M10 16 L14 20 L22 11" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+          <defs>
+            <linearGradient id="hBlueGrad" x1="6" y1="4" x2="16" y2="29"><stop offset="0%" stop-color="#38bdf8"/><stop offset="100%" stop-color="#2563eb"/></linearGradient>
+            <linearGradient id="hOrangeGrad" x1="16" y1="4" x2="26" y2="29"><stop offset="0%" stop-color="#f97316"/><stop offset="100%" stop-color="#ea580c"/></linearGradient>
+          </defs>
         </svg>
-        <span class="font-bold text-lg hidden sm:inline">FieldPad</span>
+        <span class="font-bold text-lg text-fieldpad-900 hidden sm:inline">FieldPad</span>
       </a>
 
       <!-- Desktop Nav -->
