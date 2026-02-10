@@ -10,7 +10,7 @@ summary: "Refrigerant recovery is a core competency for EPA Section 608-certifie
 keywords: ["refrigerant recovery", "ODS recovery", "HFC recovery", "recovery procedures", "EPA recovery requirements", "refrigerant reclamation", "cylinder management"]
 ---
 
-Refrigerant recovery is one of the most fundamental and most regulated procedures in HVAC service work. Since the Clean Air Act established the **Section 608** venting prohibition, every technician has been required to recover refrigerant before opening a system. The AIM Act's **Subpart C** extends similar requirements to HFC refrigerants. Getting recovery right means doing it safely, completely, and with proper documentation.
+Refrigerant recovery is one of the most fundamental and most regulated procedures in HVAC service work. Since the Clean Air Act established the **[Section 608](https://www.epa.gov/section608)** venting prohibition, every technician has been required to recover refrigerant before opening a system. The AIM Act's **[Subpart C](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-84)** extends similar requirements to HFC refrigerants. Getting recovery right means doing it safely, completely, and with proper documentation.
 
 ## Before You Start: Pre-Recovery Assessment
 
@@ -104,3 +104,11 @@ For HFC refrigerants under Subpart C, the key threshold is **15 pounds of charge
 - **Prevent cross-contamination** by dedicating cylinders, flushing equipment, and verifying contents before each use.
 - **Document every recovery** with date, type, quantity, and disposition. FieldPad automates this recordkeeping.
 - **Subpart C extends HFC recovery documentation.** Know whether the system falls under Section 608, Subpart C, or both.
+
+---
+
+## Sources & Regulatory References
+
+- [EPA Section 608](https://www.epa.gov/section608) — EPA regulations including refrigerant recovery requirements and evacuation levels
+- [40 CFR Part 82, Subpart F](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F) — Section 608 required practices including recovery vacuum levels
+- [40 CFR Part 84](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-84) — AIM Act Subpart C recovery and documentation requirements for HFC systems

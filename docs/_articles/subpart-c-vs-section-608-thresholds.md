@@ -12,7 +12,7 @@ keywords: ["Subpart C", "Section 608", "AIM Act", "HFC refrigerant", "leak rate 
 
 ## Two Frameworks, One Technician
 
-As of **January 1, 2026**, HVAC technicians in the United States operate under two distinct EPA regulatory frameworks. **Section 608** of the Clean Air Act continues to govern ozone-depleting substance (ODS) refrigerants like R-22. Alongside it, **Subpart C of the AIM Act** (40 CFR Part 84, Subpart C) now imposes leak repair requirements on hydrofluorocarbon (HFC) refrigerants -- the very substances that replaced the ODS chemicals being phased out.
+As of **January 1, 2026**, HVAC technicians in the United States operate under two distinct EPA regulatory frameworks. **[Section 608](https://www.epa.gov/section608)** of the Clean Air Act continues to govern ozone-depleting substance (ODS) refrigerants like R-22. Alongside it, **[Subpart C](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-84) of the [AIM Act](https://www.epa.gov/climate-hfcs-reduction)** (40 CFR Part 84, Subpart C) now imposes leak repair requirements on hydrofluorocarbon (HFC) refrigerants -- the very substances that replaced the ODS chemicals being phased out.
 
 For solo technicians, this means knowing which set of rules applies to every system you touch. The answer depends on the **refrigerant type** and its **global warming potential (GWP)**.
 
@@ -107,3 +107,12 @@ FieldPad applies the correct leak rate thresholds (including the tighter 10% com
 - **Refrigerated transport** is a new appliance category under Subpart C with a 10% leak rate threshold.
 - **Chronic leaker tracking** (125% annual leak rate) is a Subpart C requirement with no Section 608 equivalent.
 - **FieldPad auto-detects the applicable framework** based on refrigerant GWP, applying the correct thresholds, deadlines, and verification windows automatically.
+
+---
+
+## Sources & Regulatory References
+
+- [40 CFR Part 82, Subpart F](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F) — Section 608 leak repair regulations for ODS refrigerants
+- [40 CFR Part 84](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-84) — AIM Act regulations including Subpart C HFC leak repair requirements
+- [EPA Section 608](https://www.epa.gov/section608) — EPA's Section 608 regulatory page
+- [EPA AIM Act — HFC Phasedown](https://www.epa.gov/climate-hfcs-reduction) — EPA's overview of HFC reduction under the AIM Act

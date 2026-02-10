@@ -122,3 +122,11 @@ FieldPad's compliance log allows you to record incident details directly in the 
 - **A2L leaks add flammability risk.** Eliminate ignition sources and use intrinsically safe equipment.
 - **Document every incident** thoroughly using FieldPad's compliance log.
 - **Prevention is the best protocol.** Inspect connections, carry monitors, and always let someone know where you are.
+
+---
+
+## Sources & Regulatory References
+
+- [OSHA Confined Spaces](https://www.osha.gov/confined-spaces) — OSHA requirements for entry into confined or enclosed spaces
+- [OSHA Personal Protective Equipment](https://www.osha.gov/personal-protective-equipment) — PPE standards for hazardous atmospheres
+- [ASHRAE Standard 34](https://www.ashrae.org/technical-resources/standards-and-guidelines) — Refrigerant safety classifications and LFL values

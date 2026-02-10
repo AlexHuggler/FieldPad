@@ -10,9 +10,9 @@ summary: "A2L refrigerants like R-454B, R-32, and R-452B are classified as mildl
 keywords: ["A2L refrigerant safety", "R-454B safety", "R-32 safety", "flammable refrigerant", "ASHRAE 34", "A2L safety checklist", "HVAC safety protocol", "mildly flammable refrigerant"]
 ---
 
-As R-410A phases down under the AIM Act, technicians are increasingly working with **A2L refrigerants** such as R-454B, R-32, and R-452B. These replacements carry a critical distinction: they are **mildly flammable**.
+As R-410A phases down under the [AIM Act](https://www.epa.gov/climate-hfcs-reduction), technicians are increasingly working with **A2L refrigerants** such as R-454B, R-32, and R-452B. These replacements carry a critical distinction: they are **mildly flammable**.
 
-Under **ASHRAE Standard 34**, the A2L classification indicates a refrigerant with a lower flammability limit (LFL) greater than 3.5% by volume, a heat of combustion less than 19,000 kJ/kg, and a burning velocity under 10 cm/s. A2L refrigerants will not ignite easily under normal conditions, but they can ignite when sufficient concentration, a confined space, and an ignition source combine. That combination is exactly what field technicians encounter regularly inside equipment closets, mechanical rooms, and packaged units.
+Under **[ASHRAE Standard 34](https://www.ashrae.org/technical-resources/standards-and-guidelines)**, the A2L classification indicates a refrigerant with a lower flammability limit (LFL) greater than 3.5% by volume, a heat of combustion less than 19,000 kJ/kg, and a burning velocity under 10 cm/s. A2L refrigerants will not ignite easily under normal conditions, but they can ignite when sufficient concentration, a confined space, and an ignition source combine. That combination is exactly what field technicians encounter regularly inside equipment closets, mechanical rooms, and packaged units.
 
 ## Understanding the A2L Classification
 
@@ -80,3 +80,11 @@ This digital approach eliminates paper forms that get lost in truck seats. Every
 - **Documentation matters as much as execution.** A completed checklist protects you professionally and demonstrates compliance during audits.
 - **FieldPad automates A2L safety logging** by integrating the checklist into your compliance workflow, creating timestamped records for every A2L service event.
 - Solo technicians should add an **emergency plan review** as standard practice before working with flammable refrigerants in enclosed spaces.
+
+---
+
+## Sources & Regulatory References
+
+- [ASHRAE Standard 34](https://www.ashrae.org/technical-resources/standards-and-guidelines) — Refrigerant safety classification system defining A2L flammability designation
+- [EPA AIM Act — HFC Phasedown](https://www.epa.gov/climate-hfcs-reduction) — Background on HFC phasedown driving the transition to A2L refrigerants
+- [OSHA Personal Protective Equipment](https://www.osha.gov/personal-protective-equipment) — OSHA guidelines for workplace PPE requirements

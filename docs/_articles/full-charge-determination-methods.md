@@ -12,7 +12,7 @@ keywords: ["full charge determination", "refrigerant charge", "nameplate data", 
 
 ## Why Full Charge Accuracy Matters
 
-Every EPA leak rate calculation divides the amount of refrigerant lost by the **full operating charge** of the system. If the full charge value is wrong, every leak rate derived from it is wrong.
+Every [EPA](https://www.epa.gov/section608) leak rate calculation divides the amount of refrigerant lost by the **full operating charge** of the system. If the full charge value is wrong, every leak rate derived from it is wrong.
 
 The **annualized leak rate formula** is:
 
@@ -116,3 +116,11 @@ If the full charge is updated after a retrofit or improved measurement, FieldPad
 - **Always document your method.** The EPA requires records of how full charge was determined, not just the number.
 - **Update after retrofits or modifications.** A stale baseline invalidates all subsequent compliance calculations.
 - **FieldPad stores full charge in equipment profiles** and uses it automatically, including retroactive recalculation when values are corrected.
+
+---
+
+## Sources & Regulatory References
+
+- [EPA Section 608](https://www.epa.gov/section608) — EPA regulations requiring full charge documentation for leak rate calculations
+- [40 CFR Part 82, Subpart F](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F) — Section 608 regulations including equipment maintenance requirements
+- [40 CFR Part 84](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-84) — AIM Act Subpart C regulations with 15 lb charge threshold for HFC systems

@@ -73,7 +73,7 @@ Skipping or duplicating invoice numbers creates accounting headaches at tax time
 
 ### Missing Refrigerant Details
 
-An invoice that says "refrigerant - $180" without specifying type and quantity is both unprofessional and non-compliant with EPA documentation requirements. Always list the specific type, pounds used, and per-pound rate.
+An invoice that says "refrigerant - $180" without specifying type and quantity is both unprofessional and non-compliant with [EPA](https://www.epa.gov/section608) documentation requirements. Always list the specific type, pounds used, and per-pound rate.
 
 ### No Payment Terms
 
@@ -107,3 +107,9 @@ Consistency is key. When clients learn you always follow up, they prioritize you
 - **Include refrigerant type and quantity** on every invoice for professionalism and EPA compliance.
 - **Follow up consistently** on unpaid invoices with a systematic escalation timeline.
 - **Use a professional invoicing tool** like FieldPad to generate polished invoices and maintain records from the field.
+
+---
+
+## Sources & Further Reading
+
+- [EPA Section 608](https://www.epa.gov/section608) — EPA record-keeping requirements applicable to refrigerant service documentation

@@ -14,7 +14,7 @@ keywords: ["chronic leaker", "EPA reporting", "125% threshold", "refrigerant add
 
 Under EPA regulations, a piece of refrigeration or air conditioning equipment earns the **chronic leaker** designation when the total amount of refrigerant added to the system during a single calendar year exceeds **125% of the equipment's full charge**. Equipment requiring that volume of replacement refrigerant is losing it at a rate that poses environmental harm, regardless of whether individual repairs brought the system back within normal thresholds.
 
-The chronic leaker rule applies to equipment containing **50 pounds or more of refrigerant** under Section 608 and equipment containing **15 pounds or more with a GWP above 53** under AIM Act Subpart C. Solo technicians who service commercial refrigeration, industrial process cooling, or large comfort cooling systems encounter chronic leaker situations regularly, particularly on aging rooftop units and walk-in cooler systems.
+The chronic leaker designation is a **Subpart C requirement** under the AIM Act ([40 CFR Part 84, Subpart C](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-84)). It applies to equipment containing **15 pounds or more of HFC refrigerant with a GWP above 53**. Section 608 does not have an equivalent chronic leaker classification — though it does require retrofit or retirement plans for equipment that continues to exceed leak rate thresholds after repeated repair attempts. Solo technicians who service commercial refrigeration, industrial process cooling, or large comfort cooling systems encounter chronic leaker situations regularly, particularly on aging rooftop units and walk-in cooler systems.
 
 ## How the 125% Calculation Works
 
@@ -71,7 +71,7 @@ Maintain service invoices, refrigerant purchase receipts, recovery logs, and ver
 
 The EPA treats chronic leaker reporting failures seriously:
 
-- **Civil penalties up to $44,539 per day per violation** under the Clean Air Act
+- **Civil penalties up to $44,539 per day per violation** under the [Clean Air Act](https://www.epa.gov/clean-air-act-overview)
 - **Mandatory equipment shutdown orders** for unreported chronic leakers
 - **Increased audit frequency** for facilities tied to non-compliant technicians
 - **Criminal referrals** in cases of willful non-reporting
@@ -102,3 +102,11 @@ Because FieldPad maintains detailed compliance logs for every service event, the
 - **Reports require detailed data**: Equipment ID, refrigerant type, every addition with dates, leak rate history, repair actions, and verification results.
 - **Penalties are severe**: Daily fines exceeding $44,000 and potential certification revocation.
 - **FieldPad automates the process**: Real-time tracking, threshold alerts, and automatic report generation from existing service data.
+
+---
+
+## Sources & Regulatory References
+
+- [40 CFR Part 84, Subpart C](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-84) — AIM Act regulations establishing the chronic leaker designation and reporting requirements
+- [EPA AIM Act — HFC Phasedown](https://www.epa.gov/climate-hfcs-reduction) — EPA overview of HFC management under the AIM Act
+- [EPA Section 608](https://www.epa.gov/section608) — Section 608 regulations for ODS refrigerant management

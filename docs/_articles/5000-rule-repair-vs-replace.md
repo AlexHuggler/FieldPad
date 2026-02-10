@@ -54,7 +54,7 @@ A large R-404A freezer system with a full charge of **180 pounds** at **$35 per 
 
 **$35 x 180 lbs = $6,300**
 
-**Exceeds $5,000.** Combined with R-404A's very high GWP (3,922) and increasing regulatory pressure under the AIM Act phasedown, there is both an economic and regulatory case for replacement.
+**Exceeds $5,000.** Combined with R-404A's very high GWP (3,922) and increasing regulatory pressure under the [AIM Act](https://www.epa.gov/climate-hfcs-reduction) phasedown, there is both an economic and regulatory case for replacement.
 
 ## When the 5,000 Rule Is Most Useful
 
@@ -114,3 +114,10 @@ The calculator provides a professional, documented output that strengthens your 
 - **The rule is most valuable for client communication**, translating complex factors into a single, understandable number.
 - **Consider factors beyond refrigerant cost**, including equipment age, energy efficiency, and regulatory trajectory.
 - **FieldPad's built-in calculator** automates the calculation, pulls equipment data from existing profiles, and generates documentation for client reports.
+
+---
+
+## Sources & Regulatory References
+
+- [EPA AIM Act — HFC Phasedown](https://www.epa.gov/climate-hfcs-reduction) — Background on the AIM Act production caps affecting refrigerant pricing
+- [EPA Section 608](https://www.epa.gov/section608) — EPA regulations governing refrigerant handling and leak repair

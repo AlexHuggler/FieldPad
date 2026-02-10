@@ -14,11 +14,11 @@ keywords: ["refrigerant GWP", "Global Warming Potential", "refrigerant classific
 
 **Global Warming Potential (GWP)** measures how much heat a greenhouse gas traps in the atmosphere over a 100-year period compared to carbon dioxide (CO2). CO2 has a GWP of 1 by definition. R-410A, with a GWP of 2,088, traps 2,088 times more heat than an equivalent mass of CO2.
 
-GWP values are established by the **Intergovernmental Panel on Climate Change (IPCC)**. For HVAC technicians in the United States, GWP is now the **single most important number** for determining which regulatory framework applies to a refrigerant. Since January 1, 2026, the GWP directly determines **which leak rate thresholds apply, which charge minimums trigger compliance, and which repair deadlines you must meet**.
+GWP values are established by the **[Intergovernmental Panel on Climate Change (IPCC)](https://www.ipcc.ch/)**. For HVAC technicians in the United States, GWP is now the **single most important number** for determining which regulatory framework applies to a refrigerant. Since January 1, 2026, the GWP directly determines **which leak rate thresholds apply, which charge minimums trigger compliance, and which repair deadlines you must meet**.
 
 ## Why GWP Matters for Compliance
 
-The **American Innovation and Manufacturing (AIM) Act** authorized the EPA to phase down HFC refrigerant production based on GWP values. The EPA established **Subpart C** under 40 CFR Part 84, creating a parallel regulatory framework to Section 608. The frameworks are assigned based on a critical threshold of **GWP > 53**:
+The **[American Innovation and Manufacturing (AIM) Act](https://www.epa.gov/climate-hfcs-reduction)** authorized the EPA to phase down HFC refrigerant production based on GWP values. The EPA established **Subpart C** under [40 CFR Part 84](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-84), creating a parallel regulatory framework to Section 608. The frameworks are assigned based on a critical threshold of **GWP > 53**:
 
 - **Section 608** applies to **ozone-depleting substance (ODS) refrigerants** like R-22. These are regulated based on ozone depletion potential.
 - **Subpart C** applies to **HFC refrigerants with GWP greater than 53** in systems containing **15 or more pounds** of charge. This covers the vast majority of refrigerants in active use today.
@@ -48,7 +48,7 @@ The following table covers all 12 refrigerant types commonly encountered in HVAC
 ### Reading the Table
 
 - **GWP** is the 100-year Global Warming Potential from IPCC AR4.
-- **Safety Class** follows ASHRAE Standard 34. The letter indicates toxicity (A = lower, B = higher). The number indicates flammability (1 = none, 2L = lower flammability, 3 = higher flammability).
+- **Safety Class** follows [ASHRAE Standard 34](https://www.ashrae.org/technical-resources/standards-and-guidelines). The letter indicates toxicity (A = lower, B = higher). The number indicates flammability (1 = none, 2L = lower flammability, 3 = higher flammability).
 - **Charge Threshold** is the minimum system charge triggering formal leak rate tracking under the applicable framework.
 
 ## The GWP > 53 Threshold
@@ -61,7 +61,7 @@ This threshold is particularly important for **newer A2L refrigerants**. Technic
 
 **R-290 (propane)**, **R-744 (CO2)**, and **R-717 (ammonia)** all have GWP values at or below 3, placing them below the Subpart C threshold. Systems using these refrigerants are **exempt from formal leak rate tracking, repair deadlines, and verification testing** under both Section 608 and Subpart C.
 
-However, natural refrigerants remain subject to **ASHRAE 15 and building codes** (for flammable and toxic refrigerants), **UL 60335-2-89/UL 60335-2-40** safety standards, and **OSHA requirements** for ammonia systems. The exemption covers refrigerant management regulations only — leaks in natural refrigerant systems still require attention given flammability and toxicity considerations.
+However, natural refrigerants remain subject to **[ASHRAE 15](https://www.ashrae.org/technical-resources/standards-and-guidelines) and building codes** (for flammable and toxic refrigerants), **UL 60335-2-89/UL 60335-2-40** safety standards, and **OSHA requirements** for ammonia systems. The exemption covers refrigerant management regulations only — leaks in natural refrigerant systems still require attention given flammability and toxicity considerations.
 
 ## How GWP Affects Daily Field Work
 
@@ -89,3 +89,13 @@ This eliminates the need to memorize GWP values or manually determine which fram
 - **A2L "low-GWP" refrigerants are not exempt.** R-454B (GWP 466) and R-32 (GWP 675) carry full Subpart C obligations.
 - **Subpart C is stricter** in key areas: lower charge threshold (15 lbs vs. 50 lbs) and lower comfort cooling leak rate threshold (10% vs. 15%).
 - **FieldPad automatically detects the regulatory framework** based on GWP, applying correct thresholds and compliance rules without manual lookup.
+
+---
+
+## Sources & Regulatory References
+
+- [IPCC — Intergovernmental Panel on Climate Change](https://www.ipcc.ch/) — Source of GWP values used in EPA regulatory frameworks (AR4 values used for AIM Act compliance)
+- [40 CFR Part 84](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-84) — AIM Act regulations establishing the GWP > 53 threshold for Subpart C applicability
+- [EPA AIM Act — HFC Phasedown](https://www.epa.gov/climate-hfcs-reduction) — EPA overview of HFC production phasedown under the AIM Act
+- [EPA Section 608](https://www.epa.gov/section608) — Section 608 regulations for ODS refrigerant management
+- [ASHRAE Standard 34](https://www.ashrae.org/technical-resources/standards-and-guidelines) — Refrigerant safety classifications (A1, A2L, A3, B2L designations)

@@ -14,12 +14,12 @@ New residential and commercial HVAC equipment is shipping with **R-454B** and **
 
 ## The Refrigerant Transition at a Glance
 
-The **American Innovation and Manufacturing (AIM) Act** mandates an 85% phasedown of HFC production and consumption by 2036. R-410A, with a **GWP of 2088**, is a primary target. Manufacturers have converged on two replacements:
+The **[American Innovation and Manufacturing (AIM) Act](https://www.epa.gov/climate-hfcs-reduction)** mandates an 85% phasedown of HFC production and consumption by 2036. R-410A, with a **GWP of 2088**, is a primary target. Manufacturers have converged on two replacements:
 
 - **R-454B** (Opteon XL41 by Chemours) with a GWP of 466
 - **R-32** with a GWP of 675
 
-Both carry the **A2L safety classification** under ASHRAE Standard 34, meaning they are mildly flammable.
+Both carry the **A2L safety classification** under [ASHRAE Standard 34](https://www.ashrae.org/technical-resources/standards-and-guidelines), meaning they are mildly flammable.
 
 ## Properties Comparison: R-410A vs. R-454B vs. R-32
 
@@ -87,7 +87,7 @@ Solo technicians face unique challenges with A2L refrigerants. Without a second 
 
 ## Compliance Documentation with FieldPad
 
-FieldPad automatically detects the **regulatory framework** for each service event based on refrigerant type and GWP. When you log service on an A2L system, FieldPad applies **AIM Act Subpart C** compliance requirements, including the A2L safety checklist, appropriate leak rate thresholds (10% for comfort cooling, 20% for commercial, 30% for industrial), and charge size thresholds (15 lbs for systems with GWP above 53).
+FieldPad automatically detects the **regulatory framework** for each service event based on refrigerant type and GWP. When you log service on an A2L system, FieldPad applies **[AIM Act Subpart C](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-84)** compliance requirements, including the A2L safety checklist, appropriate leak rate thresholds (10% for comfort cooling, 20% for commercial, 30% for industrial), and charge size thresholds (15 lbs for systems with GWP above 53).
 
 All compliance data is attached to the equipment profile, creating a complete service history. When a manufacturer or inspector asks for documentation, you can produce a full record directly from the app.
 
@@ -99,3 +99,11 @@ All compliance data is attached to the equipment profile, creating a complete se
 - **Your existing R-410A recovery equipment and leak detectors may not be rated for A2L refrigerants.** Verify ratings before use.
 - **Neither is a drop-in replacement** for R-410A. They are designed for new, purpose-built equipment.
 - **FieldPad automates compliance documentation** by integrating safety checklists and regulatory framework detection into your service workflow.
+
+---
+
+## Sources & Regulatory References
+
+- [EPA AIM Act — HFC Phasedown](https://www.epa.gov/climate-hfcs-reduction) — EPA overview of the AIM Act mandating the transition from R-410A
+- [ASHRAE Standard 34](https://www.ashrae.org/technical-resources/standards-and-guidelines) — Safety classification system for refrigerants (A1, A2L, A3 designations)
+- [40 CFR Part 84](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-84) — AIM Act Subpart C compliance requirements for HFC systems

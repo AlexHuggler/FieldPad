@@ -12,9 +12,9 @@ keywords: ["EPA audit", "compliance audit", "HVAC documentation", "audit prepara
 
 ## The Reality of EPA Enforcement
 
-EPA enforcement actions against HVAC technicians are not hypothetical. The EPA's Office of Enforcement and Compliance Assurance conducts **thousands of inspections annually** across the refrigerant management sector. With the addition of Subpart C enforcement for HFC refrigerants in 2026, inspection activity has expanded to cover a larger portion of the refrigerant service industry.
+EPA enforcement actions against HVAC technicians are not hypothetical. The EPA's [Office of Enforcement and Compliance Assurance](https://www.epa.gov/enforcement) conducts **thousands of inspections annually** across the refrigerant management sector. With the addition of [Subpart C](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-84) enforcement for HFC refrigerants in 2026, inspection activity has expanded to cover a larger portion of the refrigerant service industry.
 
-The penalty structure makes non-compliance extremely costly. Maximum penalties for Clean Air Act violations reach **$44,539 per day per violation**. While actual assessed penalties account for factors like business size and cooperation, even reduced penalties can be catastrophic for a one-person operation. A single audit finding involving multiple service calls generates **stacked violations** — one per missing or incomplete record.
+The penalty structure makes non-compliance extremely costly. Maximum penalties for [Clean Air Act](https://www.epa.gov/clean-air-act-overview) violations reach **$44,539 per day per violation**. While actual assessed penalties account for factors like business size and cooperation, even reduced penalties can be catastrophic for a one-person operation. A single audit finding involving multiple service calls generates **stacked violations** — one per missing or incomplete record.
 
 ## What Triggers an EPA Audit
 
@@ -128,3 +128,12 @@ All exports generate **on-device without an internet connection**, so you can pr
 - **Repair actions, verification tests, and refrigerant disposition** must all be documented with dates and details.
 - **Records must be retained for 3 years** and be producible on demand, organized by customer, equipment, date, or refrigerant type.
 - **Digital tools like FieldPad** eliminate the most common audit findings by enforcing completeness, automating calculations, and generating audit-ready exports on demand.
+
+---
+
+## Sources & Regulatory References
+
+- [EPA Enforcement — Clean Air Act](https://www.epa.gov/enforcement) — EPA enforcement authority and penalty structures
+- [EPA Section 608](https://www.epa.gov/section608) — Section 608 compliance requirements and technician certification
+- [40 CFR Part 82, Subpart F](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F) — Full text of Section 608 regulations
+- [40 CFR Part 84](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-84) — AIM Act Subpart C regulations for HFC compliance

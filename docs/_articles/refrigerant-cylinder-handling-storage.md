@@ -10,7 +10,7 @@ summary: "Proper refrigerant cylinder handling is critical for both safety and E
 keywords: ["refrigerant cylinder", "cylinder safety", "cylinder storage", "refrigerant inventory", "cylinder tracking", "OCR scanning", "cylinder management"]
 ---
 
-Refrigerant cylinders are among the most common items in an HVAC technician's daily work, and that familiarity can breed complacency. A standard 25-pound cylinder of R-410A contains refrigerant at approximately **700 psig at 100degF**. These are pressurized vessels that, when mishandled, can become projectiles, rupture, or cause severe cryogenic injuries. Beyond safety risks, improper cylinder management leads to **cross-contamination**, **EPA documentation failures**, and **inventory losses** that directly affect your bottom line.
+Refrigerant cylinders are among the most common items in an HVAC technician's daily work, and that familiarity can breed complacency. A standard 25-pound cylinder of R-410A contains refrigerant at approximately **340 psia (~325 psig) at 100°F**, with pressure rising significantly at higher temperatures. These are pressurized vessels that, when mishandled, can become projectiles, rupture, or cause severe cryogenic injuries. Beyond safety risks, improper cylinder management leads to **cross-contamination**, **EPA documentation failures**, and **inventory losses** that directly affect your bottom line.
 
 ## Transport Safety
 
@@ -85,7 +85,7 @@ FieldPad's cylinder management addresses each tracking challenge:
 
 ## DOT Compliance
 
-Refrigerant cylinders are regulated by the **Department of Transportation** as pressurized vessels:
+Refrigerant cylinders are regulated by the **[Department of Transportation](https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-180)** as pressurized vessels:
 
 - **Hydrostatic retest**: Required every 5 years, with the date stamped on the cylinder. Using an expired cylinder is a DOT violation.
 - **Visual inspection**: Check for dents, corrosion, arc burns, gouges, and valve damage before each use. Remove damaged cylinders from service.
@@ -102,3 +102,11 @@ FieldPad tracks retest dates and alerts you when expiration approaches.
 - **Track inventory digitally.** Paper records are unreliable and hard to produce during inspections. FieldPad's OCR scanning and cylinder management automate the process.
 - **Inspect cylinders before each use** and remove damaged or expired ones from service.
 - **Accurate cylinder tracking is an EPA requirement**, not just a best practice.
+
+---
+
+## Sources & Regulatory References
+
+- [49 CFR Part 180](https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-180) — DOT requirements for cylinder requalification and hydrostatic testing
+- [EPA Section 608](https://www.epa.gov/section608) — EPA regulations requiring refrigerant chain-of-custody documentation
+- [OSHA Personal Protective Equipment](https://www.osha.gov/personal-protective-equipment) — PPE requirements for handling pressurized vessels

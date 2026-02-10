@@ -72,7 +72,7 @@ Refrigerant is one of your largest variable costs. Managing it well protects you
 
 ## EPA Documentation and Chain-of-Custody
 
-EPA regulations require records of refrigerant purchases, usage, recovery, and disposition. For solo technicians, this paperwork falls behind fast if it is not part of your daily workflow.
+[EPA](https://www.epa.gov/section608) regulations require records of refrigerant purchases, usage, recovery, and disposition. For solo technicians, this paperwork falls behind fast if it is not part of your daily workflow.
 
 ### What You Must Track
 
@@ -95,3 +95,9 @@ The most effective approach is to **log refrigerant data at the time of service*
 - **Invoice every pound of refrigerant** — accurate weight tracking prevents giving away product.
 - **Log refrigerant data at the time of service** to make EPA compliance automatic.
 - **Use digital inventory tools** like FieldPad to eliminate tracking errors and maintain real-time stock visibility.
+
+---
+
+## Sources & Further Reading
+
+- [EPA Section 608](https://www.epa.gov/section608) — EPA regulations requiring refrigerant purchase, usage, and disposition documentation
