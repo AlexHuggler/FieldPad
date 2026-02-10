@@ -14,7 +14,7 @@ keywords: ["leak rate calculation", "Method 1 annualized", "Method 2 screening",
 
 Every time you add refrigerant to a regulated system, the EPA expects you to determine whether that system is leaking at an unacceptable rate. The leak rate calculation separates a routine top-off from a compliance event requiring mandatory repair, verification testing, and documented follow-up.
 
-Under **Section 608**, leak rate tracking applies to ODS systems with **50 or more pounds** of charge. Under **Subpart C**, it applies to HFC systems (GWP > 53) with **15 or more pounds**. If your system meets those thresholds and you are adding refrigerant, you must calculate the leak rate.
+Under **[Section 608](https://www.epa.gov/section608)**, leak rate tracking applies to ODS systems with **50 or more pounds** of charge. Under **[Subpart C](https://www.epa.gov/climate-hfcs-reduction)**, it applies to HFC systems (GWP > 53) with **15 or more pounds**. If your system meets those thresholds and you are adding refrigerant, you must calculate the leak rate.
 
 Two recognized methods exist: **Method 1 (Annualized)** and **Method 2 (Screening)**. Each serves a different purpose.
 
@@ -99,7 +99,7 @@ A Method 1 exceedance triggers a compliance sequence:
 
 ## Exemptions and Special Cases
 
-The EPA recognizes several exemptions under 40 CFR 82.156 and 84.106:
+The EPA recognizes several exemptions under [40 CFR 82.156](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156) and [84.106](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-84):
 
 - **Initial charge or post-repair recharge**: Refrigerant added during installation, complete evacuation and recharge, or post-retrofit charging is excluded.
 - **Seasonal variance**: Systems shut down seasonally may adjust the calculation period to reflect operational days rather than calendar days.
@@ -138,3 +138,12 @@ For solo technicians doing math on a clipboard in a mechanical room, a misplaced
 - **Accurate full charge data** is essential; document your determination method.
 - **Exemptions exist** for initial charges, seasonal adjustments, and catastrophic losses, but must be documented.
 - **FieldPad automates both methods**, compares against the correct threshold, and generates repair deadlines and verification reminders automatically.
+
+---
+
+## Sources & Regulatory References
+
+- [40 CFR 82.156](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156) — Required practices for leak repair under Section 608
+- [40 CFR Part 84](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-84) — AIM Act Subpart C regulations for HFC leak repair
+- [EPA Section 608](https://www.epa.gov/section608) — EPA's Section 608 regulatory page
+- [EPA AIM Act — HFC Phasedown](https://www.epa.gov/climate-hfcs-reduction) — EPA overview of HFC reduction requirements

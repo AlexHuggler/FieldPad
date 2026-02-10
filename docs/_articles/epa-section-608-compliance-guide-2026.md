@@ -12,7 +12,7 @@ keywords: ["EPA Section 608", "HVAC compliance", "refrigerant regulations", "ODS
 
 ## What Is EPA Section 608?
 
-**EPA Section 608** of the Clean Air Act governs the handling, recovery, and disposal of ozone-depleting substance (ODS) refrigerants used in stationary refrigeration and air conditioning equipment. Originally enacted in 1990, Section 608 establishes the legal framework every HVAC technician must follow when working with refrigerants such as R-22, R-12, R-502, and other Class I and Class II substances.
+**[EPA Section 608](https://www.epa.gov/section608)** of the [Clean Air Act](https://www.epa.gov/clean-air-act-overview) governs the handling, recovery, and disposal of ozone-depleting substance (ODS) refrigerants used in stationary refrigeration and air conditioning equipment. Originally enacted in 1990, Section 608 establishes the legal framework every HVAC technician must follow when working with refrigerants such as R-22, R-12, R-502, and other Class I and Class II substances.
 
 For solo technicians, compliance is not optional. The EPA can levy fines of up to **$44,539 per day per violation**. Non-compliance can also result in loss of your EPA certification, criminal penalties, and reputational damage a one-person operation cannot absorb.
 
@@ -24,7 +24,7 @@ The regulation covers stationary refrigeration (walk-in coolers, reach-in units,
 
 ## Certification Requirements
 
-You must hold a valid **EPA Section 608 Technician Certification** before purchasing or handling ODS refrigerants. There are four types:
+You must hold a valid **[EPA Section 608 Technician Certification](https://www.epa.gov/section608/section-608-technician-certification)** before purchasing or handling ODS refrigerants. There are four types:
 
 - **Type I** -- Small appliances containing **less than 5 pounds** of refrigerant (household refrigerators, window AC units, vending machines).
 - **Type II** -- High-pressure equipment with charges of **5 pounds or more** (residential splits, rooftop packages, most commercial AC).
@@ -89,7 +89,7 @@ R-22 production and import was **fully phased out on January 1, 2020**. In 2026,
 - **R-22 is still legal to use** in existing equipment -- there is no mandate to retrofit or replace working R-22 systems.
 - **Recovery is mandatory** to required evacuation levels before opening a system.
 - **Venting is illegal** and carries severe penalties.
-- **Reclaimed R-22 must meet AHRI 700 purity standards** before reuse.
+- **Reclaimed R-22 must meet [AHRI 700 purity standards](https://www.ahrinet.org/search-standards)** before reuse.
 
 ## How FieldPad Helps Solo Technicians Stay Compliant
 
@@ -111,3 +111,12 @@ Managing Section 608 compliance solo means you are the technician, record-keeper
 - **Records must be retained for at least 3 years**, covering all refrigerant additions, calculations, repairs, and verification tests.
 - **R-22 is still legal to use** but increasingly expensive and only available from reclaimed stock.
 - **Digital tools like FieldPad** automate the calculations, deadlines, and record-keeping that make Section 608 compliance manageable for a solo operation.
+
+---
+
+## Sources & Regulatory References
+
+- [EPA Section 608 — Stationary Refrigeration and Air Conditioning](https://www.epa.gov/section608) — EPA's official Section 608 regulatory page
+- [40 CFR Part 82, Subpart F](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F) — Full text of Section 608 regulations in the Electronic Code of Federal Regulations
+- [Section 608 Technician Certification](https://www.epa.gov/section608/section-608-technician-certification) — EPA certification types and requirements
+- [AHRI Standard 700](https://www.ahrinet.org/search-standards) — Specifications for refrigerant purity

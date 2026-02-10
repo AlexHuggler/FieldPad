@@ -12,7 +12,7 @@ keywords: ["verification test", "leak test", "follow-up verification", "EPA repa
 
 ## What Triggers the Verification Requirement
 
-A verification test obligation is triggered whenever a **refrigerant leak repair** is performed on regulated equipment. Under Section 608, this applies to equipment containing **50 pounds or more** of refrigerant. Under AIM Act Subpart C, the threshold drops to **15 pounds or more** for systems with a GWP above 53.
+A verification test obligation is triggered whenever a **refrigerant leak repair** is performed on regulated equipment. Under [Section 608](https://www.epa.gov/section608), this applies to equipment containing **50 pounds or more** of refrigerant. Under [AIM Act Subpart C](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-84), the threshold drops to **15 pounds or more** for systems with a GWP above 53.
 
 The trigger is the **repair itself**. Once you braze a joint, replace a Schrader valve core, tighten a flare fitting, or perform any action intended to stop a refrigerant leak, you must verify the repair through a structured two-stage testing process.
 
@@ -136,3 +136,11 @@ FieldPad automates verification test management:
 - **Document every test completely**, including method, equipment, result, and technician ID.
 - **A2L systems require additional safety steps** that must also be documented.
 - **FieldPad automates deadline tracking**, sends escalating reminders, and links all verification records for audit-ready compliance.
+
+---
+
+## Sources & Regulatory References
+
+- [40 CFR Part 82, Subpart F](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F) — Section 608 verification test requirements
+- [40 CFR Part 84](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-84) — AIM Act Subpart C verification requirements with 10-day follow-up deadline
+- [EPA Section 608](https://www.epa.gov/section608) — EPA's regulatory page for stationary refrigeration compliance

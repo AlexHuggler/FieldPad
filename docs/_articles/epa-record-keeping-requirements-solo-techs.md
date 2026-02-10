@@ -14,7 +14,7 @@ keywords: ["EPA record keeping", "compliance documentation", "3-year retention",
 
 When you work for a large HVAC company, an office manager or compliance department handles the paperwork. When you are solo, every record-keeping obligation falls directly on you. The EPA does not reduce documentation requirements based on company size. A one-person operation is held to the same standard as a national service chain.
 
-The governing regulations are found in **40 CFR Part 82, Subpart F** (Section 608) and the **AIM Act Technology Transitions Rule** (Subpart C). Together they establish what must be documented, how long records must be kept, and what format is acceptable.
+The governing regulations are found in [**40 CFR Part 82, Subpart F**](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F) (Section 608) and the [**AIM Act Technology Transitions Rule**](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-84) (Subpart C). Together they establish what must be documented, how long records must be kept, and what format is acceptable.
 
 ## The 13 Categories You Must Document
 
@@ -144,3 +144,12 @@ FieldPad makes EPA-compliant documentation the natural byproduct of your service
 - **Completeness prevents penalties**: A missing verification test or undocumented recovery is a violation, even if the work was done correctly.
 - **Digital beats paper**: Cloud-backed records with audit trails are more reliable and defensible.
 - **FieldPad automates it**: Structured forms ensure completeness, deletion guards enforce retention, and exports produce audit-ready reports.
+
+---
+
+## Sources & Regulatory References
+
+- [40 CFR Part 82, Subpart F](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F) — Section 608 record-keeping requirements for ODS refrigerant service
+- [40 CFR Part 84](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-84) — AIM Act Subpart C documentation and record-keeping requirements for HFC systems
+- [EPA Section 608](https://www.epa.gov/section608) — EPA's Section 608 regulatory page with compliance guidance
+- [EPA AIM Act — HFC Phasedown](https://www.epa.gov/climate-hfcs-reduction) — EPA overview of HFC reduction requirements

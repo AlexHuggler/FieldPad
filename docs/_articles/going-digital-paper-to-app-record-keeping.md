@@ -14,7 +14,7 @@ keywords: ["digital record keeping HVAC", "paper to digital", "HVAC app", "compl
 
 Every solo HVAC technician knows the routine. You finish a service call, pull out a clipboard or carbon-copy form, and scribble down the details — refrigerant type, amount added, system charge, customer signature. The paperwork goes into the truck, then into a filing cabinet, and hopefully stays organized enough to find again when you need it.
 
-For years, this system worked well enough. But as **EPA compliance requirements** have grown more complex — particularly with the addition of **Subpart C HFC regulations** effective January 1, 2026 — paper-based record keeping has become a genuine liability for solo operations.
+For years, this system worked well enough. But as **[EPA](https://www.epa.gov/section608) compliance requirements** have grown more complex — particularly with the addition of **[Subpart C](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-84) HFC regulations** effective January 1, 2026 — paper-based record keeping has become a genuine liability for solo operations.
 
 ### Why Paper Falls Short
 
@@ -29,7 +29,7 @@ Paper records suffer from fundamental weaknesses that compound over time:
 
 ## The 3-Year Retention Challenge
 
-EPA Section 608 and Subpart C both require that **refrigerant service records be retained for a minimum of 3 years**. A solo technician averaging 8 refrigerant-related service calls per week generates roughly **416 compliance records per year**. Over the 3-year retention window, that is approximately **1,248 records** that must be organized, searchable, and producible on demand.
+EPA [Section 608](https://www.epa.gov/section608) and Subpart C both require that **refrigerant service records be retained for a minimum of 3 years**. A solo technician averaging 8 refrigerant-related service calls per week generates roughly **416 compliance records per year**. Over the 3-year retention window, that is approximately **1,248 records** that must be organized, searchable, and producible on demand.
 
 Managing this volume on paper is a real risk. When an EPA inspector asks to see all service records for a specific piece of equipment over the past three years, "I think they're in one of those boxes in the garage" is not an acceptable answer.
 
@@ -97,3 +97,10 @@ The transition from paper to digital does not need to happen all at once. Many t
 - **Digital invoicing** accelerates payment through on-site invoice creation with customer signatures and automatic payment tracking.
 - **The switch does not require technical expertise** — modern field apps like FieldPad are designed for technicians, with features like Glove Mode built for real working conditions.
 - **Start small.** Begin with compliance record keeping and expand your digital workflow over time.
+
+---
+
+## Sources & Regulatory References
+
+- [EPA Section 608](https://www.epa.gov/section608) — EPA regulations requiring 3-year record retention for refrigerant service events
+- [40 CFR Part 84](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-84) — AIM Act Subpart C extending compliance documentation to HFC systems

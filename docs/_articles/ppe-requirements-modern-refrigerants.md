@@ -81,7 +81,7 @@ Build these checks into your routine:
 
 ## Documenting PPE in Your Compliance Logs
 
-While EPA regulations focus on refrigerant handling rather than PPE specifically, **OSHA** general duty clause requirements call for documenting safety measures. Recording PPE use strengthens your compliance record and demonstrates professional diligence.
+While EPA regulations focus on refrigerant handling rather than PPE specifically, **[OSHA](https://www.osha.gov/personal-protective-equipment)** general duty clause requirements call for documenting safety measures. Recording PPE use strengthens your compliance record and demonstrates professional diligence.
 
 FieldPad's compliance log includes the **A2L safety checklist**, which covers PPE verification as one of the six mandatory items. For all service events, you can add notes documenting safety measures taken, creating a searchable history of your safety compliance.
 
@@ -93,3 +93,11 @@ FieldPad's compliance log includes the **A2L safety checklist**, which covers PP
 - **Inspect your PPE regularly.** Damaged gloves and uncalibrated monitors provide a false sense of security.
 - **Document your PPE compliance** as part of your service records. FieldPad's A2L safety checklist captures PPE verification automatically for flammable refrigerant service events.
 - **Never compromise on eye protection.** Cryogenic burns to unprotected eyes happen instantly and can cause permanent damage.
+
+---
+
+## Sources & Regulatory References
+
+- [OSHA Personal Protective Equipment Standards](https://www.osha.gov/personal-protective-equipment) — OSHA requirements for workplace PPE
+- [ASHRAE Standard 34](https://www.ashrae.org/technical-resources/standards-and-guidelines) — Refrigerant safety and toxicity classifications
+- [OSHA Confined Spaces](https://www.osha.gov/confined-spaces) — OSHA standards for confined space entry and atmospheric monitoring
