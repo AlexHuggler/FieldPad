@@ -102,6 +102,99 @@ html {
   -webkit-overflow-scrolling: touch;
 }
 
+/* iPhone Frame */
+.iphone-frame {
+  position: relative;
+  background: linear-gradient(145deg, #2a2a2e, #1a1a1e 40%, #2a2a2e);
+  border-radius: 3.25rem;
+  padding: 0.65rem;
+  box-shadow:
+    0 0 0 1px rgba(255,255,255,0.08),
+    0 25px 60px -10px rgba(0,0,0,0.4),
+    0 10px 20px -5px rgba(0,0,0,0.2),
+    inset 0 1px 0 rgba(255,255,255,0.1);
+}
+
+/* Side buttons */
+.iphone-frame::before {
+  content: '';
+  position: absolute;
+  left: -3px;
+  top: 7.5rem;
+  width: 3px;
+  height: 1.8rem;
+  background: linear-gradient(180deg, #3a3a3e, #1a1a1e);
+  border-radius: 2px 0 0 2px;
+  box-shadow: 0 2.5rem 0 0 #2a2a2e, 0 2.5rem 0 0 linear-gradient(180deg, #3a3a3e, #1a1a1e);
+}
+
+/* Volume buttons (left side) */
+.iphone-btn-vol-up,
+.iphone-btn-vol-down,
+.iphone-btn-action,
+.iphone-btn-power {
+  position: absolute;
+  background: linear-gradient(180deg, #3a3a3e, #1a1a1e);
+  border-radius: 2px;
+}
+
+.iphone-btn-action {
+  left: -2.5px;
+  top: 5.8rem;
+  width: 2.5px;
+  height: 1.6rem;
+}
+
+.iphone-btn-vol-up {
+  left: -2.5px;
+  top: 8.5rem;
+  width: 2.5px;
+  height: 1.8rem;
+}
+
+.iphone-btn-vol-down {
+  left: -2.5px;
+  top: 11rem;
+  width: 2.5px;
+  height: 1.8rem;
+}
+
+.iphone-btn-power {
+  right: -2.5px;
+  top: 9rem;
+  width: 2.5px;
+  height: 2.5rem;
+}
+
+.iphone-screen {
+  background: #000;
+  border-radius: 2.6rem;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Dynamic Island */
+.dynamic-island {
+  position: absolute;
+  top: 0.6rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 7.5rem;
+  height: 1.5rem;
+  background: #000;
+  border-radius: 1rem;
+  z-index: 10;
+}
+
+/* Home indicator */
+.home-indicator {
+  width: 8.5rem;
+  height: 0.3rem;
+  background: #1a1a1e;
+  border-radius: 0.2rem;
+  margin: 0.35rem auto 0.5rem;
+}
+
 /* App Store badge styling */
 .app-store-badge {
   transition: opacity 0.2s ease;

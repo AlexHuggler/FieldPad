@@ -176,80 +176,111 @@ description: "FieldPad helps solo HVAC technicians track EPA Section 608 and Sub
         <p class="text-sm text-gray-400 mt-4">Free tier available. No credit card required.</p>
       </div>
 
-      <!-- Hero Visual: Leak Rate Calculator Recreation (from actual app) -->
+      <!-- Hero Visual: iPhone 15 Pro with Leak Rate Calculator -->
       <div class="relative fade-in-up-delay-2">
-        <!-- Phone Frame -->
-        <div class="mx-auto max-w-[300px] sm:max-w-[320px]">
-          <div class="bg-gray-900 rounded-[3rem] p-3 shadow-2xl">
-            <div class="bg-gray-100 rounded-[2.25rem] overflow-hidden">
-              <!-- Status Bar -->
-              <div class="bg-white px-6 pt-3 pb-1 flex items-center justify-between">
-                <span class="text-xs font-semibold text-gray-900">5:57</span>
-                <div class="flex items-center gap-1">
-                  <div class="w-4 h-2.5 border border-gray-400 rounded-sm relative"><div class="absolute inset-0.5 bg-gray-900 rounded-sm"></div></div>
-                </div>
-              </div>
-              <!-- Nav Bar -->
-              <div class="bg-white px-4 pb-2 flex items-center gap-3">
-                <svg class="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
-                <span class="text-sm font-semibold text-gray-900 flex-1 text-center">Leak Rate Calculator</span>
-              </div>
-              <!-- Calculate Button -->
-              <div class="px-4 py-2">
-                <div class="bg-blue-500 text-white text-center py-3.5 rounded-xl font-semibold text-sm flex items-center justify-center gap-2">
-                  <span class="text-xs italic font-bold">f(x)</span> Calculate Leak Rate
-                </div>
-              </div>
-              <!-- Result Card -->
-              <div class="px-4 py-2">
-                <div class="bg-gray-50 rounded-xl p-4 text-center">
-                  <div class="text-xs text-gray-400 mb-1">Calculated Leak Rate</div>
-                  <div class="text-5xl font-extrabold text-red-500 mb-3">35.1<span class="text-3xl">%</span></div>
-                  <div class="flex items-center justify-center gap-4 text-xs">
-                    <div class="text-center">
-                      <div class="text-gray-400">Threshold</div>
-                      <div class="font-bold text-gray-900">10%</div>
-                      <div class="text-gray-400">Subpart C</div>
-                    </div>
-                    <div class="w-px h-8 bg-gray-200"></div>
-                    <div class="text-center">
-                      <div class="text-gray-400">System</div>
-                      <div class="font-bold text-gray-900">Comfort</div>
-                      <div class="text-gray-400">Cooling</div>
-                    </div>
-                    <div class="w-px h-8 bg-gray-200"></div>
-                    <div class="text-center">
-                      <div class="text-gray-400">Method</div>
-                      <div class="font-bold text-gray-900">Method 1</div>
+        <div class="mx-auto max-w-[290px] sm:max-w-[310px]">
+          <!-- iPhone Frame -->
+          <div class="iphone-frame">
+            <!-- Side Buttons -->
+            <div class="iphone-btn-action"></div>
+            <div class="iphone-btn-vol-up"></div>
+            <div class="iphone-btn-vol-down"></div>
+            <div class="iphone-btn-power"></div>
+
+            <!-- Screen -->
+            <div class="iphone-screen">
+              <!-- Dynamic Island -->
+              <div class="dynamic-island"></div>
+
+              <!-- Screen Content -->
+              <div class="bg-gray-100">
+                <!-- Status Bar -->
+                <div class="bg-white px-6 pt-3 pb-1 flex items-center justify-between relative">
+                  <span class="text-xs font-semibold text-gray-900">9:41</span>
+                  <div class="flex items-center gap-1.5">
+                    <!-- Signal -->
+                    <svg class="w-4 h-3" viewBox="0 0 18 12" fill="#1a1a1e"><rect x="0" y="8" width="3" height="4" rx="0.5"/><rect x="5" y="5" width="3" height="7" rx="0.5"/><rect x="10" y="2" width="3" height="10" rx="0.5"/><rect x="15" y="0" width="3" height="12" rx="0.5"/></svg>
+                    <!-- WiFi -->
+                    <svg class="w-3.5 h-3" viewBox="0 0 16 12" fill="#1a1a1e"><path d="M8 10.5a1.5 1.5 0 100 3 1.5 1.5 0 000-3zM3.5 7.5a6.5 6.5 0 019 0" stroke="#1a1a1e" stroke-width="1.5" fill="none" stroke-linecap="round"/><path d="M1 4.5a10 10 0 0114 0" stroke="#1a1a1e" stroke-width="1.5" fill="none" stroke-linecap="round"/></svg>
+                    <!-- Battery -->
+                    <div class="flex items-center">
+                      <div class="w-5 h-2.5 border border-gray-800 rounded-[3px] relative">
+                        <div class="absolute inset-[1.5px] bg-gray-900 rounded-[1.5px]"></div>
+                      </div>
+                      <div class="w-[1.5px] h-1 bg-gray-800 rounded-r-sm ml-[0.5px]"></div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <!-- Non-Compliant Alert -->
-              <div class="px-4 py-1.5">
-                <div class="bg-red-50 border border-red-200 rounded-xl p-3 flex items-start gap-2">
-                  <span class="text-red-500 text-sm mt-0.5">&#9888;</span>
-                  <div>
-                    <div class="text-red-600 font-bold text-xs">NON-COMPLIANT</div>
-                    <div class="text-gray-700 text-xs">CRITICAL - Immediate repair required</div>
+
+                <!-- Nav Bar -->
+                <div class="bg-white px-4 pb-2 flex items-center gap-3">
+                  <svg class="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+                  <span class="text-sm font-semibold text-gray-900 flex-1 text-center pr-5">Leak Rate Calculator</span>
+                </div>
+
+                <!-- Calculate Button -->
+                <div class="px-4 py-2">
+                  <div class="bg-blue-500 text-white text-center py-3.5 rounded-xl font-semibold text-sm flex items-center justify-center gap-2">
+                    <span class="text-xs italic font-bold">f(x)</span> Calculate Leak Rate
                   </div>
                 </div>
-              </div>
-              <!-- Mandatory Repair -->
-              <div class="px-4 py-1.5 pb-3">
-                <div class="bg-red-50 border border-red-200 rounded-xl p-3">
-                  <div class="text-red-600 font-bold text-xs mb-1">&#128295; Mandatory Repair Required</div>
-                  <div class="text-gray-700 text-xs leading-relaxed">Under EPA Section 608, you must repair this leak within 30 days of discovery.</div>
-                  <div class="text-gray-400 text-[10px] mt-1">Failure to repair may result in fines up to $44,539 per day per violation.</div>
+
+                <!-- Result Card -->
+                <div class="px-4 py-2">
+                  <div class="bg-gray-50 rounded-xl p-4 text-center">
+                    <div class="text-xs text-gray-400 mb-1">Calculated Leak Rate</div>
+                    <div class="text-5xl font-extrabold text-red-500 mb-3">35.1<span class="text-3xl">%</span></div>
+                    <div class="flex items-center justify-center gap-4 text-xs">
+                      <div class="text-center">
+                        <div class="text-gray-400">Threshold</div>
+                        <div class="font-bold text-gray-900">10%</div>
+                        <div class="text-gray-400">Subpart C</div>
+                      </div>
+                      <div class="w-px h-8 bg-gray-200"></div>
+                      <div class="text-center">
+                        <div class="text-gray-400">System</div>
+                        <div class="font-bold text-gray-900">Comfort</div>
+                        <div class="text-gray-400">Cooling</div>
+                      </div>
+                      <div class="w-px h-8 bg-gray-200"></div>
+                      <div class="text-center">
+                        <div class="text-gray-400">Method</div>
+                        <div class="font-bold text-gray-900">Method 1</div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <!-- Tab Bar -->
-              <div class="bg-white border-t border-gray-200 px-2 py-2 flex items-center justify-around">
-                <div class="text-center"><svg class="w-5 h-5 text-gray-400 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg><span class="text-[9px] text-gray-400">Dashboard</span></div>
-                <div class="text-center"><svg class="w-5 h-5 text-gray-400 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.066 2.573c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.573 1.066c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.066-2.573c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg><span class="text-[9px] text-gray-400">Jobs</span></div>
-                <div class="text-center"><svg class="w-5 h-5 text-gray-400 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg><span class="text-[9px] text-gray-400">Clients</span></div>
-                <div class="text-center"><svg class="w-5 h-5 text-gray-400 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/></svg><span class="text-[9px] text-gray-400">Inventory</span></div>
-                <div class="text-center"><svg class="w-5 h-5 text-blue-500 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.066 2.573c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.573 1.066c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.066-2.573c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg><span class="text-[9px] text-blue-500 font-semibold">Settings</span></div>
+
+                <!-- Non-Compliant Alert -->
+                <div class="px-4 py-1.5">
+                  <div class="bg-red-50 border border-red-200 rounded-xl p-3 flex items-start gap-2">
+                    <span class="text-red-500 text-sm mt-0.5">&#9888;</span>
+                    <div>
+                      <div class="text-red-600 font-bold text-xs">NON-COMPLIANT</div>
+                      <div class="text-gray-700 text-xs">CRITICAL - Immediate repair required</div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Mandatory Repair -->
+                <div class="px-4 py-1.5 pb-2">
+                  <div class="bg-red-50 border border-red-200 rounded-xl p-3">
+                    <div class="text-red-600 font-bold text-xs mb-1">&#128295; Mandatory Repair Required</div>
+                    <div class="text-gray-700 text-xs leading-relaxed">Under EPA Section 608, you must repair this leak within 30 days of discovery.</div>
+                    <div class="text-gray-400 text-[10px] mt-1">Failure to repair may result in fines up to $44,539 per day per violation.</div>
+                  </div>
+                </div>
+
+                <!-- Tab Bar -->
+                <div class="bg-white/95 backdrop-blur-sm border-t border-gray-200 px-2 pt-2 pb-0 flex items-center justify-around">
+                  <div class="text-center"><svg class="w-5 h-5 text-gray-400 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg><span class="text-[9px] text-gray-400">Dashboard</span></div>
+                  <div class="text-center"><svg class="w-5 h-5 text-gray-400 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.066 2.573c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.573 1.066c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.066-2.573c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg><span class="text-[9px] text-gray-400">Jobs</span></div>
+                  <div class="text-center"><svg class="w-5 h-5 text-gray-400 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg><span class="text-[9px] text-gray-400">Clients</span></div>
+                  <div class="text-center"><svg class="w-5 h-5 text-gray-400 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/></svg><span class="text-[9px] text-gray-400">Inventory</span></div>
+                  <div class="text-center"><svg class="w-5 h-5 text-blue-500 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.066 2.573c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.573 1.066c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.066-2.573c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg><span class="text-[9px] text-blue-500 font-semibold">Settings</span></div>
+                </div>
+                <!-- Home Indicator -->
+                <div class="bg-white/95"><div class="home-indicator"></div></div>
               </div>
             </div>
           </div>
