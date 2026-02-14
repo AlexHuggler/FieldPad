@@ -68,9 +68,16 @@ layout: default
     <img src="{{ '/assets/images/app-icon-128.png' | relative_url }}" alt="FieldPad" class="w-16 h-16 rounded-2xl mx-auto mb-4 shadow-lg">
     <h3 class="text-xl font-bold text-white mb-3">Track Compliance from the Field</h3>
     <p class="text-fieldpad-200 mb-6 max-w-md mx-auto text-sm">FieldPad helps solo HVAC technicians stay EPA-compliant with offline-first record keeping, leak rate calculations, and A2L safety checklists.</p>
+    {% if site.app_store_live %}
     <a href="https://apps.apple.com/app/fieldpad-hvac-service-pro/id6745066925" class="inline-block bg-white text-fieldpad-800 px-6 py-3 rounded-lg font-semibold hover:bg-fieldpad-50 transition-colors">
       Download FieldPad Free
     </a>
+    {% else %}
+    <a href="{{ '/' | relative_url }}#waitlist" class="inline-block bg-white text-fieldpad-800 px-6 py-3 rounded-lg font-semibold hover:bg-fieldpad-50 transition-colors">
+      Join the Waitlist
+    </a>
+    <p class="text-fieldpad-300 text-xs mt-2">Coming soon to the App Store</p>
+    {% endif %}
   </div>
 
   <!-- Related Articles -->

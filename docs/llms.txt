@@ -9,7 +9,7 @@ FieldPad is a mobile application (iOS 17+) designed for solo HVAC technicians an
 **Developer**: Huggler Holdings LLC
 **Contact**: fieldpad@fieldpadpro.com
 **Website**: https://fieldpadpro.com
-**App Store**: https://apps.apple.com/app/fieldpad-hvac-service-pro/id6745066925
+**App Store**: Coming soon (join waitlist at https://fieldpadpro.com/#waitlist)
 
 ## Key Features
 
