@@ -111,7 +111,7 @@ When you search for addresses in the App (e.g., client addresses, job site locat
 
 ### 3.3 Apple iCloud (CloudKit)
 
-iCloud sync is **active**. Your data is synced to your private iCloud container using Apple's CloudKit framework via SwiftData automatic sync. Data synced includes:
+iCloud sync is **active**. Your data is synced to your private iCloud container (`iCloud.com.hugglerholdings.fieldpad`) using Apple's CloudKit framework via SwiftData automatic sync. Data synced includes:
 
 - Business data (clients, jobs, invoices, compliance logs, cylinders, equipment profiles, estimates, technician profiles)
 - All data stored in SwiftData
@@ -165,7 +165,7 @@ Your data remains on your device until you delete it. You can delete data at any
 
 To delete your subscription data from RevenueCat:
 - Cancel your subscription via the App Store
-- Email fieldpad@hugglerholdings.com to request deletion of your anonymous RevenueCat customer record — we will process your request within 30 days
+- Email fieldpad@fieldpadpro.com to request deletion of your anonymous RevenueCat customer record — we will process your request within 30 days
 
 ### 5.3 iCloud Data
 
@@ -210,7 +210,7 @@ Your data is protected by:
 
 ### Privacy Manifest (`PrivacyInfo.xcprivacy`)
 
-The App declares the following in its privacy manifest:
+The App declares the following in its privacy manifest (`PrivacyInfo.xcprivacy`):
 - **Tracking**: No tracking (`NSPrivacyTracking = false`)
 - **Tracking Domains**: None
 - **Privacy-Impacting APIs**: UserDefaults (App Functionality), File Timestamp (access backup file creation dates within app container)
@@ -228,7 +228,7 @@ If you are a California resident (CCPA/CPRA), you have the following rights rega
 - **Right to Data Portability**: You may export all your data in JSON or CSV format using Settings > Data Management > Export All Data (Pro feature).
 - **Right to Opt Out of Sale**: We do not sell your personal data to any third party.
 
-To exercise any of these rights, contact us at: fieldpad@hugglerholdings.com
+To exercise any of these rights, contact us at: fieldpad@fieldpadpro.com
 
 ---
 
@@ -240,4 +240,4 @@ We may update this Privacy Policy periodically. We will notify you of material c
 
 ## 12. Contact Us
 
-If you have questions about this Privacy Policy, contact us at: **fieldpad@hugglerholdings.com**
+If you have questions about this Privacy Policy, contact us at: **fieldpad@fieldpadpro.com**

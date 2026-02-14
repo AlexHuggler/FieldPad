@@ -211,7 +211,7 @@ These Terms shall be governed by and construed in accordance with the laws of th
 
 ## 10. Dispute Resolution
 
-Any dispute arising from or relating to these Terms or your use of the App shall be resolved through binding arbitration administered under the rules of the American Arbitration Association, conducted in Dallas County, Texas. You agree to waive any right to participate in a class action lawsuit or class-wide arbitration. Either party may seek injunctive or equitable relief in any court of competent jurisdiction. Claims eligible for small claims court may be filed there instead of arbitration. You may opt out of this arbitration provision by sending written notice to fieldpad@hugglerholdings.com within 30 days of first downloading the App.
+Any dispute arising from or relating to these Terms or your use of the App shall be resolved through binding arbitration administered under the rules of the American Arbitration Association, conducted in Dallas County, Texas. You agree to waive any right to participate in a class action lawsuit or class-wide arbitration. Either party may seek injunctive or equitable relief in any court of competent jurisdiction. Claims eligible for small claims court may be filed there instead of arbitration. You may opt out of this arbitration provision by sending written notice to fieldpad@fieldpadpro.com within 30 days of first downloading the App.
 
 ---
 
@@ -229,4 +229,4 @@ We may update these Terms periodically. We will notify you of material changes b
 
 ## 13. Contact
 
-For questions about these Terms, contact us at: **fieldpad@hugglerholdings.com**
+For questions about these Terms, contact us at: **fieldpad@fieldpadpro.com**

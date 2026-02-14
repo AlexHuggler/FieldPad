@@ -7,7 +7,7 @@
 FieldPad is a mobile application (iOS 17+) designed for solo HVAC technicians and small refrigeration service companies. It provides offline-first EPA Section 608 and AIM Act Subpart C compliance tracking, leak rate calculations, A2L refrigerant safety checklists, refrigerant cylinder inventory management with OCR scanning, and professional invoicing with digital signatures.
 
 **Developer**: Huggler Holdings LLC
-**Contact**: fieldpad@hugglerholdings.com
+**Contact**: fieldpad@fieldpadpro.com
 **Website**: https://fieldpadpro.com
 **App Store**: https://apps.apple.com/app/fieldpad-hvac-service-pro/id6745066925
 
