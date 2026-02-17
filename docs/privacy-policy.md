@@ -148,7 +148,7 @@ If iCloud is unavailable or your iCloud storage is full, data remains on your de
 
 ### 4.3 No Server-Side Storage
 
-**We do not operate any servers.** Your data is stored locally on your device and synced to your private Apple iCloud container. Beyond RevenueCat (subscription management), Apple iCloud (data sync), and Apple MapKit (address autocomplete), no data leaves your device.
+We do not operate any servers. Your data is stored locally on your device and synced to your private Apple iCloud container. Beyond RevenueCat (subscription management), Apple iCloud (data sync), and Apple MapKit (address autocomplete), no data leaves your device.
 
 ---
 
@@ -240,4 +240,8 @@ We may update this Privacy Policy periodically. We will notify you of material c
 
 ## 12. Contact Us
 
-If you have questions about this Privacy Policy, contact us at: **fieldpad@fieldpadpro.com**
+If you have questions about this Privacy Policy, contact us at: fieldpad@fieldpadpro.com
+
+---
+
+*This privacy policy was last audited against the FieldPad codebase on 2026-02-09.*
