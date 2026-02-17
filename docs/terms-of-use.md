@@ -229,4 +229,8 @@ We may update these Terms periodically. We will notify you of material changes b
 
 ## 13. Contact
 
-For questions about these Terms, contact us at: **fieldpad@fieldpadpro.com**
+For questions about these Terms, contact us at: fieldpad@fieldpadpro.com
+
+---
+
+*These terms were last audited against the FieldPad codebase on 2026-02-09.*
