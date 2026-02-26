@@ -12,7 +12,7 @@ author: "Huggler Holdings LLC"
 email: "fieldpad@fieldpadpro.com"
 
 # App Store availability (set to true when app is live on the App Store)
-app_store_live: false
+app_store_live: true
 
 # Build Settings
 markdown: kramdown
