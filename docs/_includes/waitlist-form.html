@@ -1,9 +1,0 @@
-<!-- Waitlist Signup Form (FormSubmit.co AJAX) -->
-<form class="waitlist-form flex flex-col sm:flex-row gap-3 max-w-md {{ include.center | default: '' }}" onsubmit="return submitWaitlist(event, this)">
-  <input type="email" name="email" required placeholder="Enter your email" class="flex-1 px-4 py-3 rounded-xl border-2 border-gray-200 focus:border-fieldpad-500 focus:outline-none text-sm {{ include.input_class | default: '' }}">
-  <button type="submit" class="px-6 py-3 rounded-xl font-semibold text-sm transition-colors whitespace-nowrap {{ include.btn_class | default: 'bg-fieldpad-700 hover:bg-fieldpad-800 text-white' }}">
-    Join Waitlist
-  </button>
-</form>
-<p class="waitlist-success hidden text-sm font-semibold mt-2 {{ include.success_class | default: 'text-green-600' }}">You're on the list! We'll notify you when FieldPad launches.</p>
-<p class="waitlist-error hidden text-sm font-semibold mt-2 text-red-500">Something went wrong. Please try again.</p>
