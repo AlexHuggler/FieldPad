@@ -58,6 +58,21 @@ layout: default
   </div>
   {% endif %}
 
+  <!-- Key Takeaways (AEO) -->
+  {% if page.takeaways %}
+  <div class="bg-green-50 border border-green-200 rounded-lg p-6 mb-10">
+    <h2 class="text-sm font-semibold uppercase tracking-wider text-green-700 mb-3">Key Takeaways</h2>
+    <ul class="space-y-2">
+      {% for takeaway in page.takeaways %}
+      <li class="flex items-start gap-2 text-gray-700 text-sm">
+        <span class="text-green-500 mt-0.5 flex-shrink-0">&#10003;</span>
+        {{ takeaway }}
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
   <!-- Content -->
   <div class="prose prose-lg max-w-none prose-headings:text-fieldpad-900 prose-a:text-fieldpad-600 prose-a:no-underline hover:prose-a:underline prose-strong:text-fieldpad-800 prose-table:text-sm prose-th:bg-fieldpad-50 prose-th:text-fieldpad-800" itemprop="articleBody">
     {{ content }}
@@ -105,16 +120,51 @@ layout: default
     "publisher": {
       "@type": "Organization",
       "name": "Huggler Holdings LLC",
-      "url": "https://fieldpadpro.com"
+      "url": "https://fieldpadpro.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://fieldpadpro.com/assets/images/app-icon-512.png"
+      }
     },
     "datePublished": "{{ page.date | date_to_xmlschema }}",
+    "dateModified": "{{ page.last_modified | default: page.date | date_to_xmlschema }}",
+    "image": {
+      "@type": "ImageObject",
+      "url": "https://fieldpadpro.com/assets/images/app-icon-512.png"
+    },
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "{{ page.url | absolute_url }}"
+    },
+    "speakable": {
+      "@type": "SpeakableSpecification",
+      "cssSelector": ["[itemprop='headline']", "[itemprop='abstract']"]
     }
     {% if page.keywords %},
     "keywords": {{ page.keywords | jsonify }}
     {% endif %}
   }
   </script>
+
+  <!-- Per-Article FAQ Schema (AEO) -->
+  {% if page.faqs %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {% for faq in page.faqs %}
+      {
+        "@type": "Question",
+        "name": {{ faq.q | jsonify }},
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": {{ faq.a | jsonify }}
+        }
+      }{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ]
+  }
+  </script>
+  {% endif %}
 </article>

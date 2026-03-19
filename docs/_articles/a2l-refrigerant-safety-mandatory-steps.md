@@ -8,6 +8,22 @@ author: "FieldPad Team"
 read_time: 6
 summary: "A2L refrigerants like R-454B, R-32, and R-452B are classified as mildly flammable under ASHRAE 34. Servicing A2L systems requires six mandatory safety steps: (1) confirming dissipation risk assessment, (2) verifying spark-free tools, (3) confirming adequate ventilation, (4) verifying proper PPE, (5) using an A2L-rated leak detector, and (6) ensuring equipment is properly grounded. FieldPad's built-in A2L safety checklist tracks all six mandatory items digitally, creating an auditable record of safety compliance for every service event involving flammable refrigerants."
 keywords: ["A2L refrigerant safety", "R-454B safety", "R-32 safety", "flammable refrigerant", "ASHRAE 34", "A2L safety checklist", "HVAC safety protocol", "mildly flammable refrigerant"]
+takeaways:
+  - "A2L refrigerants (R-454B, R-32, R-452B) are mildly flammable — different safety procedures than A1 refrigerants"
+  - "All 6 safety checks must be completed BEFORE beginning service, not during or after"
+  - "Standard R-410A recovery equipment may NOT meet A2L spark-free requirements"
+  - "A2L-rated leak detectors use intrinsically safe circuits — standard detectors can be ignition sources"
+  - "Refrigerant is heavier than air and pools in low areas — ventilation critical in confined spaces"
+  - "Documentation of safety checks is as important as execution for compliance audit evidence"
+faqs:
+  - q: "What are the 6 mandatory A2L safety steps?"
+    a: "Before servicing an A2L refrigerant system, technicians must: (1) assess dissipation risk, (2) verify spark-free tools, (3) confirm adequate ventilation, (4) verify proper PPE, (5) use an A2L-rated leak detector, and (6) ensure equipment is properly grounded."
+  - q: "Can I use my existing R-410A recovery equipment with A2L refrigerants?"
+    a: "Not necessarily. Standard brushed motors and unsealed switches in many R-410A recovery machines can generate sparks. A2L service requires recovery equipment with UL certification for flammable refrigerant compatibility. Check your equipment's ratings before use."
+  - q: "What makes A2L refrigerants different from A1 refrigerants like R-410A?"
+    a: "A2L refrigerants are classified as mildly flammable under ASHRAE Standard 34, with a lower flammability limit (LFL) greater than 3.5% by volume, heat of combustion less than 19,000 kJ/kg, and burning velocity under 10 cm/s. A1 refrigerants like R-410A are non-flammable. A2L refrigerants require spark-free tools, A2L-rated detectors, and additional ventilation precautions."
+  - q: "Why is grounding important when working with A2L refrigerants?"
+    a: "Refrigerant flowing through hoses builds static electricity naturally. A single static discharge in a confined space with elevated A2L refrigerant concentrations can provide sufficient ignition energy. Grounding straps and bonding between equipment and recovery cylinders prevent static buildup."
 ---
 
 As R-410A phases down under the [AIM Act](https://www.epa.gov/climate-hfcs-reduction), technicians are increasingly working with **A2L refrigerants** such as R-454B, R-32, and R-452B. These replacements carry a critical distinction: they are **mildly flammable**.
