@@ -8,6 +8,22 @@ author: "FieldPad Team"
 read_time: 6
 summary: "Under EPA regulations, refrigeration or AC equipment is classified as a chronic leaker when cumulative refrigerant additions in a calendar year exceed 125% of the equipment's full charge. Once triggered, technicians must submit a chronic leaker report to the EPA by March 1 of the following year. The report must include equipment identification, refrigerant type and amounts added, leak rate history, and repair actions taken. Failure to report can result in significant EPA enforcement actions. FieldPad automatically monitors cumulative additions per equipment and alerts technicians when the 125% threshold is approached."
 keywords: ["chronic leaker", "EPA reporting", "125% threshold", "refrigerant additions", "March 1 deadline", "chronic leaker report", "HVAC compliance reporting"]
+takeaways:
+  - "Chronic leaker status triggers when calendar-year refrigerant additions exceed 125% of full charge"
+  - "Report to EPA by March 1 of the year following the threshold exceedance"
+  - "Report must include equipment ID, all addition dates/amounts, leak rate history, and repair actions"
+  - "Penalties up to $44,539 per day per violation; EPA certification suspension possible"
+  - "Leak rate threshold exceedance = repair obligation; chronic leaker = separate reporting obligation"
+  - "Track cumulative additions throughout the year — do not wait until December to determine status"
+faqs:
+  - q: "What makes equipment a chronic leaker under EPA regulations?"
+    a: "Equipment is classified as a chronic leaker when cumulative refrigerant additions in a single calendar year exceed 125% of the equipment's full charge. This is a Subpart C requirement (40 CFR Part 84) that applies to HFC systems with 15+ lbs of charge and GWP > 53."
+  - q: "When is the chronic leaker report due to the EPA?"
+    a: "By March 1 of the year following the calendar year in which refrigerant additions exceeded 125% of full charge. For example, if a system exceeds the threshold during 2026, the report is due by March 1, 2027."
+  - q: "What must a chronic leaker report include?"
+    a: "Equipment identification (location, type, serial number, manufacturer), refrigerant type, full charge amount, total refrigerant added during the year, dates and amounts of each addition, leak rate history, repair actions taken, verification test results, and explanation of continued operation if not retired or retrofitted."
+  - q: "Is chronic leaker status the same as exceeding a leak rate threshold?"
+    a: "No. They are separate compliance concepts with independent penalties. Exceeding a leak rate threshold triggers a repair obligation (fix the leak within 30 days). Chronic leaker status triggers a reporting obligation (report to EPA by March 1). A system can exceed leak rate thresholds without being a chronic leaker, and vice versa."
 ---
 
 ## What Is a Chronic Leaker?

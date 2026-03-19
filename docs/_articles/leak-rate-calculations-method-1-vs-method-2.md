@@ -8,6 +8,21 @@ author: "FieldPad Team"
 read_time: 6
 summary: "EPA requires HVAC technicians to calculate leak rates when servicing regulated refrigeration and AC equipment. Method 1 (Annualized) uses the formula: (refrigerant added ÷ full charge) × (365 ÷ days since last charge) × 100 to project an annual leak rate. Method 2 (Screening) uses a simpler formula: (refrigerant added ÷ full charge) × 100 to show the percentage of charge lost since the last service. Method 1 is the standard calculation for determining whether a system exceeds EPA leak rate thresholds. Understanding both methods helps solo technicians make accurate compliance determinations in the field."
 keywords: ["leak rate calculation", "Method 1 annualized", "Method 2 screening", "EPA leak rate formula", "refrigerant leak rate", "HVAC compliance calculation", "full charge determination"]
+takeaways:
+  - "Method 1 (Annualized) is the EPA regulatory standard: (Added / Full Charge) x (365 / Days) x 100"
+  - "Method 2 (Screening) shows actual loss without annualizing: (Added / Full Charge) x 100"
+  - "Short intervals can produce inflated Method 1 results — use Method 2 for context"
+  - "Accurate full charge determination is foundational to all leak rate calculations"
+  - "Exceeding thresholds triggers mandatory 30-day repair, verification tests, and documentation"
+faqs:
+  - q: "What is the EPA Method 1 leak rate formula?"
+    a: "Method 1 (Annualized): (Refrigerant Added / Full Charge) x (365 / Days Since Last Charge) x 100. This projects the observed loss over a full year and is the EPA standard for regulatory threshold determinations."
+  - q: "What is the difference between Method 1 and Method 2 leak rate calculations?"
+    a: "Method 1 annualizes the leak rate to project a full-year loss rate, while Method 2 simply shows the percentage of charge lost since the last service without annualizing. Method 1 is used for regulatory threshold comparison; Method 2 provides context and is useful for customer communication."
+  - q: "When is a leak rate calculation required?"
+    a: "A leak rate calculation is required whenever you add refrigerant to a regulated system (50+ lbs ODS under Section 608, or 15+ lbs HFC with GWP > 53 under Subpart C) to compensate for loss. It is not required for initial charging, seasonal adjustment, or post-retrofit complete recharge."
+  - q: "What happens when a leak rate exceeds the EPA threshold?"
+    a: "The system owner must repair the leak within 30 days (120 days for industrial process), perform an initial verification test at repair completion, perform a follow-up verification test within 30 days (Section 608) or 10 days (Subpart C), and document all calculations, repairs, and test results for a minimum of 3 years."
 ---
 
 ## Why Leak Rate Calculations Matter

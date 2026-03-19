@@ -8,6 +8,24 @@ author: "FieldPad Team"
 read_time: 8
 summary: "EPA Section 608 of the Clean Air Act regulates the handling of ozone-depleting substance (ODS) refrigerants in HVAC and refrigeration systems. For solo technicians servicing systems with 50 or more pounds of ODS refrigerant, compliance means tracking leak rates against thresholds (20% commercial, 15% comfort cooling, 30% industrial), completing repairs within 30 days of detection, performing verification tests, and maintaining records for at least 3 years. This guide covers every requirement a solo tech needs to know in 2026."
 keywords: ["EPA Section 608", "HVAC compliance", "refrigerant regulations", "ODS refrigerant", "leak rate threshold", "solo HVAC technician", "R-22 phase-out", "EPA certification"]
+takeaways:
+  - "Section 608 applies to all ODS refrigerant systems with 50+ lbs of charge — no exemptions for business size"
+  - "Leak rate thresholds: 20% commercial, 15% comfort cooling, 30% industrial process"
+  - "Repairs must be completed within 30 days of leak detection (120 days for industrial)"
+  - "Verification tests required: initial at repair completion, follow-up within 30 days"
+  - "Records must be retained for a minimum of 3 years — most common audit finding"
+  - "Fines up to $44,539 per day per violation; Universal certification recommended for solo techs"
+faqs:
+  - q: "What is the EPA Section 608 leak rate threshold for comfort cooling?"
+    a: "15% annualized leak rate for comfort cooling systems (AC, heat pumps) with 50 or more pounds of ODS refrigerant under Section 608."
+  - q: "How long do I have to repair a refrigerant leak under Section 608?"
+    a: "30 days from the date of leak detection for commercial refrigeration and comfort cooling systems. Industrial process refrigeration systems have 120 days."
+  - q: "Does Section 608 apply to solo HVAC technicians?"
+    a: "Yes. Section 608 applies to any person who maintains, services, repairs, or disposes of appliances containing ODS refrigerants, regardless of business size. A one-truck operation faces the same obligations as a 500-employee contractor."
+  - q: "What EPA certification do I need for Section 608?"
+    a: "EPA Section 608 Technician Certification is required. There are four types: Type I (small appliances <5 lbs), Type II (high-pressure 5+ lbs), Type III (low-pressure), and Universal (all types). Universal certification is recommended for solo technicians."
+  - q: "How long must I keep Section 608 compliance records?"
+    a: "A minimum of 3 years. Records must include service dates, refrigerant types and quantities, leak detection methods, repair actions, verification test results, equipment identification, and technician certification information."
 ---
 
 ## What Is EPA Section 608?

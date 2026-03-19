@@ -8,6 +8,22 @@ author: "FieldPad Team"
 read_time: 7
 summary: "Since January 1, 2026, HVAC technicians must comply with two separate EPA regulatory frameworks: Section 608 for ODS refrigerants (like R-22) in systems with 50+ lbs of charge, and Subpart C of the AIM Act for HFC refrigerants with GWP above 53 (like R-410A, R-454B) in systems with 15+ lbs of charge. Key differences include lower charge thresholds under Subpart C (15 lbs vs 50 lbs), a tighter comfort cooling leak rate (10% vs 15%), a new refrigerated transport category (10%), and shorter follow-up verification windows (10 days vs 30 days). This article provides a side-by-side comparison."
 keywords: ["Subpart C", "Section 608", "AIM Act", "HFC refrigerant", "leak rate comparison", "HVAC regulations 2026", "R-410A compliance", "refrigerant GWP"]
+takeaways:
+  - "Two frameworks effective January 1, 2026: Section 608 (ODS, 50+ lbs) and Subpart C (HFC GWP > 53, 15+ lbs)"
+  - "Subpart C comfort cooling threshold is 10% — tighter than Section 608's 15%"
+  - "Subpart C adds refrigerated transport as a new regulated category at 10%"
+  - "Follow-up verification shortened to 10 days under Subpart C (vs 30 days under Section 608)"
+  - "Subpart C's 15 lb charge threshold brings many small commercial systems into regulation"
+  - "Each system is assigned one framework based on its refrigerant type — no blending or averaging"
+faqs:
+  - q: "What is the difference between Section 608 and Subpart C?"
+    a: "Section 608 governs ODS refrigerants (like R-22) in systems with 50+ lbs of charge. Subpart C governs HFC refrigerants with GWP > 53 (like R-410A, R-454B) in systems with 15+ lbs of charge. Subpart C has a tighter comfort cooling threshold (10% vs 15%) and shorter follow-up verification window (10 days vs 30 days)."
+  - q: "What is the Subpart C leak rate threshold for comfort cooling?"
+    a: "10% annualized leak rate for comfort cooling systems with 15 or more pounds of HFC refrigerant with GWP greater than 53. This is stricter than the 15% threshold under Section 608."
+  - q: "When did Subpart C take effect?"
+    a: "Subpart C of the AIM Act (40 CFR Part 84) took effect on January 1, 2026. It applies to HFC refrigerants with GWP greater than 53 in systems with 15 or more pounds of charge."
+  - q: "Does Subpart C apply to R-410A systems?"
+    a: "Yes. R-410A has a GWP of 2,088 which exceeds the 53 GWP threshold. Any R-410A system with 15 or more pounds of charge is subject to Subpart C leak repair requirements."
 ---
 
 ## Two Frameworks, One Technician

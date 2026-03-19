@@ -1,0 +1,333 @@
+# FieldPad: HVAC Service Pro — Complete Reference
+
+> Offline-first iOS app for HVAC and refrigeration technicians to track EPA compliance, calculate leak rates, manage refrigerant inventory, and generate professional invoices.
+
+**Developer**: Huggler Holdings LLC
+**Contact**: fieldpad@fieldpadpro.com
+**Website**: https://fieldpadpro.com
+**App Store**: https://apps.apple.com/us/app/fieldpad-hvac-service-pro/id6758357329
+**Platform**: iOS 17+ (iPhone and iPad). Android coming soon.
+
+---
+
+## Product Overview
+
+FieldPad is a mobile application designed for solo HVAC technicians and small refrigeration service companies. It provides offline-first EPA Section 608 and AIM Act Subpart C compliance tracking, leak rate calculations, A2L refrigerant safety checklists, refrigerant cylinder inventory management with OCR scanning, and professional invoicing with digital signatures.
+
+All data is stored locally on the user's device using SwiftData/SQLite and syncs via the user's private iCloud container. Huggler Holdings LLC does not operate any servers and does not collect, store, or transmit user data. The only third-party services used are RevenueCat (anonymous subscription management), Apple MapKit (address autocomplete), and Apple iCloud (data sync).
+
+### Pricing
+
+- **Free Tier**: 5 clients, 10 jobs, 10 invoices, 5 estimates, 20 compliance logs, 10 cylinders, 15 OCR scans, 8 PDF generations. All core features included.
+- **FieldPad Pro** (subscription): Unlimited clients, jobs, invoices, estimates, compliance logs, cylinders, OCR scans, and PDF generation. Adds data export (JSON/CSV), compliance log export, recurring jobs, business logo on invoices, and full digital signatures.
+
+No credit card required for the free tier. All existing data remains accessible if a user downgrades from Pro.
+
+---
+
+## Key Features
+
+### EPA Section 608 Compliance Logging
+Track ozone-depleting substance (ODS) refrigerant service events for systems with 50 or more pounds of charge. Log recovery, recharge, leak test, and repair events. Automatic regulatory framework detection based on refrigerant type.
+
+### AIM Act Subpart C Compliance Tracking
+Track HFC refrigerant service events for systems with 15 or more pounds of charge where the refrigerant has a Global Warming Potential (GWP) greater than 53. Effective January 1, 2026. Includes refrigerated transport as a new regulated category.
+
+### Leak Rate Calculations
+Automatic annualized (Method 1) and screening (Method 2) leak rate calculations:
+- **Method 1 (Annualized)**: (Refrigerant Added / Full Charge) x (365 / Days Since Last Charge) x 100
+- **Method 2 (Screening)**: (Refrigerant Added / Full Charge) x 100
+
+Results are compared against applicable thresholds with instant pass/fail indicators. Method 1 is the EPA standard for regulatory threshold determinations.
+
+### A2L Refrigerant Safety Checklists
+Six mandatory safety checks for mildly flammable A2L refrigerants (R-454B, R-32, R-452B):
+1. Dissipation risk assessment
+2. Spark-free tools verification
+3. Adequate ventilation confirmation
+4. Proper PPE verification
+5. A2L-rated leak detector
+6. Equipment grounding
+
+All checks are logged digitally with timestamps for compliance audit documentation.
+
+### 5,000 Rule Calculator
+Calculate whether to repair or replace refrigeration equipment using the EPA's 5,000 Rule: if (refrigerant cost per pound x full charge in pounds) exceeds $5,000, replacement may be more economical than continued repair.
+
+### OCR Cylinder Scanning
+On-device Vision OCR reads refrigerant cylinder labels — serial number, refrigerant type, and weight — using the device camera. No images are stored or transmitted. Processing happens entirely on-device.
+
+### Professional Invoicing
+Generate professional PDF invoices with:
+- Digital signatures (customer and technician)
+- Split labor/material tax rates
+- Partial payment tracking
+- Refrigerant line items tracking type and pounds used per job
+- Business logo (Pro feature)
+- Unique invoice numbering
+
+### Offline-First Architecture
+Every feature works without internet connectivity. Data is stored locally on the device and syncs automatically via iCloud when connectivity is available. No account creation required. No servers to depend on.
+
+### Glove Mode
+Enlarges all touch targets to a minimum of 48 points, making the app usable while wearing protective work gloves. Buttons, text fields, and all interactive elements are sized for reliable input with work gloves.
+
+### Chronic Leaker Detection
+Monitors cumulative refrigerant additions per equipment per calendar year. Alerts when additions approach or exceed 125% of full charge (chronic leaker threshold under Subpart C). Tracks the March 1 EPA reporting deadline. Auto-generates chronic leaker reports with all required data.
+
+### Refrigerant Cylinder Inventory Management
+Track cylinder serial numbers, refrigerant types, weights (full, tare, current), and chain-of-custody. Support for cylinder exchanges between supplier and field stock. Low inventory alerts.
+
+### Additional Features
+- Client management with address autocomplete (Apple MapKit)
+- Job scheduling with recurring job support
+- Service estimates with line items
+- Equipment profiles with regulatory framework detection
+- Inspection schedule tracking (quarterly/annual)
+- Repair extension tracking for EPA repair deadlines
+- Retrofit/retirement plan tracking
+- Technician certification profiles (EPA Type I, II, III, Universal)
+- Data import/export (JSON format)
+- Automatic backup with rotation
+- Haptic feedback for field use
+- iCloud sync across devices
+
+---
+
+## Regulatory Reference
+
+### EPA Section 608 (ODS Refrigerants)
+
+Section 608 of the Clean Air Act governs the handling, recovery, and disposal of ozone-depleting substance (ODS) refrigerants in stationary HVAC and refrigeration equipment.
+
+**Applicability**: Systems with 50 or more pounds of ODS refrigerant (e.g., R-22, R-12, R-502).
+
+**Leak Rate Thresholds**:
+
+| Appliance Type | Leak Rate Threshold |
+|---|---|
+| Commercial Refrigeration | 20% |
+| Comfort Cooling (AC, heat pumps) | 15% |
+| Industrial Process | 30% |
+
+**Key Requirements**:
+- Repair leaks within 30 days of detection (120 days for industrial process)
+- Perform initial verification test at repair completion
+- Perform follow-up verification test within 30 days
+- Maintain records for minimum 3 years
+- Technician must hold valid EPA Section 608 certification
+- Recover refrigerant to EPA vacuum levels before opening systems
+- Fines up to $44,539 per day per violation
+
+**Certification Types**:
+- Type I: Small appliances (<5 lbs)
+- Type II: High-pressure equipment (5+ lbs)
+- Type III: Low-pressure equipment
+- Universal: All types (recommended for solo technicians)
+
+### AIM Act Subpart C (HFC Refrigerants)
+
+Subpart C of the AIM Act (40 CFR Part 84) establishes leak repair requirements for hydrofluorocarbon (HFC) refrigerants. Effective January 1, 2026.
+
+**Applicability**: Systems with 15 or more pounds of HFC refrigerant with GWP greater than 53 (e.g., R-410A, R-407C, R-134a, R-404A, R-32, R-454B). Refrigerants with GWP of 53 or below (R-290, R-744, R-717) are exempt.
+
+**Leak Rate Thresholds**:
+
+| Appliance Type | Leak Rate Threshold |
+|---|---|
+| Commercial Refrigeration | 20% |
+| Comfort Cooling (AC, heat pumps) | 10% |
+| Industrial Process | 30% |
+| Refrigerated Transport | 10% |
+
+**Key Differences from Section 608**:
+- Lower charge threshold: 15 lbs (vs 50 lbs for Section 608)
+- Stricter comfort cooling threshold: 10% (vs 15% for Section 608)
+- New refrigerated transport category: 10% threshold
+- Shorter follow-up verification window: 10 days (vs 30 days for Section 608)
+- Chronic leaker tracking: 125% annual threshold with March 1 reporting deadline
+
+### Side-by-Side Comparison
+
+| Requirement | Section 608 | Subpart C |
+|---|---|---|
+| Refrigerant type | ODS (R-22, etc.) | HFC with GWP > 53 |
+| Charge threshold | 50 lbs | 15 lbs |
+| Commercial refrigeration | 20% | 20% |
+| Comfort cooling | 15% | 10% |
+| Industrial process | 30% | 30% |
+| Refrigerated transport | N/A | 10% |
+| Repair deadline | 30 days (120 industrial) | 30 days (120 industrial) |
+| Follow-up verification | 30 days | 10 days |
+| Chronic leaker threshold | N/A | 125% annual |
+| Record retention | 3 years | 3 years |
+
+### Chronic Leaker Reporting
+
+Equipment is classified as a chronic leaker when calendar-year refrigerant additions exceed 125% of full charge. This is a Subpart C requirement.
+
+- **Formula**: (Cumulative Additions in Calendar Year / Full Charge) x 100
+- **Threshold**: Greater than 125%
+- **Reporting Deadline**: March 1 of the year following the exceedance
+- **Report Contents**: Equipment ID, refrigerant type, full charge, all addition dates/amounts, leak rate history, repair actions, verification results
+- **Penalties**: Up to $44,539 per day per violation; certification suspension possible
+
+### Supported Refrigerants
+
+| Refrigerant | GWP | Category | Regulatory Framework | A2L |
+|---|---|---|---|---|
+| R-22 | 1,810 | ODS Legacy | Section 608 | No |
+| R-410A | 2,088 | HFC | Subpart C | No |
+| R-407C | 1,774 | HFC | Subpart C | No |
+| R-134a | 1,430 | HFC | Subpart C | No |
+| R-404A | 3,922 | HFC | Subpart C | No |
+| R-32 | 675 | A2L | Subpart C | Yes |
+| R-454B | 466 | A2L | Subpart C | Yes |
+| R-452B | 701 | A2L | Subpart C | Yes |
+| R-466A | 732 | A2L | Subpart C | Yes |
+| R-290 (Propane) | 3 | Natural | Exempt (GWP <= 53) | No |
+| R-744 (CO2) | 1 | Natural | Exempt (GWP <= 53) | No |
+| R-717 (Ammonia) | 0 | Natural | Exempt (GWP <= 53) | No |
+
+FieldPad automatically detects the applicable regulatory framework based on the refrigerant's GWP value.
+
+---
+
+## Frequently Asked Questions
+
+### What is FieldPad?
+FieldPad is an offline-first iOS app for HVAC and refrigeration technicians that tracks EPA Section 608 and AIM Act Subpart C compliance, calculates leak rates, manages A2L safety checklists, handles refrigerant cylinder inventory with OCR scanning, and generates professional invoices with digital signatures — all without requiring an internet connection.
+
+### Does FieldPad work offline?
+Yes. FieldPad is built offline-first. All core features — job management, compliance logging, leak rate calculations, invoicing, OCR scanning, and PDF generation — work without an internet connection. Data syncs automatically via iCloud when connectivity is available.
+
+### What EPA regulations does FieldPad support?
+FieldPad supports EPA Section 608 (ODS refrigerants, 50+ lb systems) and AIM Act Subpart C (HFC refrigerants with GWP > 53, 15+ lb systems effective January 1, 2026). It tracks leak rate thresholds, repair deadlines, verification tests, chronic leaker reporting, and inspection schedules for both regulatory frameworks.
+
+### How does FieldPad calculate leak rates?
+FieldPad calculates leak rates using two EPA-standard methods: Method 1 (Annualized) = (refrigerant added / full charge) x (365 / days since last charge) x 100, and Method 2 (Screening) = (refrigerant added / full charge) x 100. It compares results against applicable thresholds: Commercial 20%, Comfort Cooling 15% (Section 608) or 10% (Subpart C), Industrial 30%, and Transport 10% (Subpart C only).
+
+### Is FieldPad free?
+FieldPad offers a free tier with limits (5 clients, 10 jobs, 10 invoices, 20 compliance logs). FieldPad Pro removes all limits and unlocks features like data export, recurring jobs, business logo on invoices, and unlimited OCR scanning. All existing data remains accessible if you downgrade.
+
+### What is Glove Mode?
+Glove Mode enlarges all touch targets to a minimum of 48 points, making it easy to use FieldPad while wearing protective gloves in the field. Buttons, text fields, and interactive elements are all sized for reliable input with work gloves.
+
+### What are A2L refrigerants and how does FieldPad handle them?
+A2L refrigerants (R-454B, R-32, R-452B) are mildly flammable alternatives to high-GWP HFCs like R-410A. FieldPad includes a mandatory 6-step safety checklist for A2L service: dissipation risk assessment, spark-free tools, ventilation, PPE, A2L-rated leak detector, and grounding. All checks are logged with timestamps.
+
+### What is a chronic leaker?
+Under Subpart C, equipment is classified as a chronic leaker when calendar-year refrigerant additions exceed 125% of the equipment's full charge. Chronic leakers must be reported to the EPA by March 1 of the following year. FieldPad automatically tracks cumulative additions and alerts technicians when approaching or exceeding the threshold.
+
+### How does FieldPad protect my data?
+All data is stored locally on your device and in your private iCloud container. Huggler Holdings LLC does not operate any servers and has no access to your data. No analytics, tracking, or advertising. The only third-party services are RevenueCat (anonymous subscription management), Apple MapKit (address autocomplete), and Apple iCloud (data sync).
+
+### What is the 5,000 Rule?
+The 5,000 Rule is an industry guideline: if (refrigerant cost per pound x full charge in pounds) exceeds $5,000, replacement may be more economical than continued repair. FieldPad includes a built-in calculator for this determination.
+
+### What devices does FieldPad support?
+FieldPad runs on iPhone and iPad with iOS 17 or later. Data syncs between devices via iCloud. Android support is planned.
+
+---
+
+## Article Library
+
+FieldPad publishes expert guides on EPA compliance, A2L safety, and HVAC business operations at https://fieldpadpro.com/articles/
+
+### Compliance Articles
+
+1. **[The Solo Tech's Complete Guide to EPA Section 608 Compliance in 2026](https://fieldpadpro.com/articles/epa-section-608-compliance-guide-2026/)** — Comprehensive guide covering leak rate thresholds, repair deadlines, record-keeping, and certification requirements for ODS refrigerants under Section 608.
+
+2. **[Subpart C vs Section 608: Understanding the New HFC Leak Repair Thresholds](https://fieldpadpro.com/articles/subpart-c-vs-section-608-thresholds/)** — Side-by-side comparison of the two regulatory frameworks, including the tighter comfort cooling threshold (10% vs 15%), lower charge minimum (15 lbs vs 50 lbs), and shorter follow-up verification window (10 days vs 30 days).
+
+3. **[Leak Rate Calculations Demystified: Method 1 vs Method 2](https://fieldpadpro.com/articles/leak-rate-calculations-method-1-vs-method-2/)** — Step-by-step guide to both EPA leak rate calculation methods with worked examples, common pitfalls, and guidance on when each method applies.
+
+4. **[A Complete Guide to EPA Chronic Leaker Reporting Requirements](https://fieldpadpro.com/articles/chronic-leaker-reporting-requirements/)** — The 125% threshold, March 1 deadline, required report contents, supporting documentation, and consequences of non-compliance.
+
+5. **[The 5,000 Rule Explained: When to Repair vs Replace Refrigeration Equipment](https://fieldpadpro.com/articles/5000-rule-repair-vs-replace/)** — Practical guide to the industry guideline for repair vs replacement decisions with calculation examples.
+
+6. **[EPA Record-Keeping Requirements: What Solo Techs Must Document and Retain](https://fieldpadpro.com/articles/epa-record-keeping-requirements-solo-techs/)** — Required documentation, 3-year retention periods, and audit preparation guidance.
+
+7. **[Understanding Full Charge Determination Methods for EPA Compliance](https://fieldpadpro.com/articles/full-charge-determination-methods/)** — Methods for accurately determining full refrigerant charge: nameplate, manufacturer specs, field measurements, and component volume calculations.
+
+8. **[Verification Test Requirements: Initial and Follow-Up Leak Testing](https://fieldpadpro.com/articles/verification-test-requirements-leak-testing/)** — EPA requirements for verification tests after leak repairs, including timing differences between Section 608 (30-day follow-up) and Subpart C (10-day follow-up).
+
+9. **[Preparing for an EPA Audit: Documentation Every Solo Tech Needs Ready](https://fieldpadpro.com/articles/preparing-for-epa-audit-documentation/)** — Practical checklist for EPA audit preparation including required documentation and common audit findings.
+
+### Safety Articles
+
+10. **[A2L Refrigerant Safety: 6 Mandatory Steps](https://fieldpadpro.com/articles/a2l-refrigerant-safety-mandatory-steps/)** — The six mandatory safety checks for servicing A2L systems: dissipation risk, spark-free tools, ventilation, PPE, leak detection, grounding.
+
+11. **[R-454B and R-32: What Every HVAC Tech Needs to Know](https://fieldpadpro.com/articles/r-454b-r-32-what-hvac-techs-need-to-know/)** — Properties, safety classifications, handling requirements, and differences from R-410A for the two most common A2L refrigerants.
+
+12. **[PPE Requirements for Handling Modern Refrigerants](https://fieldpadpro.com/articles/ppe-requirements-modern-refrigerants/)** — Personal protective equipment requirements for ODS, HFC, and A2L refrigerants including A2L-specific anti-static and ventilation requirements.
+
+13. **[Emergency Response Procedures for Refrigerant Leaks](https://fieldpadpro.com/articles/emergency-response-refrigerant-leaks/)** — Emergency protocols for refrigerant leaks including evacuation criteria, ventilation procedures, and incident documentation.
+
+14. **[Safe Recovery Procedures: Best Practices for ODS and HFC Refrigerants](https://fieldpadpro.com/articles/safe-recovery-procedures-ods-hfc/)** — Step-by-step recovery procedures, equipment requirements, and contamination prevention.
+
+15. **[Refrigerant Cylinder Handling and Storage Safety Guidelines](https://fieldpadpro.com/articles/refrigerant-cylinder-handling-storage/)** — Transport, storage, weight monitoring, labeling, and inventory management safety guidelines.
+
+### Business Articles
+
+16. **[Creating Professional HVAC Service Invoices That Get Paid Faster](https://fieldpadpro.com/articles/professional-hvac-invoices-get-paid-faster/)** — Invoice best practices: itemized billing, split tax rates, payment terms, digital signatures, and professional presentation.
+
+17. **[Building a Repeat Client Base as a Solo HVAC Technician](https://fieldpadpro.com/articles/building-repeat-client-base-hvac/)** — Client retention strategies including proactive maintenance reminders, professional communication, and accurate record-keeping.
+
+18. **[Setting Competitive Service Rates as an Independent HVAC Technician](https://fieldpadpro.com/articles/setting-competitive-service-rates-hvac/)** — Rate calculation guidance: $75-$150/hr labor, $75-$125 diagnostic fees, 25-50% material markup.
+
+19. **[Time Management for Solo HVAC Technicians](https://fieldpadpro.com/articles/time-management-solo-hvac-technician/)** — Strategies for balancing service calls with compliance documentation, invoicing, and business administration.
+
+20. **[Handling Client Expectations While On-Site](https://fieldpadpro.com/articles/handling-client-expectations-solo-hvac/)** — Managing client expectations during service calls: arrival windows, cost estimates, diagnosis explanations.
+
+21. **[Managing Your Refrigerant Cylinder Inventory](https://fieldpadpro.com/articles/managing-refrigerant-inventory-solo-tech/)** — Inventory management strategies: right-sizing stock, weight tracking, labeling, and digital tracking.
+
+### Tools & Technology Articles
+
+22. **[Refrigerant GWP Values: A Quick Reference](https://fieldpadpro.com/articles/refrigerant-gwp-values-quick-reference/)** — Comprehensive GWP reference table with regulatory framework classification for all common HVAC refrigerants.
+
+23. **[Going Digital: Why Solo HVAC Techs Are Switching from Paper to App-Based Record Keeping](https://fieldpadpro.com/articles/going-digital-paper-to-app-record-keeping/)** — Business case for digital record-keeping: time savings, accuracy, audit readiness, and elimination of paper vulnerabilities.
+
+24. **[Offline-First HVAC Apps: Why Connectivity Shouldn't Limit Your Compliance Tracking](https://fieldpadpro.com/articles/offline-first-hvac-apps-connectivity/)** — Why offline-first architecture matters for field service and how SwiftData + iCloud CloudKit enables automatic sync.
+
+---
+
+## Glossary
+
+- **A2L Refrigerant**: ASHRAE 34 safety classification for mildly flammable refrigerants with lower flammability limit >3.5%, heat of combustion <19,000 kJ/kg, and burning velocity <10 cm/s. Examples: R-454B, R-32, R-452B.
+- **AIM Act**: American Innovation and Manufacturing Act of 2020, authorizing EPA to phase down HFC production and consumption and establish leak repair requirements (Subpart C).
+- **Annualized Leak Rate (Method 1)**: EPA standard formula: (Refrigerant Added / Full Charge) x (365 / Days Since Last Charge) x 100. Used for regulatory threshold determinations.
+- **Chronic Leaker**: Equipment where calendar-year refrigerant additions exceed 125% of full charge. Requires EPA reporting by March 1 of the following year under Subpart C.
+- **EPA Section 608**: Section of the Clean Air Act governing handling of ozone-depleting substance (ODS) refrigerants in stationary HVAC and refrigeration equipment.
+- **Full Charge**: Total amount of refrigerant required for a system to operate at designed capacity. Determined via nameplate data, manufacturer specifications, or field measurement.
+- **GWP (Global Warming Potential)**: Measure of how much heat a greenhouse gas traps relative to CO2 over 100 years. GWP > 53 triggers Subpart C applicability. GWP <= 53 is exempt.
+- **HFC (Hydrofluorocarbon)**: Synthetic refrigerants that replaced ODS refrigerants. High GWP. Subject to AIM Act phase-down and Subpart C leak repair requirements. Examples: R-410A, R-407C, R-134a, R-404A.
+- **Leak Rate Threshold**: Maximum allowable annualized leak rate before mandatory repair is triggered. Varies by appliance type and regulatory framework.
+- **Method 1**: See Annualized Leak Rate.
+- **Method 2 (Screening)**: Simplified leak rate formula: (Refrigerant Added / Full Charge) x 100. Shows actual charge loss since last service without annualizing.
+- **ODS (Ozone-Depleting Substance)**: Refrigerants that deplete the stratospheric ozone layer. Subject to Section 608. Examples: R-22, R-12, R-502.
+- **Screening Leak Rate (Method 2)**: See Method 2.
+- **Subpart C**: 40 CFR Part 84, Subpart C. AIM Act regulation establishing HFC leak repair requirements for systems with 15+ lbs of refrigerant with GWP > 53. Effective January 1, 2026.
+- **Verification Test**: Leak test performed after repair to confirm the leak has been fixed. Initial test at repair completion; follow-up test within 30 days (Section 608) or 10 days (Subpart C).
+- **5,000 Rule**: Industry guideline: if (refrigerant cost per pound x full charge) > $5,000, replacement may be more economical than repair.
+
+---
+
+## Privacy & Data Practices
+
+- All data stored locally on device (SwiftData/SQLite) and in user's private iCloud container
+- No server-side storage — Huggler Holdings LLC does not operate any servers
+- No analytics, tracking, or advertising
+- Only third-party services: RevenueCat (anonymous subscription management), Apple MapKit (address autocomplete), Apple iCloud (data sync)
+- [Privacy Policy](https://fieldpadpro.com/privacy-policy/)
+- [Terms of Use](https://fieldpadpro.com/terms-of-use/)
+
+## Contact & Support
+
+- **Email**: fieldpad@fieldpadpro.com
+- **Support Page**: https://fieldpadpro.com/support/
+- **App Store**: https://apps.apple.com/us/app/fieldpad-hvac-service-pro/id6758357329
+
+## Disclaimer
+
+FieldPad is a record-keeping and calculation tool. It is not a substitute for professional legal, regulatory, or compliance advice. Users are solely responsible for the accuracy of data entered and for meeting EPA compliance obligations.

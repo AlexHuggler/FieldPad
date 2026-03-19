@@ -2,6 +2,15 @@
 
 > Offline-first iOS app for HVAC and refrigeration technicians to track EPA compliance, calculate leak rates, manage refrigerant inventory, and generate professional invoices.
 
+## Links
+
+- [Full Documentation](https://fieldpadpro.com/llms-full.txt)
+- [Website](https://fieldpadpro.com)
+- [Articles](https://fieldpadpro.com/articles/)
+- [Support & FAQ](https://fieldpadpro.com/support/)
+- [Privacy Policy](https://fieldpadpro.com/privacy-policy/)
+- [App Store](https://apps.apple.com/us/app/fieldpad-hvac-service-pro/id6758357329)
+
 ## About FieldPad
 
 FieldPad is a mobile application (iOS 17+) designed for solo HVAC technicians and small refrigeration service companies. It provides offline-first EPA Section 608 and AIM Act Subpart C compliance tracking, leak rate calculations, A2L refrigerant safety checklists, refrigerant cylinder inventory management with OCR scanning, and professional invoicing with digital signatures.
@@ -73,6 +82,23 @@ FieldPad is a mobile application (iOS 17+) designed for solo HVAC technicians an
 - [Privacy Policy](https://fieldpadpro.com/privacy-policy/)
 - [Terms of Use](https://fieldpadpro.com/terms-of-use/)
 - [Compliance Articles](https://fieldpadpro.com/articles/)
+
+## Glossary
+
+- **A2L Refrigerant**: ASHRAE 34 safety classification for mildly flammable refrigerants. Examples: R-454B, R-32, R-452B.
+- **AIM Act**: American Innovation and Manufacturing Act of 2020, authorizing EPA to phase down HFC production and establish Subpart C leak repair requirements.
+- **Annualized Leak Rate (Method 1)**: (Refrigerant Added / Full Charge) x (365 / Days Since Last Charge) x 100. EPA standard for threshold determinations.
+- **Chronic Leaker**: Equipment where calendar-year refrigerant additions exceed 125% of full charge. Report to EPA by March 1 under Subpart C.
+- **EPA Section 608**: Clean Air Act section governing ODS refrigerant handling in stationary HVAC/refrigeration equipment.
+- **Full Charge**: Total refrigerant required for a system to operate at designed capacity.
+- **GWP (Global Warming Potential)**: Heat-trapping measure relative to CO2. GWP > 53 triggers Subpart C; GWP <= 53 exempt.
+- **HFC (Hydrofluorocarbon)**: Synthetic refrigerants replacing ODS. High GWP. Subject to AIM Act phase-down. Examples: R-410A, R-407C, R-134a.
+- **Leak Rate Threshold**: Maximum allowable annualized leak rate before mandatory repair. Varies by appliance type and regulatory framework.
+- **Method 2 (Screening)**: (Refrigerant Added / Full Charge) x 100. Shows actual charge loss without annualizing.
+- **ODS (Ozone-Depleting Substance)**: Refrigerants that deplete stratospheric ozone. Subject to Section 608. Examples: R-22, R-12.
+- **Subpart C**: 40 CFR Part 84, Subpart C. HFC leak repair requirements for systems with 15+ lbs, GWP > 53. Effective January 1, 2026.
+- **Verification Test**: Post-repair leak test. Initial at completion; follow-up within 30 days (Section 608) or 10 days (Subpart C).
+- **5,000 Rule**: If (refrigerant cost/lb x full charge) > $5,000, replacement may be more economical than repair.
 
 ## Disclaimer
 
