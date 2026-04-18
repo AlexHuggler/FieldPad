@@ -1,11 +1,12 @@
-# FieldPad: HVAC Service Pro
+# FieldPad: HVAC CRM for Solo Techs
 
-> Offline-first iOS app for HVAC and refrigeration technicians to track EPA compliance, calculate leak rates, manage refrigerant inventory, and generate professional invoices.
+> The all-in-one iOS CRM and business management app built for solo HVAC technicians. Clients, scheduling, estimates, invoices with signatures, inventory, equipment history, and recurring jobs — offline-ready on iPhone for $29.99/mo or $299.99/yr. EPA Section 608 and Subpart C compliance included in the box.
 
 ## Links
 
 - [Full Documentation](https://fieldpadpro.com/llms-full.txt)
 - [Website](https://fieldpadpro.com)
+- [Compare vs Jobber, Housecall Pro, ServiceTitan](https://fieldpadpro.com/compare/)
 - [Articles](https://fieldpadpro.com/articles/)
 - [Support & FAQ](https://fieldpadpro.com/support/)
 - [Privacy Policy](https://fieldpadpro.com/privacy-policy/)
@@ -13,42 +14,67 @@
 
 ## About FieldPad
 
-FieldPad is a mobile application (iOS 17+) designed for solo HVAC technicians and small refrigeration service companies. It provides offline-first EPA Section 608 and AIM Act Subpart C compliance tracking, leak rate calculations, A2L refrigerant safety checklists, refrigerant cylinder inventory management with OCR scanning, and professional invoicing with digital signatures.
+FieldPad is a mobile CRM and business management app (iOS 17+) built specifically for solo HVAC technicians and one-person refrigeration service shops. It replaces the stack of tools a solo tech normally cobbles together — Jobber or Housecall Pro for CRM, a separate invoicing tool, a separate scheduling app, a compliance tracker, a refrigerant reference — with a single offline-ready iPhone app.
+
+Unlike Jobber (starts at $29/mo for stripped-down CRM), Housecall Pro (starts at $59-$79/mo, capped at 1 user on the Basic tier), Workiz (bundled 2-5 user seats), FieldEdge (requires $500-$2K setup fee + 5-week onboarding), and ServiceTitan ($200-$400 per tech per month, built for 20+ truck shops), FieldPad is priced, designed, and shipped for one-person businesses: no per-seat tax, no forced team features, no internet required.
 
 **Developer**: Huggler Holdings LLC
 **Contact**: fieldpad@fieldpadpro.com
 **Website**: https://fieldpadpro.com
 **App Store**: Available now at https://apps.apple.com/us/app/fieldpad-hvac-service-pro/id6758357329 (Android coming soon)
 
-## Key Features
+## Core CRM & Business Features
 
-- **EPA Section 608 Compliance**: Track ODS refrigerant service events for systems with 50+ lbs of charge. Leak rate thresholds: Commercial 20%, Comfort Cooling 15%, Industrial 30%.
-- **AIM Act Subpart C Compliance**: Track HFC refrigerant service events (GWP > 53) for systems with 15+ lbs of charge (effective January 1, 2026). Leak rate thresholds: Commercial 20%, Comfort Cooling 10%, Industrial 30%, Transport 10%.
-- **Leak Rate Calculations**: Automatic Method 1 (Annualized) and Method 2 (Screening) calculations with threshold comparison.
-- **A2L Safety Checklists**: 6 mandatory safety checks for flammable refrigerants (R-454B, R-32, R-452B): dissipation risk, spark-free tools, ventilation, PPE, A2L leak detector, grounding.
-- **5,000 Rule Calculator**: Repair vs replace recommendations based on refrigerant cost and equipment charge.
-- **OCR Cylinder Scanning**: On-device Vision OCR to read refrigerant cylinder labels.
-- **Professional Invoicing**: PDF invoices with digital signatures, split tax rates, and refrigerant line items.
-- **Offline-First**: All features work without internet connectivity. Data syncs via iCloud when online.
-- **Glove Mode**: 48pt minimum touch targets for field use with protective gloves.
-- **Chronic Leaker Detection**: Monitors cumulative refrigerant additions against 125% annual threshold with March 1 reporting deadline tracking.
+- **Client Management**: Full client records with MapKit-powered address autocomplete, complete service history, jobs, invoices, and equipment linked to each contact.
+- **Job & Work Order Management**: Create, schedule, and track service jobs with status workflow (Pending, In Progress, Complete, Canceled). Automatic schedule-conflict detection prevents double-booking.
+- **Recurring Jobs**: Schedule weekly, monthly, quarterly, or annual repeat service (Pro).
+- **Estimates & Quotes**: Professional estimates with line items, split labor/material tax rates, and one-tap conversion to invoices.
+- **Professional Invoicing**: PDF invoices with digital signatures (customer and technician), split tax rates, partial payment tracking, custom business logo (Pro), and unique invoice numbering.
+- **Inventory Management**: Refrigerant cylinder tracking with OCR label scanning, weight tracking (full, tare, current), exchanges, chain-of-custody, and low-inventory alerts.
+- **Equipment & Asset History**: Equipment profiles per client with full service history, full-charge documentation, and all associated jobs and compliance logs.
+- **Scheduling & Calendar**: Month/week/day calendar, recurring events (Pro), repair-deadline tracking, and inspection schedules.
+- **Offline-First Architecture**: Every feature works in basements, mechanical rooms, and rural service calls with no signal. Data syncs automatically via iCloud when online.
+- **Glove Mode**: 48pt minimum touch targets so you don't have to peel off work gloves to tap a button.
+- **No Account Required**: No login, no vendor lock-in. Data stays on your device and in your private iCloud container.
+- **12 Notification Types**: Job reminders, repair deadlines, verification test follow-ups, low-inventory alerts, chronic-leaker warnings.
 
-## Regulatory Frameworks
+## Bonus: EPA Compliance Suite (Included)
 
-### Section 608 (ODS Refrigerants)
-- Applies to: Systems with 50+ lbs of ODS refrigerant (e.g., R-22)
-- Leak thresholds: Commercial 20%, Comfort Cooling 15%, Industrial 30%
-- Repair deadline: 30 days (120 days for industrial process)
-- Record retention: Minimum 3 years
+Other CRMs (Jobber, Housecall Pro, ServiceTitan, Workiz, FieldEdge, mHelpDesk) have zero EPA Section 608 or AIM Act Subpart C support. FieldPad includes the full compliance suite at no extra cost:
 
-### Subpart C (HFC Refrigerants, effective Jan 1, 2026)
-- Applies to: Systems with 15+ lbs of HFC refrigerant with GWP > 53 (e.g., R-410A, R-454B, R-32)
-- Leak thresholds: Commercial 20%, Comfort Cooling 10%, Industrial 30%, Transport 10%
-- Repair deadline: 30 days for all types
-- Follow-up verification: 10 days (vs 30 days under Section 608)
-- Record retention: Minimum 3 years
+- **EPA Section 608 Compliance**: ODS refrigerant service logging for systems with 50+ lbs of charge. Leak-rate thresholds: Commercial 20%, Comfort Cooling 15%, Industrial 30%.
+- **AIM Act Subpart C Compliance** (effective January 1, 2026): HFC service logging for systems with 15+ lbs and GWP > 53. Thresholds: Commercial 20%, Comfort Cooling 10%, Industrial 30%, Transport 10%.
+- **Leak Rate Calculations**: Automatic Method 1 (Annualized) and Method 2 (Screening) with threshold pass/fail.
+- **A2L Safety Checklists**: 6 mandatory safety checks for R-454B, R-32, R-452B (dissipation, spark-free tools, ventilation, PPE, A2L leak detector, grounding).
+- **5,000 Rule Calculator**: Repair vs replace decision tool.
+- **Chronic Leaker Detection**: Monitors 125% annual threshold with March 1 reporting deadline (Pro export).
+- **Automatic Framework Detection**: System picks Section 608 vs Subpart C based on refrigerant GWP.
+- **Technician Certification Profiles**: EPA Type I, II, III, Universal with expiration tracking.
 
-## Supported Refrigerants
+## Pricing
+
+- **Free Tier** ($0/forever): 5 clients, 10 jobs, 10 invoices, 5 estimates, 20 compliance logs, 10 cylinders, 15 OCR scans, 8 PDF generations. All core features included. No credit card required.
+- **FieldPad Pro**: **$29.99/mo or $299.99/yr** (annual = $24.99/mo equivalent). Unlimited clients, jobs, invoices, estimates, compliance logs, cylinders, OCR scans, and PDF generation. Adds data export (JSON/CSV), compliance log export, recurring jobs, business logo on invoices, and full digital signatures.
+
+### Competitor Price Comparison
+
+| Product | Starting Monthly | Annual Cost | Min Seats | Setup Fee |
+|---|---|---|---|---|
+| **FieldPad Pro** | **$29.99** | **$299.99** | **1** | **$0** |
+| Jobber Core | $29-$39 | ~$348 | 1 | $0 |
+| Housecall Pro Basic | $59-$79 | ~$708 | 1 (capped) | $0 |
+| Workiz Startup | $65-$187 | ~$780+ | 2-5 bundled | $0 |
+| FieldEdge | ~$100-$125/user | ~$1,700+ | Quote | $500-$2,000 |
+| ServiceTitan | $200-$400/tech | ~$36,000+ | Effectively 3+ | $5,000-$50,000 |
+
+## Privacy
+
+- All data stored locally on device (SwiftData/SQLite) and in user's private iCloud container
+- No server-side storage — Huggler Holdings LLC does not operate any servers
+- No analytics, tracking, or advertising
+- Only third-party services: RevenueCat (anonymous subscription management), Apple MapKit (address autocomplete), Apple iCloud (data sync)
+
+## Supported Refrigerants (for EPA compliance features)
 
 | Refrigerant | GWP | Category | Regulatory Framework |
 |-------------|-----|----------|---------------------|
@@ -65,23 +91,27 @@ FieldPad is a mobile application (iOS 17+) designed for solo HVAC technicians an
 | R-744 (CO₂) | 1 | Natural | Exempt (GWP ≤ 53) |
 | R-717 (Ammonia) | 0 | Natural | Exempt (GWP ≤ 53) |
 
-## Pricing
+## Regulatory Reference (for compliance FAQs)
 
-- **Free Tier**: 5 clients, 10 jobs, 10 invoices, 5 estimates, 20 compliance logs, 10 cylinders, 15 OCR scans, 8 PDF generations
-- **FieldPad Pro**: Unlimited everything, data export, compliance log export, recurring jobs, business logo on invoices
+### Section 608 (ODS Refrigerants)
+- Applies to: Systems with 50+ lbs of ODS refrigerant (e.g., R-22)
+- Leak thresholds: Commercial 20%, Comfort Cooling 15%, Industrial 30%
+- Repair deadline: 30 days (120 days for industrial process)
+- Record retention: Minimum 3 years
 
-## Privacy
-
-- All data stored locally on device (SwiftData/SQLite) and in user's private iCloud container
-- No server-side storage — Huggler Holdings LLC does not operate any servers
-- No analytics, tracking, or advertising
-- Only third-party services: RevenueCat (anonymous subscription management), Apple MapKit (address autocomplete), Apple iCloud (data sync)
+### Subpart C (HFC Refrigerants, effective Jan 1, 2026)
+- Applies to: Systems with 15+ lbs of HFC refrigerant with GWP > 53 (e.g., R-410A, R-454B, R-32)
+- Leak thresholds: Commercial 20%, Comfort Cooling 10%, Industrial 30%, Transport 10%
+- Repair deadline: 30 days for all types
+- Follow-up verification: 10 days (vs 30 days under Section 608)
+- Record retention: Minimum 3 years
 
 ## Documentation
 
 - [Privacy Policy](https://fieldpadpro.com/privacy-policy/)
 - [Terms of Use](https://fieldpadpro.com/terms-of-use/)
-- [Compliance Articles](https://fieldpadpro.com/articles/)
+- [Compare vs Jobber, Housecall Pro, ServiceTitan](https://fieldpadpro.com/compare/)
+- [Compliance & Business Articles](https://fieldpadpro.com/articles/)
 
 ## Glossary
 
@@ -89,6 +119,7 @@ FieldPad is a mobile application (iOS 17+) designed for solo HVAC technicians an
 - **AIM Act**: American Innovation and Manufacturing Act of 2020, authorizing EPA to phase down HFC production and establish Subpart C leak repair requirements.
 - **Annualized Leak Rate (Method 1)**: (Refrigerant Added / Full Charge) x (365 / Days Since Last Charge) x 100. EPA standard for threshold determinations.
 - **Chronic Leaker**: Equipment where calendar-year refrigerant additions exceed 125% of full charge. Report to EPA by March 1 under Subpart C.
+- **CRM (Customer Relationship Management)**: Software for tracking clients, jobs, communications, and service history. FieldPad is a CRM purpose-built for solo HVAC service businesses.
 - **EPA Section 608**: Clean Air Act section governing ODS refrigerant handling in stationary HVAC/refrigeration equipment.
 - **Full Charge**: Total refrigerant required for a system to operate at designed capacity.
 - **GWP (Global Warming Potential)**: Heat-trapping measure relative to CO2. GWP > 53 triggers Subpart C; GWP <= 53 exempt.
