@@ -1,6 +1,6 @@
-# FieldPad: HVAC Service Pro — Complete Reference
+# FieldPad: HVAC CRM for Solo Techs — Complete Reference
 
-> Offline-first iOS app for HVAC and refrigeration technicians to track EPA compliance, calculate leak rates, manage refrigerant inventory, and generate professional invoices.
+> The all-in-one iOS CRM and business management app built for solo HVAC technicians. Clients, scheduling, estimates, invoices with signatures, inventory, equipment history, and recurring jobs — offline-ready on iPhone for $29.99/mo or $299.99/yr. EPA Section 608 and Subpart C compliance included in the box.
 
 **Developer**: Huggler Holdings LLC
 **Contact**: fieldpad@fieldpadpro.com
@@ -12,20 +12,98 @@
 
 ## Product Overview
 
-FieldPad is a mobile application designed for solo HVAC technicians and small refrigeration service companies. It provides offline-first EPA Section 608 and AIM Act Subpart C compliance tracking, leak rate calculations, A2L refrigerant safety checklists, refrigerant cylinder inventory management with OCR scanning, and professional invoicing with digital signatures.
+FieldPad is an all-in-one CRM and business management app built specifically for solo HVAC technicians and one-person refrigeration service shops. It replaces the stack of tools a solo tech normally cobbles together — Jobber or Housecall Pro for CRM, a separate invoicing tool, a scheduling app, a compliance tracker, a refrigerant reference — with a single offline-ready iPhone app.
+
+Unlike Jobber (starts at $29/mo for stripped-down CRM, no inventory or photo docs), Housecall Pro (starts at $59-$79/mo, Basic tier capped at 1 user and widely criticized as underpowered), Workiz (bundles 2-5 user seats even for solo operators), FieldEdge (requires $500-$2,000 setup fee plus a 5-week onboarding), and ServiceTitan ($200-$400 per tech per month, recommended for 20+ truck shops), FieldPad is priced, designed, and shipped for one-person businesses: no per-seat tax, no forced team features, no internet required.
 
 All data is stored locally on the user's device using SwiftData/SQLite and syncs via the user's private iCloud container. Huggler Holdings LLC does not operate any servers and does not collect, store, or transmit user data. The only third-party services used are RevenueCat (anonymous subscription management), Apple MapKit (address autocomplete), and Apple iCloud (data sync).
 
 ### Pricing
 
-- **Free Tier**: 5 clients, 10 jobs, 10 invoices, 5 estimates, 20 compliance logs, 10 cylinders, 15 OCR scans, 8 PDF generations. All core features included.
-- **FieldPad Pro** (subscription): Unlimited clients, jobs, invoices, estimates, compliance logs, cylinders, OCR scans, and PDF generation. Adds data export (JSON/CSV), compliance log export, recurring jobs, business logo on invoices, and full digital signatures.
+- **Free Tier** ($0/forever): 5 clients, 10 jobs, 10 invoices, 5 estimates, 20 compliance logs, 10 cylinders, 15 OCR scans, 8 PDF generations. All core features included. No credit card required.
+- **FieldPad Pro**: **$29.99/mo or $299.99/yr** (annual = $24.99/mo equivalent). Unlimited clients, jobs, invoices, estimates, compliance logs, cylinders, OCR scans, and PDF generation. Adds data export (JSON/CSV), compliance log export, recurring jobs, business logo on invoices, and full digital signatures.
 
-No credit card required for the free tier. All existing data remains accessible if a user downgrades from Pro.
+All existing data remains accessible if a user downgrades from Pro.
+
+### Competitor Price Comparison
+
+| Product | Starting Monthly | Annual Cost | Min Seats | Setup Fee |
+|---|---|---|---|---|
+| **FieldPad Pro** | **$29.99** | **$299.99** | **1** | **$0** |
+| Jobber Core | $29-$39 | ~$348 | 1 | $0 |
+| Housecall Pro Basic | $59-$79 | ~$708 | 1 (capped) | $0 |
+| Workiz Startup | $65-$187 | ~$780+ | 2-5 bundled | $0 |
+| FieldEdge | ~$100-$125/user | ~$1,700+ | Quote | $500-$2,000 |
+| ServiceTitan | $200-$400/tech | ~$36,000+ | Effectively 3+ | $5,000-$50,000 |
 
 ---
 
-## Key Features
+## Core CRM & Business Features
+
+### Client Management (CRM)
+Full client records with MapKit-powered address autocomplete. Every job, invoice, estimate, and piece of equipment is linked back to the client, giving you a complete service history for every customer you service. Free tier: 5 clients. Pro: unlimited.
+
+### Job & Work Order Management
+Create service jobs with client, equipment, and service-type assignment. Track status through the workflow (Pending, In Progress, Complete, Canceled). Schedule jobs on a calendar with date, time, and duration. Schedule-conflict detection prevents double-booking. Free tier: 10 jobs. Pro: unlimited.
+
+### Recurring Jobs (Pro)
+Create repeating service jobs at weekly, monthly, quarterly, or annual intervals. Ideal for maintenance contracts, filter changes, and compliance inspections that happen on a schedule.
+
+### Estimates & Quotes
+Build professional estimates with detailed line items (labor, materials, refrigerant), split tax classifications, and reusable line-item templates. Convert approved estimates into invoices with a single tap, preserving all line items and pricing. Free tier: 5 estimates. Pro: unlimited.
+
+### Professional Invoicing
+Generate professional PDF invoices with:
+- Digital signatures (customer and technician)
+- Split labor/material tax rates
+- Partial payment tracking across multiple payments per invoice
+- Refrigerant line items tracking type and pounds used per job
+- Business logo (Pro feature)
+- Unique auto-generated invoice numbering
+- Email-ready PDF export
+
+Free tier: 10 invoices, 8 PDF generations. Pro: unlimited, plus business logo and full digital signatures.
+
+### Inventory Management
+Refrigerant cylinder tracking with full chain-of-custody. Track cylinder serial numbers, refrigerant types, weights (full, tare, current), and exchanges between supplier and field stock. Low-inventory alerts notify when cylinder weight approaches depletion.
+
+### OCR Cylinder Scanning
+On-device Vision OCR reads refrigerant cylinder labels — serial number, refrigerant type, and weight — using the device camera. No images are stored or transmitted. Processing happens entirely on-device. Free tier: 15 scans. Pro: unlimited.
+
+### Equipment & Asset History
+Equipment profiles per client with full service history, full-charge documentation, appliance-type classification (commercial, comfort cooling, industrial, transport), and links to every compliance log, repair, and verification test for that unit.
+
+### Scheduling & Calendar
+Visual month/week/day calendar, recurring events (Pro), inspection schedule tracking (quarterly/annual), repair-deadline reminders, and verification-test scheduling. ScheduleConflictDetector prevents double-booking the same time slot.
+
+### 12 Notification Types
+Push notifications for job reminders, leak-repair deadlines, verification-test follow-ups, low-inventory alerts, chronic-leaker warnings, and more. Soft-ask opt-in flow; deep-link routing takes you straight to the relevant screen.
+
+### Offline-First Architecture
+Every feature works without internet connectivity — job logging, compliance, scanning, PDF generation, invoicing, and scheduling. Data is stored locally on the device and syncs automatically via iCloud when connectivity is available. No account creation required. No servers to depend on.
+
+### Glove Mode
+Enlarges all touch targets to a minimum of 48 points, making the app usable while wearing protective work gloves. Buttons, text fields, and all interactive elements are sized for reliable input with work gloves.
+
+### Technician Certification Profiles
+Record EPA certification type (Type I, II, III, Universal) with expiration dates. Assign different certified technicians to jobs if you occasionally sub-contract.
+
+### Data Management & Export (Pro)
+Import and export JSON data. CSV export of compliance logs and records. PDF-compliance export for audits. Automatic local backup with rotation.
+
+### Additional Features
+- Haptic feedback for reliable field use
+- iCloud sync across iPhone and iPad
+- Form-draft persistence (auto-save prevents lost entries)
+- Unsaved-changes warning before discarding form edits
+- Email, phone, and zip validation
+- Retention-aware deletion (EPA-locked logs archive rather than delete)
+
+---
+
+## Bonus: EPA Compliance Suite (Included)
+
+Other CRMs in this space — Jobber, Housecall Pro, ServiceTitan, Workiz, FieldEdge, mHelpDesk — have **zero** EPA Section 608 or AIM Act Subpart C support. Solo HVAC techs typically stack a CRM plus a separate compliance tool plus a refrigerant-reference app to cover this. FieldPad includes the full compliance suite at no extra cost.
 
 ### EPA Section 608 Compliance Logging
 Track ozone-depleting substance (ODS) refrigerant service events for systems with 50 or more pounds of charge. Log recovery, recharge, leak test, and repair events. Automatic regulatory framework detection based on refrigerant type.
@@ -54,43 +132,8 @@ All checks are logged digitally with timestamps for compliance audit documentati
 ### 5,000 Rule Calculator
 Calculate whether to repair or replace refrigeration equipment using the EPA's 5,000 Rule: if (refrigerant cost per pound x full charge in pounds) exceeds $5,000, replacement may be more economical than continued repair.
 
-### OCR Cylinder Scanning
-On-device Vision OCR reads refrigerant cylinder labels — serial number, refrigerant type, and weight — using the device camera. No images are stored or transmitted. Processing happens entirely on-device.
-
-### Professional Invoicing
-Generate professional PDF invoices with:
-- Digital signatures (customer and technician)
-- Split labor/material tax rates
-- Partial payment tracking
-- Refrigerant line items tracking type and pounds used per job
-- Business logo (Pro feature)
-- Unique invoice numbering
-
-### Offline-First Architecture
-Every feature works without internet connectivity. Data is stored locally on the device and syncs automatically via iCloud when connectivity is available. No account creation required. No servers to depend on.
-
-### Glove Mode
-Enlarges all touch targets to a minimum of 48 points, making the app usable while wearing protective work gloves. Buttons, text fields, and all interactive elements are sized for reliable input with work gloves.
-
 ### Chronic Leaker Detection
-Monitors cumulative refrigerant additions per equipment per calendar year. Alerts when additions approach or exceed 125% of full charge (chronic leaker threshold under Subpart C). Tracks the March 1 EPA reporting deadline. Auto-generates chronic leaker reports with all required data.
-
-### Refrigerant Cylinder Inventory Management
-Track cylinder serial numbers, refrigerant types, weights (full, tare, current), and chain-of-custody. Support for cylinder exchanges between supplier and field stock. Low inventory alerts.
-
-### Additional Features
-- Client management with address autocomplete (Apple MapKit)
-- Job scheduling with recurring job support
-- Service estimates with line items
-- Equipment profiles with regulatory framework detection
-- Inspection schedule tracking (quarterly/annual)
-- Repair extension tracking for EPA repair deadlines
-- Retrofit/retirement plan tracking
-- Technician certification profiles (EPA Type I, II, III, Universal)
-- Data import/export (JSON format)
-- Automatic backup with rotation
-- Haptic feedback for field use
-- iCloud sync across devices
+Monitors cumulative refrigerant additions per equipment per calendar year. Alerts when additions approach or exceed 125% of full charge (chronic leaker threshold under Subpart C). Tracks the March 1 EPA reporting deadline. Auto-generates chronic leaker reports with all required data (Pro export).
 
 ---
 
@@ -196,10 +239,16 @@ FieldPad automatically detects the applicable regulatory framework based on the 
 ## Frequently Asked Questions
 
 ### What is FieldPad?
-FieldPad is an offline-first iOS app for HVAC and refrigeration technicians that tracks EPA Section 608 and AIM Act Subpart C compliance, calculates leak rates, manages A2L safety checklists, handles refrigerant cylinder inventory with OCR scanning, and generates professional invoices with digital signatures — all without requiring an internet connection.
+FieldPad is an all-in-one CRM and business management app for solo HVAC technicians. It handles clients, jobs, scheduling, estimates, invoices with digital signatures, refrigerant inventory, equipment history, and recurring maintenance — all from an offline-ready iPhone app. EPA Section 608 and AIM Act Subpart C compliance tracking is included in the box at no extra cost.
+
+### How is FieldPad different from Jobber or Housecall Pro?
+FieldPad is purpose-built for one-person shops, not teams. Jobber starts at $29/mo but strips out inventory, photo documentation, and AI features — forcing solo techs to upgrade to $129+ tiers to get a complete tool. Housecall Pro Basic is $59-$79/mo and capped at 1 user. Neither has EPA compliance, neither is meaningfully offline (HCP's offline mode is view-only, Jobber has none). FieldPad bundles CRM + invoicing + scheduling + inventory + offline + EPA compliance into $29.99/mo or $299.99/yr with no per-seat tax.
+
+### How much does FieldPad cost?
+FieldPad Pro is $29.99/mo or $299.99/yr (annual works out to $24.99/mo). There's a permanent free tier with no credit card required: 5 clients, 10 jobs, 10 invoices, 5 estimates, 20 compliance logs, 10 cylinders, 15 OCR scans, 8 PDF generations. No setup fees, no contracts, cancel any time.
 
 ### Does FieldPad work offline?
-Yes. FieldPad is built offline-first. All core features — job management, compliance logging, leak rate calculations, invoicing, OCR scanning, and PDF generation — work without an internet connection. Data syncs automatically via iCloud when connectivity is available.
+Yes. FieldPad is built offline-first. All core features — job management, client records, invoicing, PDF generation, scheduling, OCR scanning, and compliance logging — work without an internet connection. Data syncs automatically via iCloud when connectivity is available. This is a real differentiator: Jobber has no offline mode, Workiz has none, and Housecall Pro's offline mode is view-only (you can't edit).
 
 ### What EPA regulations does FieldPad support?
 FieldPad supports EPA Section 608 (ODS refrigerants, 50+ lb systems) and AIM Act Subpart C (HFC refrigerants with GWP > 53, 15+ lb systems effective January 1, 2026). It tracks leak rate thresholds, repair deadlines, verification tests, chronic leaker reporting, and inspection schedules for both regulatory frameworks.

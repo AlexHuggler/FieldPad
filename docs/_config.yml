@@ -1,8 +1,8 @@
 # FieldPad: HVAC Service Pro - Website Configuration
 # GitHub Pages Jekyll Configuration
 
-title: "FieldPad: HVAC Service Pro"
-description: "Offline-first EPA compliance tracking app for HVAC and refrigeration technicians. Section 608 & Subpart C leak rate calculations, A2L safety checklists, digital invoicing, and refrigerant cylinder management — all from your iPhone or iPad."
+title: "FieldPad: HVAC CRM for Solo Techs"
+description: "The all-in-one HVAC CRM and business management app built for solo technicians. Clients, scheduling, estimates, invoices with signatures, inventory, and equipment history — on your iPhone, offline-ready, at a fraction of Jobber and Housecall Pro. EPA Section 608 and Subpart C compliance included."
 url: "https://fieldpadpro.com"
 baseurl: ""
 lang: "en-US"
