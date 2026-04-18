@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Offline-First EPA Compliance Tracking for HVAC Professionals"
-description: "FieldPad helps solo HVAC technicians track EPA Section 608 and Subpart C compliance, calculate leak rates, manage A2L safety checklists, and generate professional invoices — all offline from the field."
+title: "HVAC CRM & All-in-One Business App for Solo Techs"
+description: "Run your entire one-person HVAC shop from your iPhone — clients, scheduling, estimates, invoices with signatures, inventory, equipment history, and recurring jobs. Offline-ready. $29.99/mo or $299.99/yr, a fraction of Jobber and Housecall Pro. EPA Section 608 and Subpart C compliance included."
 ---
 
 <!-- Schema.org SoftwareApplication Structured Data -->
@@ -9,34 +9,58 @@ description: "FieldPad helps solo HVAC technicians track EPA Section 608 and Sub
 {
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
-  "name": "FieldPad: HVAC Service Pro",
+  "name": "FieldPad: HVAC CRM for Solo Techs",
   "operatingSystem": "iOS 17+",
   "applicationCategory": "BusinessApplication",
-  "description": "Offline-first EPA compliance tracking app for HVAC and refrigeration technicians. Section 608 & Subpart C leak rate calculations, A2L safety checklists, digital invoicing, and refrigerant cylinder management.",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "USD",
-    "description": "Free tier available with optional FieldPad Pro subscription for unlimited records and advanced features"
-  },
+  "description": "All-in-one iOS CRM and business management app for solo HVAC technicians. Clients, scheduling, estimates, invoices with signatures, inventory, equipment history, and recurring jobs — offline-ready. $29.99/mo or $299.99/yr. EPA Section 608 and Subpart C compliance included.",
+  "offers": [
+    {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD",
+      "description": "Free tier: 5 clients, 10 jobs, 10 invoices, 5 estimates, 20 compliance logs, 10 cylinders, 15 OCR scans, 8 PDF generations. No credit card required."
+    },
+    {
+      "@type": "Offer",
+      "price": "29.99",
+      "priceCurrency": "USD",
+      "description": "FieldPad Pro monthly: unlimited clients, jobs, invoices, estimates, compliance logs, cylinders, OCR scans, and PDF generation. Plus recurring jobs, business logo on invoices, full digital signatures, and data export."
+    },
+    {
+      "@type": "Offer",
+      "price": "299.99",
+      "priceCurrency": "USD",
+      "description": "FieldPad Pro annual: same as monthly, billed yearly (saves ~$60/yr vs monthly)."
+    }
+  ],
   "author": {
     "@type": "Organization",
     "name": "Huggler Holdings LLC",
     "url": "https://fieldpadpro.com"
   },
   "featureList": [
-    "EPA Section 608 compliance logging",
-    "AIM Act Subpart C HFC tracking",
-    "Leak rate calculations (Method 1 & 2)",
-    "A2L refrigerant safety checklists",
-    "5,000 Rule repair vs replace calculator",
+    "Client and contact management (CRM)",
+    "Job and work order management",
+    "Scheduling with conflict detection",
+    "Recurring jobs (Pro)",
+    "Professional estimates with line items",
+    "PDF invoices with digital signatures",
+    "Split labor/material tax rates",
+    "Partial payment tracking",
+    "Refrigerant cylinder inventory",
     "OCR cylinder label scanning",
-    "Professional invoicing with digital signatures",
+    "Equipment and asset history",
+    "Calendar and inspection scheduling",
     "Offline-first architecture",
     "Glove Mode enlarged touch targets",
     "iCloud sync and backup",
-    "Chronic leaker detection and reporting",
-    "Refrigerant cylinder inventory management"
+    "No account required, data stays on device",
+    "EPA Section 608 compliance logging (included)",
+    "AIM Act Subpart C HFC tracking (included)",
+    "Leak rate calculations Method 1 & 2 (included)",
+    "A2L refrigerant safety checklists (included)",
+    "5,000 Rule repair vs replace calculator (included)",
+    "Chronic leaker detection and reporting (included)"
   ]
 }
 </script>
@@ -52,7 +76,23 @@ description: "FieldPad helps solo HVAC technicians track EPA Section 608 and Sub
       "name": "What is FieldPad?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "FieldPad is an offline-first iOS app for HVAC and refrigeration technicians that tracks EPA Section 608 and AIM Act Subpart C compliance, calculates leak rates, manages A2L safety checklists, handles refrigerant cylinder inventory with OCR scanning, and generates professional invoices with digital signatures — all without requiring an internet connection."
+        "text": "FieldPad is an all-in-one CRM and business management app built for solo HVAC technicians. It handles clients, jobs, scheduling, estimates, invoices with digital signatures, refrigerant inventory, equipment history, and recurring maintenance — all from an offline-ready iPhone app. EPA Section 608 and AIM Act Subpart C compliance tracking is included in the box at no extra cost."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is FieldPad different from Jobber or Housecall Pro?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "FieldPad is purpose-built for one-person shops, not teams. Jobber starts at $29/mo but strips out inventory, photo documentation, and AI — forcing solo techs to upgrade to $129+ tiers for a complete tool. Housecall Pro Basic is $59-$79/mo and capped at 1 user. Neither has EPA compliance, and neither is meaningfully offline (Housecall Pro offline is view-only, Jobber has none). FieldPad bundles CRM, invoicing, scheduling, inventory, offline mode, and EPA compliance into $29.99/mo or $299.99/yr with no per-seat tax."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does FieldPad cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "FieldPad Pro is $29.99/mo or $299.99/yr (annual works out to $24.99/mo). There's a permanent free tier with no credit card required: 5 clients, 10 jobs, 10 invoices, 5 estimates, 20 compliance logs, 10 cylinders, 15 OCR scans, 8 PDF generations. No setup fees, no contracts, cancel any time."
       }
     },
     {
@@ -60,31 +100,15 @@ description: "FieldPad helps solo HVAC technicians track EPA Section 608 and Sub
       "name": "Does FieldPad work offline?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. FieldPad is built offline-first. All core features — job management, compliance logging, leak rate calculations, invoicing, OCR scanning, and PDF generation — work without an internet connection. Data syncs automatically via iCloud when connectivity is available."
+        "text": "Yes. Every feature works without internet — client records, job management, scheduling, invoicing, PDF generation, OCR scanning, and compliance logging. Data syncs automatically via iCloud when connectivity returns. Jobber has no offline mode, Workiz has none, and Housecall Pro's offline mode is view-only (you can't edit records)."
       }
     },
     {
       "@type": "Question",
-      "name": "What EPA regulations does FieldPad support?",
+      "name": "Is EPA compliance really included at no extra cost?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "FieldPad supports EPA Section 608 (ODS refrigerants, 50+ lb systems) and AIM Act Subpart C (HFC refrigerants with GWP > 53, 15+ lb systems effective January 1, 2026). It tracks leak rate thresholds, repair deadlines, verification tests, chronic leaker reporting, and inspection schedules for both regulatory frameworks."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does FieldPad calculate leak rates?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "FieldPad calculates leak rates using two EPA-standard methods: Method 1 (Annualized) = (refrigerant added / full charge) × (365 / days since last charge) × 100, and Method 2 (Screening) = (refrigerant added / full charge) × 100. It compares results against applicable thresholds: Commercial 20%, Comfort Cooling 15% (Section 608) or 10% (Subpart C), Industrial 30%, and Transport 10% (Subpart C only)."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is FieldPad free?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "FieldPad offers a free tier with limits (5 clients, 10 jobs, 10 invoices, 20 compliance logs). FieldPad Pro removes all limits and unlocks features like data export, recurring jobs, business logo on invoices, and unlimited OCR scanning. All existing data remains accessible if you downgrade."
+        "text": "Yes. FieldPad includes full EPA Section 608 and AIM Act Subpart C compliance tracking — leak rate calculations (Method 1 and 2), repair deadline tracking, verification tests, A2L safety checklists, chronic leaker reporting, and the 5,000 Rule calculator — all at the same $29.99/mo or $299.99/yr price. Jobber, Housecall Pro, ServiceTitan, Workiz, FieldEdge, and mHelpDesk have zero EPA compliance features, so solo techs using them need a separate compliance tool on top."
       }
     },
     {
@@ -92,7 +116,7 @@ description: "FieldPad helps solo HVAC technicians track EPA Section 608 and Sub
       "name": "What is Glove Mode in FieldPad?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Glove Mode enlarges all touch targets to a minimum of 48 points, making it easy to use FieldPad while wearing protective gloves in the field. Buttons, text fields, and interactive elements are all sized for reliable input with work gloves."
+        "text": "Glove Mode enlarges every touch target to a minimum of 48 points so you don't have to peel off work gloves to tap a button. Buttons, text fields, and interactive elements are all sized for reliable input with work gloves. Available on both free and Pro tiers."
       }
     }
   ]
@@ -148,32 +172,32 @@ description: "FieldPad helps solo HVAC technicians track EPA Section 608 and Sub
       <div class="fade-in-up">
         <!-- App Icon + Badge -->
         <div class="flex items-center gap-4 mb-8">
-          <img src="{{ '/assets/images/app-icon-128.png' | relative_url }}" alt="FieldPad: HVAC Service Pro" class="w-16 h-16 rounded-2xl drop-shadow-lg">
+          <img src="{{ '/assets/images/app-icon-128.png' | relative_url }}" alt="FieldPad: HVAC CRM for Solo Techs" class="w-16 h-16 rounded-2xl drop-shadow-lg">
           <div>
             <span class="inline-block px-3 py-1 bg-gradient-to-r from-fieldpad-100 to-accent-100 text-fieldpad-700 rounded-full text-sm font-semibold">
-              iOS App for HVAC Professionals
+              Built for the One-Truck HVAC Shop
             </span>
           </div>
         </div>
 
         <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-fieldpad-900 leading-tight mb-6">
-          Offline-First<br>
-          <span class="gradient-text">EPA Compliance</span><br>
-          for the Field
+          Run Your Entire<br>
+          <span class="gradient-text">HVAC Business</span><br>
+          From Your Truck
         </h1>
         <p class="text-lg text-gray-600 mb-8 max-w-lg leading-relaxed">
-          Track Section 608 &amp; Subpart C compliance, calculate leak rates, complete A2L safety checklists, and manage your HVAC business — all from your iPhone, with or without a signal.
+          The all-in-one CRM built for solo techs. Clients, scheduling, estimates, invoices with signatures, inventory, and equipment history on your iPhone — offline-ready. <span class="font-semibold text-fieldpad-900">$29.99/mo or $299.99/yr.</span> A fraction of Jobber and Housecall Pro. <span class="text-fieldpad-700 font-semibold">EPA compliance included.</span>
         </p>
         <div class="flex flex-col sm:flex-row gap-4">
           <a href="https://apps.apple.com/us/app/fieldpad-hvac-service-pro/id6758357329" class="inline-flex items-center justify-center gap-2 bg-fieldpad-700 hover:bg-fieldpad-800 text-white px-6 py-3.5 rounded-xl font-semibold transition-colors text-center">
             <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
-            Download Free on iOS
+            Download Free
           </a>
-          <a href="#features" class="inline-flex items-center justify-center gap-2 bg-white border-2 border-fieldpad-200 hover:border-fieldpad-400 text-fieldpad-800 px-6 py-3.5 rounded-xl font-semibold transition-colors text-center">
-            See Features
+          <a href="{{ '/compare/' | relative_url }}" class="inline-flex items-center justify-center gap-2 bg-white border-2 border-fieldpad-200 hover:border-fieldpad-400 text-fieldpad-800 px-6 py-3.5 rounded-xl font-semibold transition-colors text-center">
+            Compare vs Jobber &amp; HCP
           </a>
         </div>
-        <p class="text-sm text-gray-400 mt-4">Free tier available. No credit card required. Android coming soon.</p>
+        <p class="text-sm text-gray-400 mt-4">Free tier forever. No credit card. No contract. Cancel any time. Android coming soon.</p>
       </div>
 
       <!-- Hero Visual: iPhone 17 with Leak Rate Calculator -->
@@ -215,59 +239,69 @@ description: "FieldPad helps solo HVAC technicians track EPA Section 608 and Sub
                 <!-- Nav Bar -->
                 <div class="bg-white px-4 pb-2 flex items-center gap-3">
                   <svg class="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
-                  <span class="text-sm font-semibold text-gray-900 flex-1 text-center pr-5">Leak Rate Calculator</span>
+                  <span class="text-sm font-semibold text-gray-900 flex-1 text-center pr-5">Today</span>
                 </div>
 
-                <!-- Calculate Button -->
+                <!-- Today Stats -->
                 <div class="px-4 py-2">
-                  <div class="bg-blue-500 text-white text-center py-3.5 rounded-xl font-semibold text-sm flex items-center justify-center gap-2">
-                    <span class="text-xs italic font-bold">f(x)</span> Calculate Leak Rate
-                  </div>
-                </div>
-
-                <!-- Result Card -->
-                <div class="px-4 py-2">
-                  <div class="bg-gray-50 rounded-xl p-4 text-center">
-                    <div class="text-xs text-gray-400 mb-1">Calculated Leak Rate</div>
-                    <div class="text-5xl font-extrabold text-red-500 mb-3">35.1<span class="text-3xl">%</span></div>
-                    <div class="flex items-center justify-center gap-4 text-xs">
-                      <div class="text-center">
-                        <div class="text-gray-400">Threshold</div>
-                        <div class="font-bold text-gray-900">10%</div>
-                        <div class="text-gray-400">Subpart C</div>
-                      </div>
-                      <div class="w-px h-8 bg-gray-200"></div>
-                      <div class="text-center">
-                        <div class="text-gray-400">System</div>
-                        <div class="font-bold text-gray-900">Comfort</div>
-                        <div class="text-gray-400">Cooling</div>
-                      </div>
-                      <div class="w-px h-8 bg-gray-200"></div>
-                      <div class="text-center">
-                        <div class="text-gray-400">Method</div>
-                        <div class="font-bold text-gray-900">Method 1</div>
-                      </div>
+                  <div class="grid grid-cols-3 gap-2">
+                    <div class="bg-blue-50 rounded-xl p-2.5 text-center">
+                      <div class="text-xl font-extrabold text-blue-600">4</div>
+                      <div class="text-[10px] text-gray-500 font-semibold">Jobs</div>
+                    </div>
+                    <div class="bg-green-50 rounded-xl p-2.5 text-center">
+                      <div class="text-xl font-extrabold text-green-600">$1,847</div>
+                      <div class="text-[10px] text-gray-500 font-semibold">Invoiced</div>
+                    </div>
+                    <div class="bg-amber-50 rounded-xl p-2.5 text-center">
+                      <div class="text-xl font-extrabold text-amber-600">2</div>
+                      <div class="text-[10px] text-gray-500 font-semibold">Follow-ups</div>
                     </div>
                   </div>
                 </div>
 
-                <!-- Non-Compliant Alert -->
+                <!-- Next Job Card -->
                 <div class="px-4 py-1.5">
-                  <div class="bg-red-50 border border-red-200 rounded-xl p-3 flex items-start gap-2">
-                    <span class="text-red-500 text-sm mt-0.5">&#9888;</span>
-                    <div>
-                      <div class="text-red-600 font-bold text-xs">NON-COMPLIANT</div>
-                      <div class="text-gray-700 text-xs">CRITICAL - Immediate repair required</div>
+                  <div class="bg-fieldpad-700 rounded-xl p-3 text-white">
+                    <div class="text-[10px] uppercase tracking-wider text-blue-200 font-semibold mb-1">Next Job - 2:30 PM</div>
+                    <div class="font-bold text-sm">Miller's Diner</div>
+                    <div class="text-[11px] text-blue-100 mb-2">Walk-in freezer - not holding temp</div>
+                    <div class="flex items-center gap-2 text-[10px]">
+                      <span class="bg-white/20 px-2 py-0.5 rounded">R-404A</span>
+                      <span class="bg-white/20 px-2 py-0.5 rounded">Commercial</span>
                     </div>
                   </div>
                 </div>
 
-                <!-- Mandatory Repair -->
+                <!-- Action Row -->
+                <div class="px-4 py-1.5">
+                  <div class="bg-gray-50 rounded-xl p-3">
+                    <div class="text-[10px] uppercase tracking-wider text-gray-500 font-semibold mb-2">Quick Actions</div>
+                    <div class="grid grid-cols-3 gap-2 text-center">
+                      <div class="bg-white rounded-lg py-2">
+                        <div class="text-lg">&#128100;</div>
+                        <div class="text-[9px] text-gray-600 font-semibold">Add Client</div>
+                      </div>
+                      <div class="bg-white rounded-lg py-2">
+                        <div class="text-lg">&#128196;</div>
+                        <div class="text-[9px] text-gray-600 font-semibold">New Invoice</div>
+                      </div>
+                      <div class="bg-white rounded-lg py-2">
+                        <div class="text-lg">&#128197;</div>
+                        <div class="text-[9px] text-gray-600 font-semibold">Schedule</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Paid Alert -->
                 <div class="px-4 py-1.5 pb-2">
-                  <div class="bg-red-50 border border-red-200 rounded-xl p-3">
-                    <div class="text-red-600 font-bold text-xs mb-1">&#128295; Mandatory Repair Required</div>
-                    <div class="text-gray-700 text-xs leading-relaxed">Under EPA Section 608, you must repair this leak within 30 days of discovery.</div>
-                    <div class="text-gray-400 text-[10px] mt-1">Failure to repair may result in fines up to $44,539 per day per violation.</div>
+                  <div class="bg-green-50 border border-green-200 rounded-xl p-3 flex items-start gap-2">
+                    <span class="text-green-600 text-sm mt-0.5">&#10003;</span>
+                    <div>
+                      <div class="text-green-700 font-bold text-xs">INV-0142 Paid</div>
+                      <div class="text-gray-700 text-[11px]">Riverside HVAC Co. - $420 - Signed on-site</div>
+                    </div>
                   </div>
                 </div>
 
@@ -295,100 +329,365 @@ description: "FieldPad helps solo HVAC technicians track EPA Section 608 and Sub
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
     <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
       <div>
+        <div class="text-2xl font-bold text-fieldpad-800">1-Person</div>
+        <div class="text-sm text-gray-500">Built for Solo Techs</div>
+      </div>
+      <div>
+        <div class="text-2xl font-bold text-fieldpad-800">$0</div>
+        <div class="text-sm text-gray-500">Per-Seat Fees, Ever</div>
+      </div>
+      <div>
         <div class="text-2xl font-bold text-fieldpad-800">100%</div>
         <div class="text-sm text-gray-500">Offline Capable</div>
       </div>
       <div>
-        <div class="text-2xl font-bold text-fieldpad-800">608 + C</div>
-        <div class="text-sm text-gray-500">EPA Frameworks</div>
-      </div>
-      <div>
-        <div class="text-2xl font-bold text-fieldpad-800">12</div>
-        <div class="text-sm text-gray-500">Refrigerant Types</div>
-      </div>
-      <div>
-        <div class="text-2xl font-bold text-fieldpad-800">0</div>
-        <div class="text-sm text-gray-500">Servers (Your Data, Your Device)</div>
+        <div class="text-2xl font-bold text-fieldpad-800">7+</div>
+        <div class="text-sm text-gray-500">Tools Replaced in One App</div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ============ CORE FEATURES ============ -->
+<!-- ============ THE PROBLEM ============ -->
+<section class="py-20 sm:py-24 bg-white">
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-12">
+      <span class="inline-block px-3 py-1 bg-red-50 text-red-700 rounded-full text-xs font-bold uppercase tracking-wider mb-4">The Problem</span>
+      <h2 class="text-3xl sm:text-4xl font-bold text-fieldpad-900 mb-4">Every HVAC CRM is Built for 10-Truck Teams. You Have One Truck.</h2>
+      <p class="text-lg text-gray-600 max-w-3xl mx-auto">You're paying monthly for dispatch boards, online booking funnels, team chat, and review campaigns you'll never use — while your clipboard and paper invoices quietly lose you jobs and hours.</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
+      <div class="bg-red-50 border border-red-100 rounded-2xl p-6">
+        <div class="text-red-600 font-bold text-sm mb-3 flex items-center gap-2">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+          Jobber Core &mdash; $29&ndash;$39/mo
+        </div>
+        <p class="text-sm text-gray-700 leading-relaxed">Strips out inventory, photo docs, and AI. Forces an upgrade to Connect ($129/mo) or Grow ($249/mo) for a complete tool. No offline mode at all. Zero EPA compliance.</p>
+      </div>
+      <div class="bg-red-50 border border-red-100 rounded-2xl p-6">
+        <div class="text-red-600 font-bold text-sm mb-3 flex items-center gap-2">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+          Housecall Pro Basic &mdash; $59&ndash;$79/mo
+        </div>
+        <p class="text-sm text-gray-700 leading-relaxed">Capped at 1 user and widely criticized as underpowered. A second tech forces a jump to $129+ Essentials. Offline mode is view-only &mdash; can't edit a job. No EPA compliance.</p>
+      </div>
+      <div class="bg-red-50 border border-red-100 rounded-2xl p-6">
+        <div class="text-red-600 font-bold text-sm mb-3 flex items-center gap-2">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+          ServiceTitan &mdash; $200&ndash;$400/tech
+        </div>
+        <p class="text-sm text-gray-700 leading-relaxed">Designed for 20+ truck shops. $5K&ndash;$50K implementation fee. 2&ndash;3 year contracts. If you're solo, you're paying enterprise tax for features you'll never touch.</p>
+      </div>
+      <div class="bg-red-50 border border-red-100 rounded-2xl p-6">
+        <div class="text-red-600 font-bold text-sm mb-3 flex items-center gap-2">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+          FieldEdge &mdash; ~$100&ndash;$125/user/mo
+        </div>
+        <p class="text-sm text-gray-700 leading-relaxed">Quote-gated pricing. $500&ndash;$2,000 setup fee. Mandatory 5-week onboarding. No refund on annual if you cancel. Real friction for a one-person shop.</p>
+      </div>
+    </div>
+
+    <div class="bg-fieldpad-900 rounded-2xl p-8 text-center text-white">
+      <h3 class="text-2xl font-bold mb-3">Then You Stack a Compliance Tool on Top</h3>
+      <p class="text-blue-100 max-w-2xl mx-auto leading-relaxed">Because none of them handle EPA 608, Subpart C, A2L checklists, leak-rate calculations, or chronic leaker reports &mdash; so you pay a <em>second</em> monthly subscription for compliance, plus a third app for refrigerant references. Three apps, three bills, three places your data lives.</p>
+      <p class="text-white font-bold text-lg mt-4">FieldPad collapses all three into one iPhone app, for $29.99/mo or $299.99/yr.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CORE FEATURES (Value Stack) ============ -->
 <section id="features" class="py-20 sm:py-24">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center mb-16">
-      <h2 class="text-3xl sm:text-4xl font-bold text-fieldpad-900 mb-4">Everything a Solo Tech Needs</h2>
-      <p class="text-lg text-gray-500 max-w-2xl mx-auto">From compliance logging to professional invoicing — FieldPad replaces your clipboard, calculator, and filing cabinet.</p>
+      <span class="inline-block px-3 py-1 bg-green-50 text-green-700 rounded-full text-xs font-bold uppercase tracking-wider mb-4">What You Get</span>
+      <h2 class="text-3xl sm:text-4xl font-bold text-fieldpad-900 mb-4">Every Tool You Need, In One iPhone App</h2>
+      <p class="text-lg text-gray-500 max-w-2xl mx-auto">Stop stitching together a CRM, an invoicing app, a scheduling tool, a compliance tracker, and a refrigerant reference. FieldPad is all of them in one &mdash; for $29.99/mo.</p>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-      <!-- Feature 1: OCR Scanning -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <!-- Feature 1: Client CRM -->
       <div class="feature-card bg-white border border-gray-200 rounded-2xl p-6">
-        <div class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mb-4">
-          <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 13a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+        <div class="flex items-center justify-between mb-4">
+          <div class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center">
+            <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+          </div>
+          <span class="text-[10px] font-bold uppercase tracking-wider text-gray-400">Replaces Jobber CRM</span>
         </div>
-        <h3 class="text-lg font-bold text-fieldpad-900 mb-2">OCR Cylinder Scanning</h3>
-        <p class="text-gray-600 text-sm leading-relaxed">Point your camera at a refrigerant cylinder label and FieldPad reads the serial number, refrigerant type, and weight automatically using on-device Vision OCR. No images are stored or transmitted.</p>
+        <h3 class="text-lg font-bold text-fieldpad-900 mb-2">Client Management (CRM)</h3>
+        <p class="text-gray-600 text-sm leading-relaxed">Full client records with address autocomplete. Every job, invoice, estimate, and piece of equipment is linked to the client &mdash; giving you the full service history for every customer, one tap away.</p>
       </div>
 
-      <!-- Feature 2: 5,000 Rule Calculator -->
+      <!-- Feature 2: Job & Work Order -->
       <div class="feature-card bg-white border border-gray-200 rounded-2xl p-6">
-        <div class="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center mb-4">
-          <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"/></svg>
+        <div class="flex items-center justify-between mb-4">
+          <div class="w-12 h-12 bg-indigo-100 rounded-xl flex items-center justify-center">
+            <svg class="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/></svg>
+          </div>
+          <span class="text-[10px] font-bold uppercase tracking-wider text-gray-400">Replaces HCP Jobs</span>
         </div>
-        <h3 class="text-lg font-bold text-fieldpad-900 mb-2">5,000 Rule Calculator</h3>
-        <p class="text-gray-600 text-sm leading-relaxed">Instantly calculate whether to repair or replace refrigeration equipment using the EPA's 5,000 Rule. Enter the refrigerant cost per pound and equipment age to get a clear recommendation.</p>
+        <h3 class="text-lg font-bold text-fieldpad-900 mb-2">Jobs &amp; Work Orders</h3>
+        <p class="text-gray-600 text-sm leading-relaxed">Create and track service jobs with client, equipment, and status workflow (Pending &rarr; In Progress &rarr; Complete). Automatic schedule-conflict detection keeps you from double-booking your own day.</p>
       </div>
 
-      <!-- Feature 3: A2L Safety Checklists -->
+      <!-- Feature 3: Scheduling -->
       <div class="feature-card bg-white border border-gray-200 rounded-2xl p-6">
-        <div class="w-12 h-12 bg-amber-100 rounded-xl flex items-center justify-center mb-4">
-          <svg class="w-6 h-6 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
+        <div class="flex items-center justify-between mb-4">
+          <div class="w-12 h-12 bg-pink-100 rounded-xl flex items-center justify-center">
+            <svg class="w-6 h-6 text-pink-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+          </div>
+          <span class="text-[10px] font-bold uppercase tracking-wider text-gray-400">Replaces Calendar App</span>
         </div>
-        <h3 class="text-lg font-bold text-fieldpad-900 mb-2">A2L Safety Checklists</h3>
-        <p class="text-gray-600 text-sm leading-relaxed">6 mandatory safety checks for flammable A2L refrigerants like R-454B and R-32: dissipation risk, spark-free tools, ventilation, PPE, leak detector, and grounding — all logged digitally.</p>
+        <h3 class="text-lg font-bold text-fieldpad-900 mb-2">Scheduling &amp; Recurring Jobs</h3>
+        <p class="text-gray-600 text-sm leading-relaxed">Month/week/day calendar with drag-and-drop scheduling. Set up weekly, monthly, or annual recurring maintenance (Pro) so filter changes and service contracts schedule themselves.</p>
       </div>
 
-      <!-- Feature 4: Leak Rate Calculations -->
+      <!-- Feature 4: Estimates -->
       <div class="feature-card bg-white border border-gray-200 rounded-2xl p-6">
-        <div class="w-12 h-12 bg-red-100 rounded-xl flex items-center justify-center mb-4">
-          <svg class="w-6 h-6 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/></svg>
+        <div class="flex items-center justify-between mb-4">
+          <div class="w-12 h-12 bg-teal-100 rounded-xl flex items-center justify-center">
+            <svg class="w-6 h-6 text-teal-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/></svg>
+          </div>
+          <span class="text-[10px] font-bold uppercase tracking-wider text-gray-400">Replaces Quote Tool</span>
         </div>
-        <h3 class="text-lg font-bold text-fieldpad-900 mb-2">Leak Rate Calculations</h3>
-        <p class="text-gray-600 text-sm leading-relaxed">Automatic annualized (Method 1) and screening (Method 2) leak rate calculations. Compares against Section 608 and Subpart C thresholds with instant pass/fail indicators.</p>
+        <h3 class="text-lg font-bold text-fieldpad-900 mb-2">Estimates &amp; Quotes</h3>
+        <p class="text-gray-600 text-sm leading-relaxed">Build detailed estimates with line items, split labor/material tax, and reusable templates for common HVAC jobs. One tap converts an approved estimate into an invoice.</p>
       </div>
 
-      <!-- Feature 5: Digital Invoicing -->
+      <!-- Feature 5: Invoicing + Signatures -->
       <div class="feature-card bg-white border border-gray-200 rounded-2xl p-6">
-        <div class="w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center mb-4">
-          <svg class="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+        <div class="flex items-center justify-between mb-4">
+          <div class="w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center">
+            <svg class="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+          </div>
+          <span class="text-[10px] font-bold uppercase tracking-wider text-gray-400">Replaces Invoice Tool</span>
         </div>
-        <h3 class="text-lg font-bold text-fieldpad-900 mb-2">Professional Invoicing</h3>
-        <p class="text-gray-600 text-sm leading-relaxed">Generate professional PDF invoices with digital signatures, split labor/material tax rates, partial payments, and refrigerant line items that track type and pounds used per job.</p>
+        <h3 class="text-lg font-bold text-fieldpad-900 mb-2">Invoicing with Signatures</h3>
+        <p class="text-gray-600 text-sm leading-relaxed">Professional PDF invoices with customer and technician signatures collected on the iPhone screen. Split labor/material tax, partial payments, refrigerant line items, and your business logo (Pro).</p>
       </div>
 
-      <!-- Feature 6: Offline-First -->
+      <!-- Feature 6: Inventory + OCR -->
       <div class="feature-card bg-white border border-gray-200 rounded-2xl p-6">
-        <div class="w-12 h-12 bg-fieldpad-100 rounded-xl flex items-center justify-center mb-4">
-          <svg class="w-6 h-6 text-fieldpad-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636a9 9 0 010 12.728m0 0l-2.829-2.829m2.829 2.829L21 21M15.536 8.464a5 5 0 010 7.072m0 0l-2.829-2.829m-4.243 2.829a4.978 4.978 0 01-1.414-2.83m-1.414 5.658a9 9 0 01-2.167-9.238m7.824 2.167a1 1 0 111.414 1.414"/></svg>
+        <div class="flex items-center justify-between mb-4">
+          <div class="w-12 h-12 bg-cyan-100 rounded-xl flex items-center justify-center">
+            <svg class="w-6 h-6 text-cyan-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/></svg>
+          </div>
+          <span class="text-[10px] font-bold uppercase tracking-wider text-gray-400">Replaces Inventory Sheet</span>
+        </div>
+        <h3 class="text-lg font-bold text-fieldpad-900 mb-2">Cylinder Inventory + OCR Scan</h3>
+        <p class="text-gray-600 text-sm leading-relaxed">Point your camera at a cylinder label &mdash; FieldPad reads serial, refrigerant type, and weight with on-device OCR. Track weights, exchanges, chain-of-custody, and get low-inventory alerts.</p>
+      </div>
+
+      <!-- Feature 7: Equipment History -->
+      <div class="feature-card bg-white border border-gray-200 rounded-2xl p-6">
+        <div class="flex items-center justify-between mb-4">
+          <div class="w-12 h-12 bg-orange-100 rounded-xl flex items-center justify-center">
+            <svg class="w-6 h-6 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.066 2.573c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.573 1.066c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.066-2.573c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+          </div>
+          <span class="text-[10px] font-bold uppercase tracking-wider text-gray-400">Replaces File Cabinet</span>
+        </div>
+        <h3 class="text-lg font-bold text-fieldpad-900 mb-2">Equipment &amp; Asset History</h3>
+        <p class="text-gray-600 text-sm leading-relaxed">Every piece of customer equipment gets a profile: full charge, appliance type, and a complete log of every job, repair, verification test, and compliance record tied to it.</p>
+      </div>
+
+      <!-- Feature 8: Notifications -->
+      <div class="feature-card bg-white border border-gray-200 rounded-2xl p-6">
+        <div class="flex items-center justify-between mb-4">
+          <div class="w-12 h-12 bg-yellow-100 rounded-xl flex items-center justify-center">
+            <svg class="w-6 h-6 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"/></svg>
+          </div>
+          <span class="text-[10px] font-bold uppercase tracking-wider text-gray-400">12 Alert Types</span>
+        </div>
+        <h3 class="text-lg font-bold text-fieldpad-900 mb-2">Smart Notifications</h3>
+        <p class="text-gray-600 text-sm leading-relaxed">Job reminders, repair deadlines, verification follow-ups, low-inventory alerts, chronic-leaker warnings. Deep-link routing takes you straight to the record that needs attention.</p>
+      </div>
+
+      <!-- Feature 9: Offline-First -->
+      <div class="feature-card bg-white border border-gray-200 rounded-2xl p-6">
+        <div class="flex items-center justify-between mb-4">
+          <div class="w-12 h-12 bg-fieldpad-100 rounded-xl flex items-center justify-center">
+            <svg class="w-6 h-6 text-fieldpad-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636a9 9 0 010 12.728m0 0l-2.829-2.829m2.829 2.829L21 21M15.536 8.464a5 5 0 010 7.072m0 0l-2.829-2.829m-4.243 2.829a4.978 4.978 0 01-1.414-2.83m-1.414 5.658a9 9 0 01-2.167-9.238m7.824 2.167a1 1 0 111.414 1.414"/></svg>
+          </div>
+          <span class="text-[10px] font-bold uppercase tracking-wider text-gray-400">Works in Basements</span>
         </div>
         <h3 class="text-lg font-bold text-fieldpad-900 mb-2">Offline-First Architecture</h3>
-        <p class="text-gray-600 text-sm leading-relaxed">Every feature works without connectivity. Data is stored locally on your device and syncs automatically via iCloud when you're back online. No account required, no servers to depend on.</p>
+        <p class="text-gray-600 text-sm leading-relaxed">Every feature works without signal &mdash; log jobs, generate PDFs, take signatures, scan cylinders. Data syncs via your private iCloud when you're back online. No servers, no account, no vendor lock-in.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ============ COMPLIANCE SECTION ============ -->
-<section id="compliance" class="bg-fieldpad-50 py-20 sm:py-24">
+<!-- ============ BUILT FOR SOLO TECHS ============ -->
+<section id="solo" class="bg-fieldpad-50 py-20 sm:py-24">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center mb-16">
-      <h2 class="text-3xl sm:text-4xl font-bold text-fieldpad-900 mb-4">How FieldPad Works for Section 608 &amp; Subpart C</h2>
-      <p class="text-lg text-gray-500 max-w-2xl mx-auto">FieldPad automatically detects which regulatory framework applies based on the refrigerant's GWP value — so you always track against the right thresholds.</p>
+      <span class="inline-block px-3 py-1 bg-fieldpad-100 text-fieldpad-700 rounded-full text-xs font-bold uppercase tracking-wider mb-4">Unfair Advantages</span>
+      <h2 class="text-3xl sm:text-4xl font-bold text-fieldpad-900 mb-4">Purpose-Built for the One-Person Shop</h2>
+      <p class="text-lg text-gray-500 max-w-2xl mx-auto">FieldPad makes different product choices than team CRMs because your life on a service call is different. Four things your current CRM gets wrong for solo techs:</p>
     </div>
 
-    <!-- Compliance Steps -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <!-- Advantage 1: Glove Mode -->
+      <div class="bg-white border border-gray-200 rounded-2xl p-6 lg:p-8">
+        <div class="flex items-center gap-3 mb-4">
+          <div class="w-12 h-12 bg-amber-100 rounded-xl flex items-center justify-center">
+            <svg class="w-6 h-6 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 11.5V14m0-2.5v-6a1.5 1.5 0 113 0m-3 6a1.5 1.5 0 00-3 0v2a7.5 7.5 0 0015 0v-5a1.5 1.5 0 00-3 0m-6-3V11m0-5.5v-1a1.5 1.5 0 013 0v1m0 0V11m0-5.5a1.5 1.5 0 013 0v3m0 0V11"/></svg>
+          </div>
+          <h3 class="text-xl font-bold text-fieldpad-900">Glove Mode &mdash; 48pt Touch Targets</h3>
+        </div>
+        <p class="text-gray-600 mb-4 leading-relaxed">Every button, text field, and icon is sized so you can tap accurately with insulated gloves on. No peeling off PPE to log a reading or collect a signature.</p>
+        <div class="text-xs text-gray-500 italic">While Jobber and HCP design for office staff on laptops, FieldPad designs for you on a rooftop in February.</div>
+      </div>
+
+      <!-- Advantage 2: Offline -->
+      <div class="bg-white border border-gray-200 rounded-2xl p-6 lg:p-8">
+        <div class="flex items-center gap-3 mb-4">
+          <div class="w-12 h-12 bg-fieldpad-100 rounded-xl flex items-center justify-center">
+            <svg class="w-6 h-6 text-fieldpad-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636a9 9 0 010 12.728m0 0l-2.829-2.829m2.829 2.829L21 21M15.536 8.464a5 5 0 010 7.072m0 0l-2.829-2.829m-4.243 2.829a4.978 4.978 0 01-1.414-2.83m-1.414 5.658a9 9 0 01-2.167-9.238m7.824 2.167a1 1 0 111.414 1.414"/></svg>
+          </div>
+          <h3 class="text-xl font-bold text-fieldpad-900">Offline-First, Not Offline-Later</h3>
+        </div>
+        <p class="text-gray-600 mb-4 leading-relaxed">Every feature works in basements, mechanical rooms, and rural service calls with zero signal. Log jobs, generate PDFs, collect signatures, scan cylinders &mdash; it all works, then syncs when you get bars back.</p>
+        <div class="text-xs text-gray-500 italic">Jobber has no offline mode. Workiz has none. Housecall Pro's offline mode is view-only &mdash; you can't edit a record.</div>
+      </div>
+
+      <!-- Advantage 3: No Account -->
+      <div class="bg-white border border-gray-200 rounded-2xl p-6 lg:p-8">
+        <div class="flex items-center gap-3 mb-4">
+          <div class="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center">
+            <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
+          </div>
+          <h3 class="text-xl font-bold text-fieldpad-900">Your Data, Your Device</h3>
+        </div>
+        <p class="text-gray-600 mb-4 leading-relaxed">No login, no account creation, no vendor lock-in. Data lives on your iPhone in SwiftData and syncs via your private iCloud container. We run zero servers &mdash; we literally can't see your data, sell it, or hold it hostage.</p>
+        <div class="text-xs text-gray-500 italic">No analytics. No tracking. No ads. Cancel Pro anytime; your records stay on your device.</div>
+      </div>
+
+      <!-- Advantage 4: Solo Pricing -->
+      <div class="bg-white border border-gray-200 rounded-2xl p-6 lg:p-8">
+        <div class="flex items-center gap-3 mb-4">
+          <div class="w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center">
+            <svg class="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          </div>
+          <h3 class="text-xl font-bold text-fieldpad-900">No Per-Seat Tax, No Setup Fees</h3>
+        </div>
+        <p class="text-gray-600 mb-4 leading-relaxed">$29.99/mo or $299.99/yr. No 2&ndash;5 user bundles like Workiz, no $500&ndash;$2,000 setup fee like FieldEdge, no 2-3 year enterprise contract like ServiceTitan. No credit card for the permanent free tier.</p>
+        <div class="text-xs text-gray-500 italic">One person. One truck. One subscription. That's the whole product philosophy.</div>
+      </div>
+    </div>
+
+    <!-- CTA to /compare/ -->
+    <div class="text-center mt-12">
+      <a href="{{ '/compare/' | relative_url }}" class="inline-flex items-center gap-2 text-fieldpad-700 hover:text-fieldpad-800 font-semibold">
+        See the full comparison vs Jobber, Housecall Pro, ServiceTitan, Workiz, and FieldEdge
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONDENSED COMPARISON ============ -->
+<section id="compare" class="py-20 sm:py-24 bg-white">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-12">
+      <span class="inline-block px-3 py-1 bg-purple-50 text-purple-700 rounded-full text-xs font-bold uppercase tracking-wider mb-4">vs Jobber, HCP, ServiceTitan</span>
+      <h2 class="text-3xl sm:text-4xl font-bold text-fieldpad-900 mb-4">See How FieldPad Stacks Up</h2>
+      <p class="text-lg text-gray-500 max-w-2xl mx-auto">The quick version. <a href="{{ '/compare/' | relative_url }}" class="text-fieldpad-700 font-semibold hover:underline">Full feature-by-feature matrix here &rarr;</a></p>
+    </div>
+
+    <div class="bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-sm">
+      <div class="table-wrapper">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="bg-fieldpad-50 text-left">
+              <th class="px-4 py-4 font-semibold text-fieldpad-800">What Solo Techs Actually Need</th>
+              <th class="px-4 py-4 font-semibold text-center bg-fieldpad-700 text-white">FieldPad</th>
+              <th class="px-4 py-4 font-semibold text-center text-fieldpad-800">Jobber</th>
+              <th class="px-4 py-4 font-semibold text-center text-fieldpad-800">Housecall Pro</th>
+              <th class="px-4 py-4 font-semibold text-center text-fieldpad-800">ServiceTitan</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-100 text-gray-700">
+            <tr>
+              <td class="px-4 py-3 font-medium">Starting price (solo)</td>
+              <td class="px-4 py-3 text-center bg-fieldpad-50/50 font-bold text-green-700">$29.99/mo or $299.99/yr</td>
+              <td class="px-4 py-3 text-center">$29&ndash;$39/mo</td>
+              <td class="px-4 py-3 text-center">$59&ndash;$79/mo</td>
+              <td class="px-4 py-3 text-center">$200&ndash;$400/tech</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-3 font-medium">Setup fee / onboarding cost</td>
+              <td class="px-4 py-3 text-center bg-fieldpad-50/50 font-bold text-green-700">$0</td>
+              <td class="px-4 py-3 text-center">$0</td>
+              <td class="px-4 py-3 text-center">$0</td>
+              <td class="px-4 py-3 text-center text-red-600">$5K&ndash;$50K</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-3 font-medium">Works offline (edit records)</td>
+              <td class="px-4 py-3 text-center bg-fieldpad-50/50 font-bold text-green-700">Yes</td>
+              <td class="px-4 py-3 text-center text-red-600">No</td>
+              <td class="px-4 py-3 text-center text-amber-600">View-only</td>
+              <td class="px-4 py-3 text-center text-amber-600">Partial</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-3 font-medium">Inventory tracking</td>
+              <td class="px-4 py-3 text-center bg-fieldpad-50/50 font-bold text-green-700">Yes + OCR</td>
+              <td class="px-4 py-3 text-center text-red-600">Paid add-on</td>
+              <td class="px-4 py-3 text-center text-amber-600">Higher tiers</td>
+              <td class="px-4 py-3 text-center">Yes</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-3 font-medium">EPA Section 608 / Subpart C</td>
+              <td class="px-4 py-3 text-center bg-fieldpad-50/50 font-bold text-green-700">Included</td>
+              <td class="px-4 py-3 text-center text-red-600">None</td>
+              <td class="px-4 py-3 text-center text-red-600">None</td>
+              <td class="px-4 py-3 text-center text-red-600">None</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-3 font-medium">A2L safety checklists</td>
+              <td class="px-4 py-3 text-center bg-fieldpad-50/50 font-bold text-green-700">Included</td>
+              <td class="px-4 py-3 text-center text-red-600">None</td>
+              <td class="px-4 py-3 text-center text-red-600">None</td>
+              <td class="px-4 py-3 text-center text-red-600">None</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-3 font-medium">Data stays on your device</td>
+              <td class="px-4 py-3 text-center bg-fieldpad-50/50 font-bold text-green-700">Yes</td>
+              <td class="px-4 py-3 text-center text-red-600">Cloud only</td>
+              <td class="px-4 py-3 text-center text-red-600">Cloud only</td>
+              <td class="px-4 py-3 text-center text-red-600">Cloud only</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-3 font-medium">Min seats / forced team tax</td>
+              <td class="px-4 py-3 text-center bg-fieldpad-50/50 font-bold text-green-700">1 person</td>
+              <td class="px-4 py-3 text-center">1</td>
+              <td class="px-4 py-3 text-center text-amber-600">1 (capped)</td>
+              <td class="px-4 py-3 text-center text-red-600">~3+</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="text-center mt-8">
+      <a href="{{ '/compare/' | relative_url }}" class="inline-flex items-center gap-2 bg-fieldpad-700 hover:bg-fieldpad-800 text-white px-6 py-3 rounded-xl font-semibold transition-colors">
+        See Full Comparison &mdash; Jobber, HCP, ServiceTitan, Workiz, FieldEdge
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EPA COMPLIANCE BONUS ============ -->
+<section id="epa-bonus" class="bg-fieldpad-50 py-20 sm:py-24">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-16">
+      <span class="inline-block px-3 py-1 bg-accent-100 text-accent-700 rounded-full text-xs font-bold uppercase tracking-wider mb-4">Bonus &mdash; Included, Not Sold Separately</span>
+      <h2 class="text-3xl sm:text-4xl font-bold text-fieldpad-900 mb-4">The EPA Compliance Suite Other CRMs Don't Have</h2>
+      <p class="text-lg text-gray-600 max-w-3xl mx-auto">Jobber, Housecall Pro, ServiceTitan, Workiz, FieldEdge, and mHelpDesk have <strong>zero</strong> EPA compliance features. Solo techs usually stack a second subscription ($20&ndash;$50/mo) on top. With FieldPad, it's in the box at no extra cost.</p>
+    </div>
+
+    <!-- EPA Flow -->
     <div class="grid grid-cols-1 md:grid-cols-5 gap-6 mb-16">
       <div class="text-center">
         <div class="w-14 h-14 bg-fieldpad-700 text-white rounded-2xl flex items-center justify-center mx-auto mb-3 text-xl font-bold">1</div>
@@ -398,17 +697,17 @@ description: "FieldPad helps solo HVAC technicians track EPA Section 608 and Sub
       <div class="text-center">
         <div class="w-14 h-14 bg-fieldpad-700 text-white rounded-2xl flex items-center justify-center mx-auto mb-3 text-xl font-bold">2</div>
         <h3 class="font-semibold text-fieldpad-900 mb-1 text-sm">Auto-Calculate</h3>
-        <p class="text-xs text-gray-500">Leak rates computed using Method 1 or 2 against Section 608 or Subpart C thresholds</p>
+        <p class="text-xs text-gray-500">Leak rates via Method 1 or 2 against Section 608 or Subpart C thresholds</p>
       </div>
       <div class="text-center">
         <div class="w-14 h-14 bg-fieldpad-700 text-white rounded-2xl flex items-center justify-center mx-auto mb-3 text-xl font-bold">3</div>
         <h3 class="font-semibold text-fieldpad-900 mb-1 text-sm">Track Repairs</h3>
-        <p class="text-xs text-gray-500">30-day repair deadlines, verification tests, and inspection schedules tracked automatically</p>
+        <p class="text-xs text-gray-500">30-day repair deadlines, verification tests, and inspection schedules</p>
       </div>
       <div class="text-center">
         <div class="w-14 h-14 bg-fieldpad-700 text-white rounded-2xl flex items-center justify-center mx-auto mb-3 text-xl font-bold">4</div>
         <h3 class="font-semibold text-fieldpad-900 mb-1 text-sm">Get Alerts</h3>
-        <p class="text-xs text-gray-500">Notifications for deadlines, chronic leaker warnings, and verification follow-ups</p>
+        <p class="text-xs text-gray-500">Notifications for deadlines, chronic leaker warnings, and follow-ups</p>
       </div>
       <div class="text-center">
         <div class="w-14 h-14 bg-fieldpad-700 text-white rounded-2xl flex items-center justify-center mx-auto mb-3 text-xl font-bold">5</div>
@@ -417,18 +716,46 @@ description: "FieldPad helps solo HVAC technicians track EPA Section 608 and Sub
       </div>
     </div>
 
+    <!-- What's Included -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-12 max-w-5xl mx-auto">
+      <div class="bg-white rounded-xl border border-gray-200 p-5">
+        <div class="text-sm font-bold text-fieldpad-900 mb-2">&#10003; Section 608 Logging</div>
+        <p class="text-xs text-gray-600">ODS refrigerants (R-22), 50+ lb systems, full leak/repair/verification tracking.</p>
+      </div>
+      <div class="bg-white rounded-xl border border-gray-200 p-5">
+        <div class="text-sm font-bold text-fieldpad-900 mb-2">&#10003; Subpart C Logging</div>
+        <p class="text-xs text-gray-600">HFC refrigerants (GWP &gt; 53), 15+ lb systems, effective Jan 1, 2026.</p>
+      </div>
+      <div class="bg-white rounded-xl border border-gray-200 p-5">
+        <div class="text-sm font-bold text-fieldpad-900 mb-2">&#10003; A2L Safety Checklists</div>
+        <p class="text-xs text-gray-600">6 mandatory checks for R-454B, R-32, R-452B, logged with timestamps.</p>
+      </div>
+      <div class="bg-white rounded-xl border border-gray-200 p-5">
+        <div class="text-sm font-bold text-fieldpad-900 mb-2">&#10003; Leak Rate Calculations</div>
+        <p class="text-xs text-gray-600">Method 1 (Annualized) &amp; Method 2 (Screening) with instant pass/fail.</p>
+      </div>
+      <div class="bg-white rounded-xl border border-gray-200 p-5">
+        <div class="text-sm font-bold text-fieldpad-900 mb-2">&#10003; Chronic Leaker Detection</div>
+        <p class="text-xs text-gray-600">Monitors 125% annual threshold; March 1 reporting deadline tracking.</p>
+      </div>
+      <div class="bg-white rounded-xl border border-gray-200 p-5">
+        <div class="text-sm font-bold text-fieldpad-900 mb-2">&#10003; 5,000 Rule Calculator</div>
+        <p class="text-xs text-gray-600">Instant repair-vs-replace recommendation based on refrigerant cost.</p>
+      </div>
+    </div>
+
     <!-- Threshold Table -->
     <div class="bg-white rounded-2xl border border-gray-200 overflow-hidden shadow-sm">
       <div class="px-6 py-4 bg-fieldpad-800 text-white">
-        <h3 class="font-bold text-lg">EPA Leak Rate Thresholds Tracked by FieldPad</h3>
+        <h3 class="font-bold text-lg">EPA Leak Rate Thresholds Tracked Automatically</h3>
       </div>
       <div class="table-wrapper">
         <table class="w-full text-sm">
           <thead>
             <tr class="bg-fieldpad-50 text-left">
               <th class="px-6 py-3 font-semibold text-fieldpad-800">Appliance Type</th>
-              <th class="px-6 py-3 font-semibold text-fieldpad-800">Section 608 Threshold</th>
-              <th class="px-6 py-3 font-semibold text-fieldpad-800">Subpart C Threshold</th>
+              <th class="px-6 py-3 font-semibold text-fieldpad-800">Section 608</th>
+              <th class="px-6 py-3 font-semibold text-fieldpad-800">Subpart C</th>
               <th class="px-6 py-3 font-semibold text-fieldpad-800">Charge Minimum</th>
             </tr>
           </thead>
@@ -464,64 +791,59 @@ description: "FieldPad helps solo HVAC technicians track EPA Section 608 and Sub
         Section 608 applies to ODS refrigerants (e.g., R-22) in systems &ge;50 lbs. Subpart C applies to HFC refrigerants with GWP &gt; 53 (e.g., R-410A, R-454B) in systems &ge;15 lbs, effective January 1, 2026.
       </div>
     </div>
-  </div>
-</section>
 
-<!-- ============ GLOVE MODE SECTION ============ -->
-<section class="py-20 sm:py-24">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-      <div>
-        <span class="inline-block px-3 py-1 bg-amber-100 text-amber-700 rounded-full text-sm font-semibold mb-4">Built for the Field</span>
-        <h2 class="text-3xl sm:text-4xl font-bold text-fieldpad-900 mb-6">Glove Mode: Tap Accurately with Work Gloves On</h2>
-        <p class="text-gray-600 mb-6 leading-relaxed">FieldPad's Glove Mode enlarges every button, text field, and interactive element to a minimum of 48-point touch targets. Log compliance data, scan cylinders, and create invoices without taking your gloves off.</p>
-        <ul class="space-y-3">
-          <li class="flex items-start gap-3">
-            <svg class="w-5 h-5 text-green-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
-            <span class="text-gray-700">48pt minimum touch targets on all interactive elements</span>
-          </li>
-          <li class="flex items-start gap-3">
-            <svg class="w-5 h-5 text-green-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
-            <span class="text-gray-700">Enlarged text fields with generous padding</span>
-          </li>
-          <li class="flex items-start gap-3">
-            <svg class="w-5 h-5 text-green-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
-            <span class="text-gray-700">Haptic feedback confirms every action</span>
-          </li>
-          <li class="flex items-start gap-3">
-            <svg class="w-5 h-5 text-green-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
-            <span class="text-gray-700">Works on iPhone and iPad</span>
-          </li>
-        </ul>
-      </div>
-      <div class="bg-gradient-to-br from-amber-50 to-amber-100 rounded-3xl p-8 flex items-center justify-center">
-        <div class="bg-white rounded-2xl shadow-lg p-6 w-full max-w-xs">
-          <div class="text-xs text-gray-400 mb-4 text-center uppercase tracking-wider font-semibold">Glove Mode Active</div>
-          <div class="space-y-4">
-            <button class="w-full bg-fieldpad-700 text-white py-4 rounded-xl text-lg font-semibold">Log Compliance Event</button>
-            <button class="w-full bg-green-600 text-white py-4 rounded-xl text-lg font-semibold">Scan Cylinder</button>
-            <button class="w-full bg-white border-2 border-gray-200 text-gray-700 py-4 rounded-xl text-lg font-semibold">Create Invoice</button>
-          </div>
-          <div class="text-center mt-4 text-xs text-gray-400">48pt touch targets</div>
-        </div>
-      </div>
-    </div>
+    <!-- Legacy anchor for old compliance links -->
+    <div id="compliance" class="sr-only" aria-hidden="true"></div>
   </div>
 </section>
 
 <!-- ============ PRICING SECTION ============ -->
-<section id="pricing" class="bg-fieldpad-50 py-20 sm:py-24">
+<section id="pricing" class="py-20 sm:py-24">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="text-center mb-16">
-      <h2 class="text-3xl sm:text-4xl font-bold text-fieldpad-900 mb-4">Start Free, Upgrade When You Grow</h2>
-      <p class="text-lg text-gray-500 max-w-2xl mx-auto">FieldPad's free tier is fully functional for solo techs starting out. Upgrade to Pro when you need unlimited records and advanced features.</p>
+    <div class="text-center mb-12">
+      <span class="inline-block px-3 py-1 bg-green-50 text-green-700 rounded-full text-xs font-bold uppercase tracking-wider mb-4">Simple Pricing. No Surprises.</span>
+      <h2 class="text-3xl sm:text-4xl font-bold text-fieldpad-900 mb-4">Less Per Year Than One Month of ServiceTitan</h2>
+      <p class="text-lg text-gray-500 max-w-2xl mx-auto">Start free, forever. No credit card, no setup fees, no contracts. Upgrade to Pro when you outgrow the limits &mdash; at a fraction of what Jobber or Housecall Pro charge.</p>
+    </div>
+
+    <!-- Annual Savings Anchor -->
+    <div class="max-w-3xl mx-auto mb-10 bg-fieldpad-900 rounded-2xl p-6 text-white">
+      <div class="text-xs uppercase tracking-wider text-blue-200 font-bold mb-3 text-center">FieldPad Pro Annual Cost vs Competitors</div>
+      <div class="grid grid-cols-2 md:grid-cols-5 gap-3 text-center">
+        <div class="bg-green-500/20 rounded-lg p-3">
+          <div class="text-[10px] text-green-200 uppercase font-bold">FieldPad Pro</div>
+          <div class="text-xl font-extrabold text-white">$299.99</div>
+          <div class="text-[10px] text-green-200">/year</div>
+        </div>
+        <div class="rounded-lg p-3 border border-white/10">
+          <div class="text-[10px] text-blue-200 uppercase font-bold">Jobber Core</div>
+          <div class="text-xl font-bold text-white">$348</div>
+          <div class="text-[10px] text-blue-200">/year</div>
+        </div>
+        <div class="rounded-lg p-3 border border-white/10">
+          <div class="text-[10px] text-blue-200 uppercase font-bold">HCP Basic</div>
+          <div class="text-xl font-bold text-white">$708</div>
+          <div class="text-[10px] text-blue-200">/year</div>
+        </div>
+        <div class="rounded-lg p-3 border border-white/10">
+          <div class="text-[10px] text-blue-200 uppercase font-bold">FieldEdge</div>
+          <div class="text-xl font-bold text-white">$1,700+</div>
+          <div class="text-[10px] text-blue-200">/year + $500&ndash;$2K setup</div>
+        </div>
+        <div class="rounded-lg p-3 border border-white/10">
+          <div class="text-[10px] text-blue-200 uppercase font-bold">ServiceTitan</div>
+          <div class="text-xl font-bold text-white">$36,000+</div>
+          <div class="text-[10px] text-blue-200">/year, 3 techs</div>
+        </div>
+      </div>
+      <p class="text-xs text-blue-200 mt-4 text-center">Competitor prices are published starting rates. Features vary significantly; see the <a href="{{ '/compare/' | relative_url }}" class="text-white underline font-semibold">full comparison</a>.</p>
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
       <!-- Free Tier -->
       <div class="bg-white border border-gray-200 rounded-2xl p-8">
         <h3 class="text-xl font-bold text-fieldpad-900 mb-2">Free</h3>
-        <p class="text-gray-500 text-sm mb-6">Get started with EPA compliance tracking</p>
+        <p class="text-gray-500 text-sm mb-6">A real, usable tier &mdash; not a trial. No credit card required.</p>
         <div class="text-4xl font-extrabold text-fieldpad-900 mb-6">$0<span class="text-lg font-normal text-gray-400">/forever</span></div>
         <ul class="space-y-3 mb-8">
           <li class="flex items-center gap-2 text-sm text-gray-700">
@@ -530,19 +852,23 @@ description: "FieldPad helps solo HVAC technicians track EPA Section 608 and Sub
           </li>
           <li class="flex items-center gap-2 text-sm text-gray-700">
             <svg class="w-4 h-4 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
-            20 compliance logs, 5 estimates
+            5 estimates, 20 compliance logs
           </li>
           <li class="flex items-center gap-2 text-sm text-gray-700">
             <svg class="w-4 h-4 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
-            Leak rate calculations
+            10 cylinders, 15 OCR scans
           </li>
           <li class="flex items-center gap-2 text-sm text-gray-700">
             <svg class="w-4 h-4 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
-            15 OCR scans, 8 PDF generations
+            8 PDF generations
           </li>
           <li class="flex items-center gap-2 text-sm text-gray-700">
             <svg class="w-4 h-4 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
-            iCloud sync &amp; Glove Mode
+            Offline mode, Glove Mode, iCloud sync
+          </li>
+          <li class="flex items-center gap-2 text-sm text-gray-700">
+            <svg class="w-4 h-4 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+            EPA 608, Subpart C, A2L checklists
           </li>
         </ul>
         <a href="https://apps.apple.com/us/app/fieldpad-hvac-service-pro/id6758357329" class="block text-center bg-white border-2 border-fieldpad-200 hover:border-fieldpad-400 text-fieldpad-700 px-6 py-3 rounded-xl font-semibold transition-colors">
@@ -552,10 +878,20 @@ description: "FieldPad helps solo HVAC technicians track EPA Section 608 and Sub
 
       <!-- Pro Tier -->
       <div class="bg-white border-2 border-fieldpad-600 rounded-2xl p-8 relative">
-        <span class="absolute -top-3 left-6 bg-fieldpad-700 text-white px-3 py-1 rounded-full text-xs font-semibold">Most Popular</span>
+        <span class="absolute -top-3 left-6 bg-fieldpad-700 text-white px-3 py-1 rounded-full text-xs font-semibold">Best Value</span>
         <h3 class="text-xl font-bold text-fieldpad-900 mb-2">FieldPad Pro</h3>
-        <p class="text-gray-500 text-sm mb-6">Unlimited everything for growing businesses</p>
-        <div class="text-4xl font-extrabold text-fieldpad-900 mb-6">Pro<span class="text-lg font-normal text-gray-400"> subscription</span></div>
+        <p class="text-gray-500 text-sm mb-6">Unlimited everything. Everything in the free tier, with no caps.</p>
+        <div class="mb-6">
+          <div class="flex items-baseline gap-2">
+            <span class="text-4xl font-extrabold text-fieldpad-900">$29.99</span>
+            <span class="text-lg font-normal text-gray-500">/month</span>
+          </div>
+          <div class="flex items-baseline gap-2 mt-2">
+            <span class="text-xl font-bold text-green-700">$299.99</span>
+            <span class="text-sm font-normal text-gray-500">/year</span>
+            <span class="text-xs font-bold bg-green-100 text-green-700 rounded-full px-2 py-0.5 ml-1">Save ~$60</span>
+          </div>
+        </div>
         <ul class="space-y-3 mb-8">
           <li class="flex items-center gap-2 text-sm text-gray-700">
             <svg class="w-4 h-4 text-fieldpad-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
@@ -567,20 +903,49 @@ description: "FieldPad helps solo HVAC technicians track EPA Section 608 and Sub
           </li>
           <li class="flex items-center gap-2 text-sm text-gray-700">
             <svg class="w-4 h-4 text-fieldpad-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
-            <strong>Unlimited</strong> OCR scans &amp; PDF generation
+            <strong>Unlimited</strong> OCR scans &amp; PDFs
           </li>
           <li class="flex items-center gap-2 text-sm text-gray-700">
             <svg class="w-4 h-4 text-fieldpad-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
-            Data export (JSON/CSV) &amp; compliance export
+            Recurring jobs (weekly, monthly, annual)
           </li>
           <li class="flex items-center gap-2 text-sm text-gray-700">
             <svg class="w-4 h-4 text-fieldpad-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
-            Recurring jobs, business logo, full signatures
+            Business logo + full digital signatures
+          </li>
+          <li class="flex items-center gap-2 text-sm text-gray-700">
+            <svg class="w-4 h-4 text-fieldpad-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+            Data + compliance export (JSON, CSV, PDF)
           </li>
         </ul>
         <a href="https://apps.apple.com/us/app/fieldpad-hvac-service-pro/id6758357329" class="block text-center bg-fieldpad-700 hover:bg-fieldpad-800 text-white px-6 py-3 rounded-xl font-semibold transition-colors">
-          Get FieldPad Pro
+          Start With Free Tier
         </a>
+        <p class="text-xs text-gray-400 text-center mt-3">Upgrade to Pro in-app. No contract. Cancel any time.</p>
+      </div>
+    </div>
+
+    <!-- Risk Reversal -->
+    <div class="max-w-4xl mx-auto mt-12 grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+      <div class="p-4">
+        <div class="text-2xl mb-1">&#127873;</div>
+        <div class="text-xs font-bold text-fieldpad-900">Free Forever</div>
+        <div class="text-[10px] text-gray-500">No card. No trial ending.</div>
+      </div>
+      <div class="p-4">
+        <div class="text-2xl mb-1">&#128274;</div>
+        <div class="text-xs font-bold text-fieldpad-900">Your Data Stays Yours</div>
+        <div class="text-[10px] text-gray-500">On-device + private iCloud.</div>
+      </div>
+      <div class="p-4">
+        <div class="text-2xl mb-1">&#10060;</div>
+        <div class="text-xs font-bold text-fieldpad-900">No Contract</div>
+        <div class="text-[10px] text-gray-500">Cancel in one tap.</div>
+      </div>
+      <div class="p-4">
+        <div class="text-2xl mb-1">&#128230;</div>
+        <div class="text-xs font-bold text-fieldpad-900">Downgrade-Safe</div>
+        <div class="text-[10px] text-gray-500">Your records stay readable.</div>
       </div>
     </div>
   </div>
@@ -590,8 +955,8 @@ description: "FieldPad helps solo HVAC technicians track EPA Section 608 and Sub
 <section class="py-20 sm:py-24">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center mb-12">
-      <h2 class="text-3xl sm:text-4xl font-bold text-fieldpad-900 mb-4">HVAC Compliance &amp; Business Resources</h2>
-      <p class="text-lg text-gray-500 max-w-2xl mx-auto">Expert guides on EPA regulations, A2L safety, and running a successful solo HVAC business.</p>
+      <h2 class="text-3xl sm:text-4xl font-bold text-fieldpad-900 mb-4">HVAC Business &amp; Compliance Resources</h2>
+      <p class="text-lg text-gray-500 max-w-2xl mx-auto">How to run a profitable one-person HVAC shop &mdash; invoicing, pricing, client retention &mdash; plus EPA compliance and A2L safety guides.</p>
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -624,12 +989,15 @@ description: "FieldPad helps solo HVAC technicians track EPA Section 608 and Sub
 <!-- ============ FINAL CTA ============ -->
 <section class="bg-gradient-to-r from-fieldpad-800 to-fieldpad-950 py-20">
   <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-    <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">Ready to Go Paperless?</h2>
-    <p class="text-fieldpad-200 text-lg mb-8 max-w-xl mx-auto">Join HVAC professionals who trust FieldPad for offline-first EPA compliance tracking, professional invoicing, and refrigerant inventory management.</p>
+    <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">Run Your Whole Business From Your Truck</h2>
+    <p class="text-fieldpad-200 text-lg mb-8 max-w-xl mx-auto">Clients, scheduling, estimates, invoices with signatures, inventory, equipment history &mdash; one iPhone app, offline-ready, for $29.99/mo or $299.99/yr. EPA compliance included.</p>
     <a href="https://apps.apple.com/us/app/fieldpad-hvac-service-pro/id6758357329" class="inline-flex items-center gap-2 bg-white text-fieldpad-800 px-8 py-4 rounded-xl font-bold text-lg hover:bg-fieldpad-50 transition-colors">
       <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
       Download FieldPad Free
     </a>
-    <p class="text-fieldpad-300 text-sm mt-4">Available on iPhone &amp; iPad. iOS 17+ required. Android coming soon.</p>
+    <p class="text-fieldpad-300 text-sm mt-4">Free tier forever. No credit card. iPhone &amp; iPad. iOS 17+. Android coming soon.</p>
+    <p class="text-fieldpad-400 text-xs mt-3">
+      <a href="{{ '/compare/' | relative_url }}" class="underline hover:text-white">Compare vs Jobber, Housecall Pro, ServiceTitan &rarr;</a>
+    </p>
   </div>
 </section>
