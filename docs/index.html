@@ -213,9 +213,10 @@ description: "Run your entire one-person HVAC shop from your iPhone — clients,
 
             <!-- Screen -->
             <div class="iphone-screen">
-              <video class="block w-full h-auto" autoplay muted loop playsinline preload="metadata"
-                     poster="{{ '/assets/images/View%20recent%20photos.png' | relative_url }}">
-                <source src="{{ '/assets/images/1770965662589860.mp4' | relative_url }}" type="video/mp4">
+              <video id="hero-dashboard-video" class="block w-full h-auto"
+                     muted loop playsinline preload="none"
+                     poster="{{ '/assets/images/View%20recent%20photos.png' | relative_url }}"
+                     data-src="{{ '/assets/images/1770965662589860.mp4' | relative_url }}">
                 <img src="{{ '/assets/images/View%20recent%20photos.png' | relative_url }}"
                      alt="FieldPad Dashboard: 8 active jobs, $11,056 pending, EPA compliance alerts"
                      class="block w-full h-auto" />
@@ -905,3 +906,31 @@ description: "Run your entire one-person HVAC shop from your iPhone — clients,
     </p>
   </div>
 </section>
+
+<script>
+  (function () {
+    var v = document.getElementById('hero-dashboard-video');
+    if (!v || !v.dataset.src) return;
+    var reducedMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var conn = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+    var saveData = conn && (conn.saveData || /(^|-)2g$/.test(conn.effectiveType || ''));
+    if (reducedMotion || saveData) return;
+    var load = function () {
+      if (v.src) return;
+      v.src = v.dataset.src;
+      v.load();
+      var p = v.play();
+      if (p && typeof p.catch === 'function') p.catch(function () {});
+    };
+    if ('IntersectionObserver' in window) {
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting) { load(); io.disconnect(); }
+        });
+      }, { rootMargin: '200px' });
+      io.observe(v);
+    } else {
+      load();
+    }
+  })();
+</script>
