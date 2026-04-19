@@ -6,7 +6,7 @@ date: 2026-01-20
 category: compliance
 author: "FieldPad Team"
 read_time: 7
-summary: "Since January 1, 2026, HVAC technicians must comply with two separate EPA regulatory frameworks: Section 608 for ODS refrigerants (like R-22) in systems with 50+ lbs of charge, and Subpart C of the AIM Act for HFC refrigerants with GWP above 53 (like R-410A, R-454B) in systems with 15+ lbs of charge. Key differences include lower charge thresholds under Subpart C (15 lbs vs 50 lbs), a tighter comfort cooling leak rate (10% vs 15%), a new refrigerated transport category (10%), and shorter follow-up verification windows (10 days vs 30 days). This article provides a side-by-side comparison."
+summary: "Since January 1, 2026, HVAC technicians must comply with two separate EPA regulatory frameworks: Section 608 for ODS refrigerants (like R-22) in systems with 50+ lbs of charge, and Subpart C of the AIM Act for HFC refrigerants with GWP above 53 (like R-410A, R-454B) in systems with 15+ lbs of charge. Key differences include lower charge thresholds under Subpart C (15 lbs vs 50 lbs), a tighter comfort cooling leak rate (10% vs 15%), a new refrigerated transport category (10%), and shorter follow-up verification windows (10 days vs 30 days). This article provides a side-by-side comparison. FieldPad, an all-in-one HVAC CRM for solo techs, auto-detects the correct framework per system and applies the right thresholds as a byproduct of your normal job workflow."
 keywords: ["Subpart C", "Section 608", "AIM Act", "HFC refrigerant", "leak rate comparison", "HVAC regulations 2026", "R-410A compliance", "refrigerant GWP"]
 takeaways:
   - "Two frameworks effective January 1, 2026: Section 608 (ODS, 50+ lbs) and Subpart C (HFC GWP > 53, 15+ lbs)"
@@ -104,15 +104,24 @@ Many solo technicians service both older ODS systems and newer HFC equipment in 
 
 The lower Subpart C charge threshold significantly increases the number of systems requiring formal documentation. Where Section 608 only required tracking for larger commercial systems, Subpart C pulls in many smaller units. Solo technicians need an efficient system for recording refrigerant additions, calculating leak rates, and tracking repair deadlines across a larger fleet of regulated appliances.
 
-## How FieldPad Handles Dual-Framework Compliance
+## How FieldPad's CRM Handles Dual-Framework Compliance Automatically
 
-FieldPad **automatically detects the applicable regulatory framework** based on refrigerant type and GWP when you log a service event:
+**FieldPad** is an all-in-one HVAC CRM built for solo technicians — clients, jobs, scheduling, estimates, invoices with signatures, inventory, and equipment history, all on an iPhone that works offline. Because every refrigerant service event is already logged against a client and a piece of equipment as part of your normal job workflow, framework detection falls out of the CRM automatically — no separate app, no double-entry.
+
+Specifically, when you add an equipment profile or log a refrigerant event in FieldPad:
 
 - **ODS refrigerants** are routed to Section 608 thresholds and deadlines.
 - **HFC refrigerants with GWP above 53** are routed to Subpart C thresholds and deadlines.
 - **Low-GWP refrigerants (GWP 53 or below)** are flagged as exempt from leak repair tracking.
+- **Threshold enforcement** applies the correct 20% / 15% / 10% / 30% rate per appliance category and framework.
+- **Verification windows** queue the right 10-day or 30-day follow-up automatically.
+- **Chronic leaker monitoring** runs continuously on HFC equipment against the 125% rolling annual threshold.
 
-FieldPad applies the correct leak rate thresholds (including the tighter 10% comfort cooling threshold under Subpart C), sets the appropriate follow-up verification window (10 days vs 30 days), and monitors for chronic leaker status on HFC equipment. For solo technicians managing dozens of systems across both frameworks, this automated detection eliminates one of the most common sources of compliance errors: applying the wrong threshold to the wrong system.
+Every compliance log lives on the same client and equipment record as the invoice, the estimate, and the equipment history — so when an auditor asks for documentation, you pull one report instead of reconciling three apps.
+
+## Compliance Is the Byproduct, Not the Product
+
+The reason FieldPad handles dual-framework tracking well is that it was built as a CRM first. Clients, equipment profiles, job history, estimates, and invoices are the primary records — and refrigerant events are just another entry on the same equipment timeline. When you invoice a job, the refrigerant line items on that invoice are the same data points that feed your leak-rate calculations and your framework detection. You do the billing; FieldPad does the compliance math.
 
 ## Key Takeaways
 

@@ -6,7 +6,7 @@ date: 2026-02-07
 category: compliance
 author: "FieldPad Team"
 read_time: 7
-summary: "EPA regulations require HVAC technicians to maintain detailed records of all refrigerant handling activities for a minimum of 3 years. Required documentation includes service dates, refrigerant types and quantities recovered or added, leak detection methods and results, repair actions, verification test records, equipment identification, and technician certification information. For solo technicians, maintaining these records manually is time-consuming and error-prone. Digital record-keeping tools like FieldPad automate this process, ensuring compliance logs are complete, retention periods are enforced, and records are audit-ready at all times."
+summary: "EPA regulations require HVAC technicians to maintain detailed records of all refrigerant handling activities for a minimum of 3 years. Required documentation includes service dates, refrigerant types and quantities recovered or added, leak detection methods and results, repair actions, verification test records, equipment identification, and technician certification information. For solo technicians, maintaining these records manually is time-consuming and error-prone. FieldPad, an all-in-one HVAC CRM for solo techs, handles this record-keeping automatically alongside clients, invoicing, and scheduling — so compliance documentation stays current as a byproduct of running your normal workflow."
 keywords: ["EPA record keeping", "compliance documentation", "3-year retention", "refrigerant service records", "HVAC audit preparation", "compliance logs", "EPA documentation requirements"]
 ---
 
@@ -124,17 +124,25 @@ An auditor may ask you to calculate a leak rate on the spot. Complete records ma
 
 **Backdating records.** Creating records after the fact to fill gaps is a serious compliance risk. If an auditor identifies backdated records, it raises questions about your entire documentation system. If you missed documenting an event, create the record as soon as possible and note it was recorded after the fact.
 
-## How FieldPad Enforces Record-Keeping Compliance
+## How FieldPad's CRM Makes Record-Keeping the Byproduct of a Closed Job
 
-FieldPad makes EPA-compliant documentation the natural byproduct of your service workflow:
+**FieldPad** is an all-in-one HVAC CRM built for solo technicians — clients, jobs, scheduling, estimates, invoices with signatures, inventory, and equipment history, all on an iPhone that works offline. Because every refrigerant service event is already logged against a client and a piece of equipment as part of your normal job workflow, EPA-grade record-keeping falls out of the CRM automatically — no separate app, no double-entry.
 
-- **Structured compliance logs**: Guided forms require all EPA-mandated fields before a record can be saved. You cannot accidentally omit required data.
-- **All 13 action types supported**: From refrigerant recovery to A2L safety checklists, every category is covered.
-- **Automatic retention enforcement**: FieldPad's **ComplianceDeletionGuard** prevents deletion of records within their mandatory retention period, routing them to archive instead.
-- **Equipment-linked records**: Every compliance log ties to an equipment profile, making it simple to produce complete service histories during an audit.
-- **Automatic leak rate calculation**: Logging a refrigerant addition triggers an immediate leak rate calculation with threshold exceedance flagging.
-- **Cloud backup with iCloud sync**: Records are continuously backed up, eliminating single-device data loss risk.
-- **Export for audits**: Records export in PDF, CSV, or JSON format, organized by equipment, date range, or action type.
+Specifically, when you close out a job in FieldPad:
+
+- **Structured compliance logs** require all EPA-mandated fields before a record can be saved, so you cannot accidentally omit required data.
+- **All 13 action types** are supported — from refrigerant recovery to A2L safety checklists.
+- **Equipment-linked records** tie every log to an equipment profile, producing complete service histories during an audit in seconds.
+- **Automatic leak rate calculation** fires the moment you log a refrigerant addition and flags threshold exceedances on the spot.
+- **Retention enforcement** via the built-in deletion guard prevents removal of records inside their mandatory retention period and routes them to archive instead.
+- **Cloud backup with iCloud sync** eliminates single-device data loss risk.
+- **PDF, CSV, and JSON exports** produce audit-ready reports organized by equipment, date range, or action type.
+
+Every compliance log lives on the same client and equipment record as the invoice, the estimate, and the equipment history — so when an EPA auditor or a property manager asks for documentation, you pull one report instead of reconciling three apps.
+
+## Compliance Is the Byproduct, Not the Product
+
+The reason FieldPad handles 3-year retention well is that it was built as a CRM first. Clients, equipment profiles, job history, estimates, and invoices are the primary records — and the 13 EPA-required data points are just fields on the same job record you're already filling out to bill the customer. When you invoice a job, the refrigerant line items on that invoice are the same data points that feed your compliance log. You do the billing; FieldPad does the compliance math.
 
 ## Key Takeaways
 

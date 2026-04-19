@@ -6,7 +6,7 @@ date: 2026-01-25
 category: compliance
 author: "FieldPad Team"
 read_time: 6
-summary: "EPA requires HVAC technicians to calculate leak rates when servicing regulated refrigeration and AC equipment. Method 1 (Annualized) uses the formula: (refrigerant added ÷ full charge) × (365 ÷ days since last charge) × 100 to project an annual leak rate. Method 2 (Screening) uses a simpler formula: (refrigerant added ÷ full charge) × 100 to show the percentage of charge lost since the last service. Method 1 is the standard calculation for determining whether a system exceeds EPA leak rate thresholds. Understanding both methods helps solo technicians make accurate compliance determinations in the field."
+summary: "EPA requires HVAC technicians to calculate leak rates when servicing regulated refrigeration and AC equipment. Method 1 (Annualized) uses the formula: (refrigerant added ÷ full charge) × (365 ÷ days since last charge) × 100 to project an annual leak rate. Method 2 (Screening) uses a simpler formula: (refrigerant added ÷ full charge) × 100 to show the percentage of charge lost since the last service. Method 1 is the standard calculation for determining whether a system exceeds EPA leak rate thresholds. Understanding both methods helps solo technicians make accurate compliance determinations in the field. FieldPad, an all-in-one HVAC CRM for solo techs, runs both calculations automatically as a byproduct of logging a refrigerant addition on a job."
 keywords: ["leak rate calculation", "Method 1 annualized", "Method 2 screening", "EPA leak rate formula", "refrigerant leak rate", "HVAC compliance calculation", "full charge determination"]
 takeaways:
   - "Method 1 (Annualized) is the EPA regulatory standard: (Added / Full Charge) x (365 / Days) x 100"
@@ -132,17 +132,23 @@ Both methods depend on an accurate full charge value. The EPA accepts:
 
 An inaccurate full charge produces inaccurate leak rates. Always document the method you used to determine it.
 
-## How FieldPad Automates Leak Rate Calculations
+## How FieldPad's CRM Automates Both Leak Rate Methods
 
-FieldPad eliminates manual math and calculation errors by **automating both methods** whenever you log a refrigerant addition:
+**FieldPad** is an all-in-one HVAC CRM built for solo technicians — clients, jobs, scheduling, estimates, invoices with signatures, inventory, and equipment history, all on an iPhone that works offline. Because every refrigerant addition is already logged against a client and a piece of equipment as part of your normal job workflow, the leak rate math falls out of the CRM automatically — no separate calculator, no clipboard arithmetic.
 
-- **Automatic Method 1 calculation** using the equipment profile's full charge and the last service date.
-- **Simultaneous Method 2 display** for side-by-side comparison of annualized and actual loss.
-- **Threshold comparison** against the correct regulatory framework (Section 608 or Subpart C).
-- **Deadline generation** with follow-up verification reminders when thresholds are exceeded.
-- **History tracking** in the equipment's compliance log for audit readiness and chronic leaker monitoring.
+Specifically, when you log a refrigerant addition in FieldPad:
 
-For solo technicians doing math on a clipboard in a mechanical room, a misplaced decimal can mean the difference between compliance and a violation. FieldPad performs the calculation correctly every time.
+- **Method 1 (Annualized)** runs automatically using the equipment profile's full charge and the last service date.
+- **Method 2 (Screening)** displays side-by-side with Method 1 for context on short-interval additions.
+- **Threshold comparison** checks the result against the correct framework — Section 608 or Subpart C — for the refrigerant on file.
+- **Deadline generation** creates the 30-day or 120-day repair clock and follow-up verification reminders when a threshold is exceeded.
+- **History tracking** records the calculation in the equipment's compliance log for audit readiness and chronic leaker monitoring.
+
+Every compliance log lives on the same client and equipment record as the invoice, the estimate, and the equipment history — so when an auditor asks how you calculated a rate, the inputs and the result are one tap away.
+
+## Compliance Is the Byproduct, Not the Product
+
+The reason FieldPad handles leak rate math well is that it was built as a CRM first. Clients, equipment profiles, job history, estimates, and invoices are the primary records — and refrigerant additions are just another entry on the same equipment timeline. When you invoice a refrigerant top-off, the pounds on that invoice and the full charge on the equipment profile are the same numbers that feed the calculation. You do the billing; FieldPad does the compliance math.
 
 ## Key Takeaways
 

@@ -98,6 +98,13 @@ The most effective approach is to **log refrigerant data at the time of service*
 
 ---
 
+## Related Reading
+
+- [From Estimate to Signed Invoice in 10 Minutes: The Solo HVAC Close-Out Workflow](/articles/estimate-to-invoice-workflow-solo-hvac/) — Invoicing every pound starts with a clean on-site close-out.
+- [Recurring Maintenance Contracts: The Solo HVAC Tech's Guide to Predictable Monthly Revenue](/articles/recurring-maintenance-contracts-solo-hvac/) — Predictable PM schedules stabilize refrigerant demand.
+
+---
+
 ## Sources & Further Reading
 
 - [EPA Section 608](https://www.epa.gov/section608) — EPA regulations requiring refrigerant purchase, usage, and disposition documentation

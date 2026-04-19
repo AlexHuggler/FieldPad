@@ -110,6 +110,13 @@ Consistency is key. When clients learn you always follow up, they prioritize you
 
 ---
 
+## Related Reading
+
+- [From Estimate to Signed Invoice in 10 Minutes: The Solo HVAC Close-Out Workflow](/articles/estimate-to-invoice-workflow-solo-hvac/) — The on-site workflow that closes each call with signed paperwork.
+- [Quote Conversion Rate for Solo HVAC: Why 3-in-5 Is the Benchmark and How to Hit It](/articles/quote-conversion-rate-solo-hvac/) — Lifting the percentage of estimates that become invoices.
+
+---
+
 ## Sources & Further Reading
 
 - [EPA Section 608](https://www.epa.gov/section608) — EPA record-keeping requirements applicable to refrigerant service documentation

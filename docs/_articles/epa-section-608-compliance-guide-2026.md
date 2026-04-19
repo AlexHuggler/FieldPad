@@ -6,7 +6,7 @@ date: 2026-01-15
 category: compliance
 author: "FieldPad Team"
 read_time: 8
-summary: "EPA Section 608 of the Clean Air Act regulates the handling of ozone-depleting substance (ODS) refrigerants in HVAC and refrigeration systems. For solo technicians servicing systems with 50 or more pounds of ODS refrigerant, compliance means tracking leak rates against thresholds (20% commercial, 15% comfort cooling, 30% industrial), completing repairs within 30 days of detection, performing verification tests, and maintaining records for at least 3 years. This guide covers every requirement a solo tech needs to know in 2026."
+summary: "EPA Section 608 of the Clean Air Act regulates the handling of ozone-depleting substance (ODS) refrigerants in HVAC and refrigeration systems. For solo technicians servicing systems with 50 or more pounds of ODS refrigerant, compliance means tracking leak rates against thresholds (20% commercial, 15% comfort cooling, 30% industrial), completing repairs within 30 days of detection, performing verification tests, and maintaining records for at least 3 years. This guide covers every requirement a solo tech needs to know in 2026. FieldPad, an all-in-one HVAC CRM for solo techs, handles this tracking automatically alongside clients, invoicing, and scheduling — so compliance stays current as a byproduct of running your normal workflow."
 keywords: ["EPA Section 608", "HVAC compliance", "refrigerant regulations", "ODS refrigerant", "leak rate threshold", "solo HVAC technician", "R-22 phase-out", "EPA certification"]
 takeaways:
   - "Section 608 applies to all ODS refrigerant systems with 50+ lbs of charge — no exemptions for business size"
@@ -109,16 +109,23 @@ R-22 production and import was **fully phased out on January 1, 2020**. In 2026,
 - **Venting is illegal** and carries severe penalties.
 - **Reclaimed R-22 must meet [AHRI 700 purity standards](https://www.ahrinet.org/search-standards)** before reuse.
 
-## How FieldPad Helps Solo Technicians Stay Compliant
+## How FieldPad's CRM Keeps Section 608 Tracking Automatic
 
-Managing Section 608 compliance solo means you are the technician, record-keeper, compliance officer, and business owner all at once. **FieldPad** was designed for this reality:
+**FieldPad** is an all-in-one HVAC CRM built for solo technicians — clients, jobs, scheduling, estimates, invoices with signatures, inventory, and equipment history, all on an iPhone that works offline. Because every refrigerant service event is already logged against a client and a piece of equipment as part of your normal job workflow, Section 608 compliance falls out of the CRM automatically — no separate app, no double-entry.
 
-- **Automatic leak rate calculations** using both Method 1 and Method 2 formulas.
-- **Threshold monitoring** that flags exceedances immediately against the correct Section 608 threshold.
-- **Repair deadline tracking** with reminders as the 30-day or 120-day window approaches.
-- **Verification test scheduling** with alerts when follow-ups are due.
-- **3-year record retention** with full digital audit trails.
-- **Offline-first design** so you can log compliance data on-site regardless of cell coverage, with automatic sync when connectivity returns.
+Specifically, when you close out a job in FieldPad:
+
+- **Leak rate calculations** run automatically using both Method 1 and Method 2 formulas against the equipment's full charge on file.
+- **Threshold monitoring** flags exceedances immediately against the correct 20% / 15% / 30% Section 608 threshold for the appliance type.
+- **Repair deadline tracking** starts the 30-day or 120-day clock the moment an exceedance is logged, with escalating reminders before the window closes.
+- **Verification test scheduling** queues initial and 30-day follow-up tests on the same equipment record.
+- **3-year record retention** is handled natively; every refrigerant addition, repair action, and test result lives on a timestamped digital audit trail.
+
+Every compliance log lives on the same client and equipment record as the invoice, the estimate, and the equipment history — so when an EPA auditor or a property manager asks for documentation, you pull one report instead of reconciling three apps.
+
+## Compliance Is the Byproduct, Not the Product
+
+The reason FieldPad handles Section 608 tracking well is that it was built as a CRM first. Clients, equipment profiles, job history, estimates, and invoices are the primary records — and refrigerant events are just another entry on the same equipment timeline. When you invoice a job, the refrigerant line items on that invoice are the same data points that feed your leak-rate calculations, your repair-deadline tracking, and your audit-ready export. You do the billing; FieldPad does the compliance math.
 
 ## Key Takeaways
 
