@@ -6,7 +6,7 @@ date: 2026-02-03
 category: compliance
 author: "FieldPad Team"
 read_time: 6
-summary: "Under EPA regulations, refrigeration or AC equipment is classified as a chronic leaker when cumulative refrigerant additions in a calendar year exceed 125% of the equipment's full charge. Once triggered, technicians must submit a chronic leaker report to the EPA by March 1 of the following year. The report must include equipment identification, refrigerant type and amounts added, leak rate history, and repair actions taken. Failure to report can result in significant EPA enforcement actions. FieldPad automatically monitors cumulative additions per equipment and alerts technicians when the 125% threshold is approached."
+summary: "Under EPA regulations, refrigeration or AC equipment is classified as a chronic leaker when cumulative refrigerant additions in a calendar year exceed 125% of the equipment's full charge. Once triggered, technicians must submit a chronic leaker report to the EPA by March 1 of the following year. The report must include equipment identification, refrigerant type and amounts added, leak rate history, and repair actions taken. Failure to report can result in significant EPA enforcement actions. FieldPad, an all-in-one HVAC CRM for solo techs, monitors cumulative additions per equipment automatically as a byproduct of your normal job workflow and assembles the report from data already captured."
 keywords: ["chronic leaker", "EPA reporting", "125% threshold", "refrigerant additions", "March 1 deadline", "chronic leaker report", "HVAC compliance reporting"]
 takeaways:
   - "Chronic leaker status triggers when calendar-year refrigerant additions exceed 125% of full charge"
@@ -98,17 +98,23 @@ For solo technicians, an enforcement action can be professionally devastating. B
 
 These are **separate compliance concepts**. A system can exceed its leak rate threshold without becoming a chronic leaker, and vice versa. The key distinction: **leak rate threshold exceedance triggers repair obligations**, while **chronic leaker status triggers reporting obligations**. Both carry independent penalties for non-compliance.
 
-## How FieldPad Tracks Chronic Leaker Status Automatically
+## How FieldPad's CRM Tracks Chronic Leaker Status Automatically
 
-FieldPad eliminates the manual tracking burden that makes chronic leaker compliance difficult for solo technicians:
+**FieldPad** is an all-in-one HVAC CRM built for solo technicians — clients, jobs, scheduling, estimates, invoices with signatures, inventory, and equipment history, all on an iPhone that works offline. Because every refrigerant addition is already logged against a client and a piece of equipment as part of your normal job workflow, chronic leaker monitoring falls out of the CRM automatically — no separate app, no double-entry.
 
-- **Cumulative addition tracking**: Every refrigerant addition logged against an equipment profile is added to the running calendar-year total.
-- **Threshold alerts**: Warning notifications fire at **100%** of full charge. At **125%**, a chronic leaker alert flags the equipment in your compliance dashboard.
-- **Automatic report generation**: FieldPad compiles all required data -- service dates, amounts, leak rates, repair actions, verification tests -- into a formatted report ready for submission.
-- **Deadline reminders**: Beginning in January, escalating reminders appear about the March 1 filing deadline for any equipment flagged in the previous year.
-- **Equipment owner notifications**: Generate a summary for your customer explaining the classification and their obligations.
+Specifically, as you close out refrigerant jobs in FieldPad:
 
-Because FieldPad maintains detailed compliance logs for every service event, the chronic leaker report is assembled from data already captured during normal service work. There is no separate data entry step or end-of-year scramble.
+- **Cumulative addition tracking** adds every pound logged against an equipment profile to the running calendar-year total.
+- **Threshold alerts** fire at **100%** of full charge; at **125%**, a chronic leaker alert flags the equipment in your compliance dashboard.
+- **Automatic report generation** compiles required data — service dates, amounts, leak rates, repair actions, verification tests — into a formatted report ready for submission.
+- **March 1 deadline reminders** escalate beginning in January for any equipment flagged in the previous year.
+- **Equipment owner notifications** produce a plain-language summary for your customer explaining the classification and their obligations.
+
+Every compliance log lives on the same client and equipment record as the invoice, the estimate, and the equipment history — so when it's time to file the report, you pull one document instead of reconciling service invoices, recovery logs, and a verification spreadsheet.
+
+## Compliance Is the Byproduct, Not the Product
+
+The reason FieldPad handles chronic leaker tracking well is that it was built as a CRM first. Clients, equipment profiles, job history, estimates, and invoices are the primary records — and refrigerant additions are just another line on the same equipment timeline. When you invoice a refrigerant top-off, the pounds on that invoice are the same data points that feed the 125% calculation. You do the billing; FieldPad does the compliance math.
 
 ## Key Takeaways
 

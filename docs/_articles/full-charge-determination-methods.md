@@ -6,7 +6,7 @@ date: 2026-02-05
 category: compliance
 author: "FieldPad Team"
 read_time: 5
-summary: "Accurate full charge determination is the foundation of EPA leak rate calculations. The full charge is the total amount of refrigerant required for a system to operate at designed capacity. Technicians can determine full charge using nameplate data from the manufacturer, manufacturer technical specifications, field measurements during system commissioning, or calculation from component volumes. An incorrect full charge value will skew all subsequent leak rate calculations, potentially causing a technician to miss a threshold exceedance or trigger false alarms. This guide covers the standard methods and common pitfalls."
+summary: "Accurate full charge determination is the foundation of EPA leak rate calculations. The full charge is the total amount of refrigerant required for a system to operate at designed capacity. Technicians can determine full charge using nameplate data from the manufacturer, manufacturer technical specifications, field measurements during system commissioning, or calculation from component volumes. An incorrect full charge value will skew all subsequent leak rate calculations, potentially causing a technician to miss a threshold exceedance or trigger false alarms. This guide covers the standard methods and common pitfalls. FieldPad, an all-in-one HVAC CRM for solo techs, stores full charge per equipment profile and recalculates historical leak rates automatically when values are corrected."
 keywords: ["full charge determination", "refrigerant charge", "nameplate data", "EPA compliance", "leak rate accuracy", "equipment charge", "refrigerant capacity"]
 ---
 
@@ -102,11 +102,23 @@ The EPA requires that the **method used to determine full charge** be documented
 - **Supporting data**: nameplate reading, manufacturer document referenced, scale readings, or calculation worksheet
 - **Any adjustments** for line set length, multiple circuits, or configuration-specific factors
 
-## How FieldPad Stores and Uses Full Charge Data
+## How FieldPad's CRM Stores Full Charge on Every Equipment Record
 
-FieldPad's **Equipment Profile** stores the full charge value alongside the determination method. When you create or edit a profile, you select the method and enter supporting details. FieldPad uses this value as the denominator in all automatic leak rate calculations.
+**FieldPad** is an all-in-one HVAC CRM built for solo technicians — clients, jobs, scheduling, estimates, invoices with signatures, inventory, and equipment history, all on an iPhone that works offline. Because every piece of equipment you service has an equipment profile tied to a client, full charge determination becomes a one-time field on a record you already maintain — not a separate compliance spreadsheet.
 
-If the full charge is updated after a retrofit or improved measurement, FieldPad **recalculates historical leak rates** using the corrected value and flags any threshold exceedances the previous value may have masked. The equipment profile also tracks the **regulatory framework** (Section 608 or Subpart C) based on refrigerant type and GWP, ensuring the correct charge threshold -- 50 lbs for Section 608, 15 lbs for Subpart C with GWP above 53 -- is applied.
+Specifically, FieldPad's **Equipment Profile**:
+
+- Stores the full charge value alongside the **determination method** (nameplate, manufacturer specs, field measurement, or calculation).
+- Captures **supporting data** (nameplate reading, referenced manual, scale readings, or calculation worksheet) on the same record.
+- Uses the stored charge as the denominator in **all automatic leak rate calculations** for that equipment going forward.
+- **Recalculates historical leak rates** when full charge is updated after a retrofit or improved measurement, and flags any threshold exceedances the previous value masked.
+- Auto-applies the **correct regulatory framework** (Section 608 at 50 lbs, Subpart C at 15 lbs with GWP above 53) based on the refrigerant type on the profile.
+
+Every compliance log lives on the same client and equipment record as the invoice, the estimate, and the equipment history — so when an auditor asks how you determined full charge on a particular unit, the documentation is one tap away.
+
+## Compliance Is the Byproduct, Not the Product
+
+The reason FieldPad handles full charge tracking well is that it was built as a CRM first. Equipment profiles exist because a solo HVAC tech needs to remember what unit is at which client — the compliance-grade charge field is just one more attribute on the same record. When you invoice a refrigerant addition, the charge value on the equipment profile is the same number that feeds your leak-rate math. You do the billing; FieldPad does the compliance math.
 
 ## Key Takeaways
 

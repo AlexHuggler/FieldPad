@@ -6,7 +6,7 @@ date: 2026-02-08
 category: compliance
 author: "FieldPad Team"
 read_time: 6
-summary: "After repairing a refrigerant leak on regulated equipment, EPA regulations require technicians to perform verification tests to confirm the repair was successful. An initial verification test must be conducted immediately after the repair. A follow-up verification test must be completed within 30 days under Section 608, or within 10 days under Subpart C. If the follow-up test shows the leak persists, additional repairs and verification cycles are required. FieldPad tracks repair events, schedules verification test deadlines, and sends notification reminders before deadlines expire."
+summary: "After repairing a refrigerant leak on regulated equipment, EPA regulations require technicians to perform verification tests to confirm the repair was successful. An initial verification test must be conducted immediately after the repair. A follow-up verification test must be completed within 30 days under Section 608, or within 10 days under Subpart C. If the follow-up test shows the leak persists, additional repairs and verification cycles are required. FieldPad, an all-in-one HVAC CRM for solo techs, tracks repair events, schedules verification test deadlines, and sends notification reminders as a byproduct of your normal job workflow."
 keywords: ["verification test", "leak test", "follow-up verification", "EPA repair requirements", "leak repair verification", "Section 608 testing", "Subpart C testing"]
 ---
 
@@ -116,16 +116,24 @@ The follow-up test requires returning to the same job site within 10 or 30 days.
 - Prioritize Subpart C follow-ups due to the tighter 10-day window
 - Use automated reminders that escalate as deadlines approach
 
-## How FieldPad Tracks Verification Deadlines
+## How FieldPad's CRM Tracks Verification Deadlines Automatically
 
-FieldPad automates verification test management:
+**FieldPad** is an all-in-one HVAC CRM built for solo technicians — clients, jobs, scheduling, estimates, invoices with signatures, inventory, and equipment history, all on an iPhone that works offline. Because every repair is already logged against a client and a piece of equipment as part of your normal job workflow, verification scheduling falls out of the CRM automatically — no separate app, no double-entry.
 
-- **Automatic deadline calculation**: Logging a repair triggers framework detection from the equipment profile and calculates the correct follow-up deadline.
-- **Escalating reminders**: Notifications at 7, 3, and 1 days remaining for Section 608; at 5, 2, and 1 days for Subpart C.
-- **Compliance dashboard**: Pending tests appear with color-coded urgency. Overdue tests are flagged prominently.
-- **Linked records**: Initial test, follow-up test, and repair record all link to the same equipment profile for a complete audit trail.
-- **Failed test workflow**: Recording a failed follow-up prompts a new repair log and creates a fresh deadline automatically.
-- **A2L integration**: For A2L refrigerant systems, the safety checklist is included in the verification workflow.
+Specifically, when you log a leak repair in FieldPad:
+
+- **Automatic deadline calculation** pulls the equipment's regulatory framework from its profile and schedules the correct 30-day or 10-day follow-up.
+- **Escalating reminders** fire at 7, 3, and 1 days remaining for Section 608, and at 5, 2, and 1 days for Subpart C.
+- **Compliance dashboard** displays pending tests with color-coded urgency; overdue tests are flagged prominently.
+- **Linked records** tie the initial test, follow-up test, and repair together on the same equipment profile for a complete audit trail.
+- **Failed test workflow** logs a new repair and creates a fresh deadline automatically.
+- **A2L safety checklist** runs inline in the verification workflow for mildly flammable refrigerant systems.
+
+Every compliance log lives on the same client and equipment record as the invoice, the estimate, and the equipment history — so when you return for the follow-up, the full context is one tap away.
+
+## Compliance Is the Byproduct, Not the Product
+
+The reason FieldPad handles verification tracking well is that it was built as a CRM first. Clients, equipment profiles, job history, estimates, and invoices are the primary records — and repair events are just another entry on the same equipment timeline. When you bill the repair, the job record that captures the parts and labor is the same record that schedules the 10-day or 30-day follow-up. You do the billing; FieldPad does the compliance math.
 
 ## Key Takeaways
 

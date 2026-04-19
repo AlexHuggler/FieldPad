@@ -6,7 +6,7 @@ date: 2026-02-01
 category: compliance
 author: "FieldPad Team"
 read_time: 5
-summary: "The 5,000 Rule is an EPA guideline that helps HVAC technicians decide whether to repair or replace leaking refrigeration equipment. The calculation multiplies the cost of refrigerant per pound by the equipment's full charge in pounds. If the result exceeds $5,000, replacement may be more economical than continued repair. While not a regulatory mandate, the 5,000 Rule is a widely used industry benchmark that helps solo technicians make defensible repair-vs-replace recommendations to clients. FieldPad includes a built-in 5,000 Rule calculator that provides instant recommendations."
+summary: "The 5,000 Rule is an EPA guideline that helps HVAC technicians decide whether to repair or replace leaking refrigeration equipment. The calculation multiplies the cost of refrigerant per pound by the equipment's full charge in pounds. If the result exceeds $5,000, replacement may be more economical than continued repair. While not a regulatory mandate, the 5,000 Rule is a widely used industry benchmark that helps solo technicians make defensible repair-vs-replace recommendations to clients. FieldPad, an all-in-one HVAC CRM for solo techs, runs the calculation from existing equipment and refrigerant records and drops the result straight into an estimate you can send the client."
 keywords: ["5000 Rule", "repair vs replace", "refrigerant cost", "HVAC equipment replacement", "EPA 5000 Rule", "refrigeration equipment", "equipment lifecycle"]
 ---
 
@@ -94,16 +94,22 @@ A complete repair-vs-replace analysis should also consider:
 - **Regulatory trajectory**: Refrigerants facing AIM Act phasedowns will become more expensive. A system below $5,000 today may cross the threshold within 2 to 3 years.
 - **Parts availability**: Older equipment may use discontinued components.
 
-## How FieldPad's Built-In Calculator Works
+## How FieldPad's CRM Runs the 5,000 Rule on Data You Already Have
 
-FieldPad includes a **5,000 Rule calculator** accessible directly from the app:
+**FieldPad** is an all-in-one HVAC CRM built for solo technicians — clients, jobs, scheduling, estimates, invoices with signatures, inventory, and equipment history, all on an iPhone that works offline. Because your refrigerant inventory and equipment profiles are already in the app, the 5,000 Rule calculation pulls the inputs from records you already maintain — no separate calculator, no re-keying prices.
 
-1. **Select the refrigerant type**. FieldPad maintains current refrigerant pricing, or you can enter a custom price.
-2. **Enter the full charge**. If the equipment is already in FieldPad, the charge is pulled automatically from the equipment profile.
-3. **View the result**. FieldPad calculates the total charge cost and compares it against the $5,000 threshold with a clear recommendation.
-4. **Include in reports**. The calculation can be added to service reports and estimates, providing documented justification for your recommendation.
+Specifically, FieldPad's **5,000 Rule calculator**:
 
-The calculator provides a professional, documented output that strengthens your credibility with clients and protects you if a recommendation is ever questioned.
+- Pulls the **full charge** automatically from the equipment profile tied to the client.
+- Uses your **refrigerant inventory cost per pound** (or a custom override) for the price input.
+- Displays the total charge cost against the **$5,000 threshold** with a plain-language repair-vs-replace recommendation.
+- Drops the result straight into a **client-ready estimate or service report**, so the recommendation flows into your normal quoting workflow.
+
+Every 5,000 Rule result lives on the same client and equipment record as the invoice, the estimate, and the service history — so the next time this customer calls, the recommendation and the math behind it are one tap away.
+
+## The 5,000 Rule Is a Business Decision the CRM Supports
+
+FieldPad was built as a CRM first, which is why the 5,000 Rule fits naturally into its estimating workflow. The decision to repair or replace a system is a sales conversation with your customer — and turning that conversation into a signed estimate is exactly what the CRM is for. You do the customer advising; FieldPad supplies the numbers, the documentation, and the quote.
 
 ## Key Takeaways
 
