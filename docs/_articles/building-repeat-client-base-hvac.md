@@ -113,3 +113,10 @@ Measure these numbers monthly or quarterly:
 - **Use strategic check-ins** during extreme weather and holidays to reinforce relationships.
 - **Track retention metrics** to measure and improve your client retention efforts.
 - **Use a client management tool** like FieldPad to maintain service detail that matches what larger companies achieve with dedicated CRM systems.
+
+---
+
+## Related Reading
+
+- [Recurring Maintenance Contracts: The Solo HVAC Tech's Guide to Predictable Monthly Revenue](/articles/recurring-maintenance-contracts-solo-hvac/) — The retention mechanism that compounds over years.
+- [New Client Onboarding for Solo HVAC: What to Capture on the First Call](/articles/new-client-onboarding-solo-hvac/) — The front end of every long-term relationship.

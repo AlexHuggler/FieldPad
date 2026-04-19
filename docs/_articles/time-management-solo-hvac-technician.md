@@ -117,3 +117,10 @@ Paradoxically, technicians who work fewer hours with better systems often **earn
 - **Set clear boundaries** on working hours to prevent burnout.
 - **Use an offline-capable mobile tool** like FieldPad that works in basements, mechanical rooms, and rural areas.
 - **Invest time in systems now** to save exponentially more time over months and years ahead.
+
+---
+
+## Related Reading
+
+- [Scheduling Optimization for One-Truck HVAC Shops: Reducing Windshield Time](/articles/scheduling-optimization-one-truck-hvac/) — Zone-day scheduling that cuts drive time 40-60%.
+- [From Estimate to Signed Invoice in 10 Minutes: The Solo HVAC Close-Out Workflow](/articles/estimate-to-invoice-workflow-solo-hvac/) — The on-site workflow that eliminates evening paperwork.

@@ -95,3 +95,10 @@ Adjust your pricing at least once per year based on changes in operating costs, 
 - **Compete on value, not price**: response time, consistency, and expertise justify premium rates.
 - **Use professional, itemized invoicing** to communicate value and reduce payment disputes.
 - **Review rates annually** and adjust for cost increases and market changes.
+
+---
+
+## Related Reading
+
+- [Quote Conversion Rate for Solo HVAC: Why 3-in-5 Is the Benchmark and How to Hit It](/articles/quote-conversion-rate-solo-hvac/) — Pricing alone isn't enough; conversion is where margin compounds.
+- [Recurring Maintenance Contracts: The Solo HVAC Tech's Guide to Predictable Monthly Revenue](/articles/recurring-maintenance-contracts-solo-hvac/) — Turning hourly rates into subscription revenue.

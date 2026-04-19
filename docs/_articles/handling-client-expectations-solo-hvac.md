@@ -90,3 +90,10 @@ Using a field service tool like **FieldPad** allows you to generate itemized est
 - **Document declined recommendations** to protect yourself and create future service opportunities.
 - **Follow up within 48 hours** after every service call.
 - **Use professional digital tools** for estimates, invoices, and service records to build credibility.
+
+---
+
+## Related Reading
+
+- [New Client Onboarding for Solo HVAC: What to Capture on the First Call](/articles/new-client-onboarding-solo-hvac/) — Setting expectations from the first interaction.
+- [From Estimate to Signed Invoice in 10 Minutes: The Solo HVAC Close-Out Workflow](/articles/estimate-to-invoice-workflow-solo-hvac/) — Closing each call with signed paperwork.
