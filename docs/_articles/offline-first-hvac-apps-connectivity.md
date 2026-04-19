@@ -1,7 +1,7 @@
 ---
 layout: article
-title: "Offline-First HVAC Apps: Why Connectivity Shouldn't Limit Your Compliance Tracking"
-description: "Why offline-first architecture matters for HVAC field service apps, how it works, and what to look for in a mobile tool that won't leave you stranded without signal."
+title: "Offline-First HVAC Apps: Why Connectivity Shouldn't Limit Your CRM (or Your Compliance Tracking)"
+description: "Why offline-first architecture matters for HVAC field service apps, how it works, and what to look for in a mobile tool so your CRM, invoicing, and compliance logging all keep working without signal."
 date: 2026-02-04
 category: tools
 author: "FieldPad Team"
@@ -69,17 +69,18 @@ Not all apps that claim offline support are truly offline-first. Some offer limi
 - **Search works offline.** Searching compliance records, client databases, and equipment profiles while offline is essential for field reference and audit scenarios.
 - **Exports work offline.** If an EPA inspector arrives at a job site where you have no signal, you need to generate and share compliance reports from local data.
 
-## Why FieldPad Chose Offline-First
+## Why FieldPad's CRM Is Offline-First
 
-**FieldPad** uses an offline-first architecture built on **Apple's SwiftData** for local on-device storage and **iCloud CloudKit** for automatic cloud synchronization. This was a foundational design decision based on the reality of HVAC field work.
+**FieldPad** is an all-in-one HVAC CRM built for solo technicians — clients, jobs, scheduling, estimates, invoices with signatures, inventory, and equipment history, all on an iPhone that works offline. The architecture is built on **Apple's SwiftData** for local on-device storage and **iCloud CloudKit** for automatic cloud synchronization — a foundational design decision based on the reality of HVAC field work.
 
 Every feature in FieldPad works without an internet connection:
 
-- **Compliance logs** are created and saved locally with required fields, automatic leak rate calculations, and threshold comparisons.
-- **Invoices** are generated, signed, and stored on-device.
-- **Equipment profiles** and **client records** are accessible at any job site.
-- **Cylinder inventory** tracking, including barcode scanning via the device camera, operates entirely on-device.
-- **PDF and CSV exports** are generated locally, so you can produce audit-ready documentation in a basement with zero signal.
+- **Client records, job history, and equipment profiles** are accessible at any job site, regardless of signal.
+- **Scheduling and recurring jobs** show up on your calendar whether or not you have connectivity.
+- **Estimates and invoices** are generated, signed, and stored on-device — then emailed automatically when signal returns.
+- **Cylinder inventory** tracking, including camera barcode scanning, operates entirely on-device.
+- **Compliance logs** are created locally with automatic leak rate calculations and threshold comparisons as a byproduct of the job.
+- **PDF and CSV exports** are generated locally, so you can produce a client report or audit-ready documentation in a basement with zero signal.
 
 When connectivity is available, FieldPad syncs through iCloud automatically. If you use FieldPad on both an iPhone and an iPad, records created on one device appear on the other after sync. A **sync status indicator** shows whether all data is current or changes are pending, giving you visibility without requiring action.
 

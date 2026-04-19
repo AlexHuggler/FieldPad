@@ -77,16 +77,21 @@ For a solo technician, faster invoicing means faster payment. Sending a professi
 
 ## The FieldPad Approach
 
-**FieldPad** was built specifically for solo HVAC technicians who need to manage compliance documentation, invoicing, and client records without back-office staff:
+**FieldPad** is an all-in-one HVAC CRM built specifically for solo technicians — clients, jobs, scheduling, estimates, invoices with signatures, inventory, and equipment history, all on an iPhone that works offline. Going digital with a CRM means the whole business runs from one app instead of a clipboard plus a spreadsheet plus a filing cabinet:
 
-- **Offline-first architecture** using Apple's SwiftData for local storage and iCloud CloudKit for background sync.
+- **Client and equipment records** are the primary data. Refrigerant events, invoices, estimates, and compliance logs all attach to the client and the equipment on file.
+- **Offline-first architecture** using Apple's SwiftData for local storage and iCloud CloudKit for background sync — so the whole CRM works in a basement.
 - **Glove Mode** with enlarged touch targets for data entry while wearing work gloves.
-- **Automatic leak rate calculations** using both Section 608 and Subpart C thresholds, with regulatory framework auto-detection based on refrigerant GWP.
-- **Required field enforcement** ensuring every compliance log contains the data an EPA auditor expects.
-- **3-year record retention** with searchable, exportable records in PDF, CSV, and JSON formats.
+- **On-site estimates and invoices** with line item templates, digital signatures, and PDF email delivery as soon as signal returns.
+- **Recurring maintenance scheduling** that keeps preventive-maintenance customers on your calendar automatically.
 - **Equipment profiles** that store full charge, refrigerant type, and service history, auto-populating data across service calls.
+- **Automatic leak rate calculations** using both Section 608 and Subpart C thresholds as a byproduct of logging a refrigerant addition — required fields, 3-year retention, and PDF/CSV/JSON export all handled.
 
-The transition from paper to digital does not need to happen all at once. Many technicians start by logging compliance records digitally while continuing their existing invoicing process, then gradually expand their digital workflow.
+The transition from paper to digital does not need to happen all at once. Many technicians start by logging a few clients and jobs in the CRM, then expand into estimates, invoicing, and compliance over a few weeks.
+
+## Compliance Is the Byproduct, Not the Product
+
+Going digital isn't primarily about compliance — it's about running your business from one place. A CRM gives you the client record, the equipment history, the estimate, the invoice, and the calendar in one app. The fact that the same data also produces audit-ready compliance logs is a bonus, not the reason to switch. You do the billing; FieldPad does the compliance math.
 
 ## Key Takeaways
 
