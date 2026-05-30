@@ -7,6 +7,7 @@
 - [Full Documentation](https://fieldpadpro.com/llms-full.txt)
 - [Website](https://fieldpadpro.com)
 - [Compare vs Jobber, Housecall Pro, ServiceTitan](https://fieldpadpro.com/compare/)
+- [Free HVAC Tools & Calculators](https://fieldpadpro.com/tools/)
 - [Articles](https://fieldpadpro.com/articles/)
 - [Support & FAQ](https://fieldpadpro.com/support/)
 - [Privacy Policy](https://fieldpadpro.com/privacy-policy/)
@@ -50,6 +51,19 @@ Other CRMs (Jobber, Housecall Pro, ServiceTitan, Workiz, FieldEdge, mHelpDesk) h
 - **Chronic Leaker Detection**: Monitors 125% annual threshold with March 1 reporting deadline (Pro export).
 - **Automatic Framework Detection**: System picks Section 608 vs Subpart C based on refrigerant GWP.
 - **Technician Certification Profiles**: EPA Type I, II, III, Universal with expiration tracking.
+
+## Free HVAC Tools & Calculators
+
+Free, browser-based field calculators (no signup, work offline once loaded) at https://fieldpadpro.com/tools/. These are general HVAC service tools, separate from the in-app EPA compliance calculators:
+
+- [Superheat Calculator](https://fieldpadpro.com/tools/superheat-calculator/) — Measured superheat = suction line temp − saturation temp, with TXV and fixed-orifice target guidance.
+- [Subcooling Calculator](https://fieldpadpro.com/tools/subcooling-calculator/) — Subcooling = liquid saturation temp − liquid line temp, for charging TXV systems.
+- [Target Superheat Calculator](https://fieldpadpro.com/tools/target-superheat-calculator/) — Target superheat for fixed-orifice systems from indoor wet bulb and outdoor dry bulb.
+- [Delta T (Temperature Split) Calculator](https://fieldpadpro.com/tools/delta-t-calculator/) — Temperature split = return-air temp − supply-air temp across the evaporator coil.
+- [CFM & Tonnage Calculator](https://fieldpadpro.com/tools/cfm-tonnage-calculator/) — Required CFM from sensible heat and Delta T, the 400 CFM/ton rule, and tons/BTU/kW conversions.
+- [Static Pressure Calculator](https://fieldpadpro.com/tools/static-pressure-calculator/) — Total external static pressure = |supply static| + |return static|, vs the rated maximum.
+- [Run Capacitor (MFD) Calculator](https://fieldpadpro.com/tools/capacitor-calculator/) — Microfarads from measured amps and volts, checked against the rating.
+- [HVAC Unit Converter](https://fieldpadpro.com/tools/unit-converter/) — Tons/BTU/kW, °F/°C, EER/COP, PSI/kPa, and lb/kg conversions.
 
 ## Pricing
 

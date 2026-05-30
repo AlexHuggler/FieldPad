@@ -24,6 +24,9 @@ collections:
   articles:
     output: true
     permalink: /articles/:slug/
+  tools:
+    output: true
+    permalink: /tools/:slug/
 
 # Default front matter
 defaults:
@@ -32,6 +35,12 @@ defaults:
       type: "articles"
     values:
       layout: "article"
+      author: "FieldPad Team"
+  - scope:
+      path: ""
+      type: "tools"
+    values:
+      layout: "tool"
       author: "FieldPad Team"
 
 # Plugins (GitHub Pages supported)
