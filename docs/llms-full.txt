@@ -281,7 +281,7 @@ FieldPad runs on iPhone and iPad with iOS 17 or later. Data syncs between device
 
 ## Free HVAC Tools & Calculators
 
-FieldPad publishes a suite of free, browser-based HVAC field calculators at https://fieldpadpro.com/tools/ — no signup required. These are general HVAC service tools (charging, airflow, electrical, conversions), distinct from the EPA compliance calculators built into the iOS app. Each tool page includes the formula, a worked example, and guidance on interpreting the result.
+FieldPad publishes a suite of 20 free, browser-based HVAC field calculators at https://fieldpadpro.com/tools/ — no signup required. These are general HVAC service tools for technicians and students (refrigeration/charging, airflow, heating & gas, electrical, psychrometrics, load sizing, conversions), distinct from the EPA compliance calculators built into the iOS app. Each tool page includes the formula, a worked example, and guidance on interpreting the result.
 
 1. **[Superheat Calculator](https://fieldpadpro.com/tools/superheat-calculator/)** — Calculates measured superheat for refrigerant charging. Formula: Superheat (°F) = Suction Line Temperature − Saturation Temperature (the saturation temp comes from converting suction pressure with the refrigerant's P/T chart). On a TXV/EEV system the target is about 8–12°F; on a fixed-orifice system superheat floats with conditions and is compared to a calculated target.
 
@@ -297,7 +297,31 @@ FieldPad publishes a suite of free, browser-based HVAC field calculators at http
 
 7. **[Run Capacitor (MFD) Calculator](https://fieldpadpro.com/tools/capacitor-calculator/)** — Tests a run capacitor under load. Formula: Capacitance (µF) = (2652 × Amps) ÷ Volts at 60 Hz (constant is 3183 at 50 Hz), measuring start-winding amps and the voltage across the capacitor. A run capacitor is generally good within ±6% of its rated microfarads.
 
-8. **[HVAC Unit Converter](https://fieldpadpro.com/tools/unit-converter/)** — Converts the common HVAC units in one place: capacity (1 ton = 12,000 BTU/h = 3.517 kW), temperature (°F ↔ °C), efficiency (COP = EER ÷ 3.412), pressure (1 PSI = 6.895 kPa), and weight (1 lb = 0.4536 kg).
+8. **[Compression Ratio Calculator](https://fieldpadpro.com/tools/compression-ratio-calculator/)** — Assesses compressor load. Formula: Compression Ratio = (Discharge PSIG + 14.7) ÷ (Suction PSIG + 14.7) — a ratio of absolute pressures. Healthy range is about 2.3:1 to 3.5:1; above 4:1 indicates mechanical/thermal stress and higher amp draw.
+
+9. **[Line-Set Charge Calculator](https://fieldpadpro.com/tools/line-set-charge-calculator/)** — Estimates added refrigerant for liquid line beyond the factory baseline. Formula: oz = oz-per-foot × (total length − factory length), with ~0.27 oz/ft for 1/4", 0.40 for 5/16", 0.60 for 3/8". Estimate only; manufacturer data governs and final charge is verified by subcooling/superheat.
+
+10. **[Refrigerant PT Chart Calculator](https://fieldpadpro.com/tools/pt-chart-calculator/)** — Pressure↔saturation-temperature lookup for R-410A, R-454B, R-32, R-22, R-134a, R-404A, R-407C, R-448A, and R-449A, interpolated from published manufacturer PT charts (Hudson Technologies; Honeywell for R-454B). Glide blends (R-407C, R-448A, R-449A, R-454B) report both bubble (liquid, for subcooling) and dew (vapor, for superheat) points.
+
+11. **[Duct Size & Air Velocity Calculator](https://fieldpadpro.com/tools/duct-size-calculator/)** — Velocity (FPM) = CFM ÷ duct area (ft²) for round or rectangular duct, plus equivalent round diameter via the Huebscher equation De = 1.30 × (a·b)^0.625 ÷ (a+b)^0.25. Target velocities (Manual D): supply trunk 600–900, branches 400–600, returns 400–700 FPM.
+
+12. **[Fan Laws Calculator](https://fieldpadpro.com/tools/fan-laws-calculator/)** — Affinity laws for blower speed changes: CFM₂ = CFM₁ × (RPM₂/RPM₁); SP₂ = SP₁ × (RPM₂/RPM₁)²; BHP₂ = BHP₁ × (RPM₂/RPM₁)³. Power scales with the cube of speed, so motor amp/thermal limits must be verified before raising RPM.
+
+13. **[Furnace Temperature Rise & Airflow Calculator](https://fieldpadpro.com/tools/furnace-temp-rise-calculator/)** — Temperature rise = supply − return; heating CFM = BTU output ÷ (1.08 × rise), where output = input × efficiency. Compares the rise to the typical nameplate range (a ~30–40°F window).
+
+14. **[Gas Meter Clocking Calculator](https://fieldpadpro.com/tools/gas-meter-clocking-calculator/)** — Measures actual gas input by timing one dial revolution. Formula: CFH = (3600 ÷ seconds-per-rev) × test dial size (ft³); BTU/h input = CFH × heating value (natural gas default ~1,050 BTU/ft³). Measures input (firing rate), not efficiency.
+
+15. **[Ohm's & Watt's Law Calculator](https://fieldpadpro.com/tools/ohms-law-calculator/)** — Solves any two of voltage, current, resistance, and power via Ohm's law (V = I × R) and Watt's law (P = V × I, P = I²R, P = V²/R). Assumes a resistive, in-phase load; motors require power factor.
+
+16. **[Voltage Drop Calculator](https://fieldpadpro.com/tools/voltage-drop-calculator/)** — Single-phase VD = (2 × K × L × I) ÷ CM; three-phase VD = (1.732 × K × L × I) ÷ CM. K = 12.9 (copper) or 21.2 (aluminum); CM = conductor circular mils. Flags against the NEC's 3% branch / 5% total recommendations (informational notes, not mandates).
+
+17. **[Sensible, Latent & Total Heat Calculator](https://fieldpadpro.com/tools/sensible-latent-heat-calculator/)** — Qs = 1.08 × CFM × ΔT(°F); Ql = 0.68 × CFM × Δgrains; Qt = 4.5 × CFM × Δenthalpy(BTU/lb); Qt = Qs + Ql; SHR = Qs ÷ Qt. Constants are for standard air at sea level (0.075 lb/ft³).
+
+18. **[Dew Point & Relative Humidity Calculator](https://fieldpadpro.com/tools/dew-point-calculator/)** — Magnus formula: α = ln(RH/100) + (a·T)/(b+T), dew point = (b·α)/(a−α) with a = 17.27, b = 237.7 (°C); also solves RH from temperature and dew point. Flags condensation risk when surfaces fall to or below the dew point. Accurate to ±0.4°C, 0–60°C.
+
+19. **[HVAC Load Estimate Calculator](https://fieldpadpro.com/tools/load-estimate-calculator/)** — Rule-of-thumb sizing: BTU/h ≈ area × climate factor (18–50 BTU/sq ft) × insulation modifier; tons = BTU/h ÷ 12,000. Explicitly a rough ballpark (±30–50%) for budgeting only — NOT a substitute for a Manual J load calculation.
+
+20. **[HVAC Unit Converter](https://fieldpadpro.com/tools/unit-converter/)** — Converts the common HVAC units in one place: capacity (1 ton = 12,000 BTU/h = 3.517 kW), temperature (°F ↔ °C), efficiency (COP = EER ÷ 3.412), pressure (1 PSI = 6.895 kPa), and weight (1 lb = 0.4536 kg).
 
 ## Article Library
 
