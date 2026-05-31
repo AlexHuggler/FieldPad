@@ -54,15 +54,40 @@ Other CRMs (Jobber, Housecall Pro, ServiceTitan, Workiz, FieldEdge, mHelpDesk) h
 
 ## Free HVAC Tools & Calculators
 
-Free, browser-based field calculators (no signup, work offline once loaded) at https://fieldpadpro.com/tools/. These are general HVAC service tools, separate from the in-app EPA compliance calculators:
+Free, browser-based field calculators (no signup, work offline once loaded) at https://fieldpadpro.com/tools/. These are general HVAC service tools for technicians and students, separate from the in-app EPA compliance calculators.
 
+Refrigeration:
 - [Superheat Calculator](https://fieldpadpro.com/tools/superheat-calculator/) — Measured superheat = suction line temp − saturation temp, with TXV and fixed-orifice target guidance.
 - [Subcooling Calculator](https://fieldpadpro.com/tools/subcooling-calculator/) — Subcooling = liquid saturation temp − liquid line temp, for charging TXV systems.
 - [Target Superheat Calculator](https://fieldpadpro.com/tools/target-superheat-calculator/) — Target superheat for fixed-orifice systems from indoor wet bulb and outdoor dry bulb.
+- [Compression Ratio Calculator](https://fieldpadpro.com/tools/compression-ratio-calculator/) — (discharge PSIG + 14.7) ÷ (suction PSIG + 14.7); healthy ~2.3–3.5:1.
+- [Line-Set Charge Calculator](https://fieldpadpro.com/tools/line-set-charge-calculator/) — Additional refrigerant per foot of liquid line beyond the factory-charged length, by line diameter.
+- [Refrigerant PT Chart Calculator](https://fieldpadpro.com/tools/pt-chart-calculator/) — Pressure↔saturation-temperature lookup for R-410A, R-454B, R-32, R-22, R-134a, R-404A, R-407C, R-448A, R-449A, with bubble/dew for glide blends.
+
+Airflow:
 - [Delta T (Temperature Split) Calculator](https://fieldpadpro.com/tools/delta-t-calculator/) — Temperature split = return-air temp − supply-air temp across the evaporator coil.
 - [CFM & Tonnage Calculator](https://fieldpadpro.com/tools/cfm-tonnage-calculator/) — Required CFM from sensible heat and Delta T, the 400 CFM/ton rule, and tons/BTU/kW conversions.
 - [Static Pressure Calculator](https://fieldpadpro.com/tools/static-pressure-calculator/) — Total external static pressure = |supply static| + |return static|, vs the rated maximum.
+- [Duct Size & Air Velocity Calculator](https://fieldpadpro.com/tools/duct-size-calculator/) — Velocity (FPM) = CFM ÷ duct area, for round or rectangular ducts, plus equivalent diameter.
+- [Fan Laws Calculator](https://fieldpadpro.com/tools/fan-laws-calculator/) — CFM ∝ RPM, static pressure ∝ RPM², brake horsepower ∝ RPM³.
+
+Heating & Gas:
+- [Furnace Temperature Rise & Airflow Calculator](https://fieldpadpro.com/tools/furnace-temp-rise-calculator/) — Rise = supply − return; heating CFM = BTU output ÷ (1.08 × rise).
+- [Gas Meter Clocking Calculator](https://fieldpadpro.com/tools/gas-meter-clocking-calculator/) — CFH = (3600 ÷ seconds/rev) × dial size; BTU/h = CFH × heating value.
+
+Electrical:
 - [Run Capacitor (MFD) Calculator](https://fieldpadpro.com/tools/capacitor-calculator/) — Microfarads from measured amps and volts, checked against the rating.
+- [Ohm's & Watt's Law Calculator](https://fieldpadpro.com/tools/ohms-law-calculator/) — Solve any two of volts, amps, ohms, watts via V=IR and P=VI.
+- [Voltage Drop Calculator](https://fieldpadpro.com/tools/voltage-drop-calculator/) — Single/three-phase VD = (2 or 1.732 × K × L × I) ÷ circular mils, vs NEC 3%/5% guidance.
+
+Psychrometrics:
+- [Sensible, Latent & Total Heat Calculator](https://fieldpadpro.com/tools/sensible-latent-heat-calculator/) — Qs = 1.08·CFM·ΔT, Ql = 0.68·CFM·Δgrains, Qt = 4.5·CFM·Δenthalpy, plus SHR.
+- [Dew Point & Relative Humidity Calculator](https://fieldpadpro.com/tools/dew-point-calculator/) — Magnus-formula dew point from temp and RH (and reverse), with condensation-risk flags.
+
+Load & Sizing:
+- [HVAC Load Estimate Calculator](https://fieldpadpro.com/tools/load-estimate-calculator/) — Rule-of-thumb BTU/tonnage from square footage and climate (ballpark only; not a Manual J).
+
+Conversions:
 - [HVAC Unit Converter](https://fieldpadpro.com/tools/unit-converter/) — Tons/BTU/kW, °F/°C, EER/COP, PSI/kPa, and lb/kg conversions.
 
 ## Pricing
