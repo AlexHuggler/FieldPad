@@ -62,8 +62,12 @@ social:
   name: "FieldPad: HVAC Service Pro"
   links: []
 
-# Google verification (placeholder - update with actual)
-# google_site_verification: "YOUR_VERIFICATION_CODE"
+# Google Search Console verification.
+# Use the "HTML tag" method in Search Console (https://search.google.com/search-console),
+# copy the content="..." token from the <meta name="google-site-verification"> tag,
+# then uncomment the line below and paste the token. jekyll-seo-tag emits the meta tag automatically.
+# (If you verify with the "Domain" property type instead, use a DNS TXT record — leave this commented.)
+# google_site_verification: "PASTE_TOKEN_HERE"
 
 # Timezone
 timezone: America/Chicago
