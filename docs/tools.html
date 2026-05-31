@@ -13,10 +13,52 @@ keywords: ["HVAC calculators", "free HVAC tools", "superheat calculator", "subco
   "name": "Free HVAC Tools & Calculators",
   "description": "Free online HVAC calculators for technicians and students — refrigerant charging, airflow, gas heating, electrical, psychrometrics, load sizing, and unit conversions.",
   "url": "https://fieldpadpro.com/tools/",
+  "isPartOf": { "@type": "WebSite", "name": "FieldPad", "url": "https://fieldpadpro.com" },
   "publisher": {
     "@type": "Organization",
     "name": "Huggler Holdings LLC"
+  },
+  "mainEntity": {
+    "@type": "ItemList",
+    "name": "Free HVAC Calculators",
+    "numberOfItems": {{ site.tools | size }},
+    "itemListElement": [
+      {%- assign all_groups = "Refrigeration,Airflow,Heating & Gas,Electrical,Psychrometrics,Load & Sizing,Conversions" | split: "," -%}
+      {%- assign pos = 0 -%}
+      {%- for g in all_groups -%}
+        {%- assign gtools = site.tools | where: "tool_category", g | sort: "tool_order" -%}
+        {%- for tool in gtools -%}
+          {%- assign pos = pos | plus: 1 -%}
+          {%- if pos > 1 %},{% endif %}
+      {
+        "@type": "ListItem",
+        "position": {{ pos }},
+        "item": {
+          "@type": "WebApplication",
+          "name": {{ tool.title | jsonify }},
+          "description": {{ tool.description | jsonify }},
+          "url": "{{ tool.url | absolute_url }}",
+          "applicationCategory": "UtilitiesApplication",
+          "operatingSystem": "All",
+          "isAccessibleForFree": true,
+          "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+        }
+      }
+        {%- endfor -%}
+      {%- endfor -%}
+    ]
   }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://fieldpadpro.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://fieldpadpro.com/tools/" }
+  ]
 }
 </script>
 
