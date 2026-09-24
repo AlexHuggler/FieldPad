@@ -2,7 +2,7 @@
 layout: page
 title: "Terms of Use"
 description: "FieldPad Terms of Use — Subscription terms, free tier limits, EPA data accuracy disclaimer, and liability limitations for the FieldPad HVAC field service app."
-last_updated: "February 9, 2026"
+last_updated: "September 24, 2026"
 permalink: /terms-of-use/
 ---
 
@@ -233,4 +233,4 @@ For questions about these Terms, contact us at: fieldpad@fieldpadpro.com
 
 ---
 
-*These terms were last audited against the FieldPad codebase on 2026-02-09.*
+*Regulatory descriptions updated September 23, 2026.*
