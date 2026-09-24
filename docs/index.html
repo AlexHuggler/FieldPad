@@ -115,7 +115,7 @@ description: "Run your entire one-person HVAC shop from your iPhone — clients,
       "name": "What is Glove Mode in FieldPad?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Glove Mode enlarges every touch target to a minimum of 48 points so you don't have to peel off work gloves to tap a button. Buttons, text fields, and interactive elements are all sized for reliable input with work gloves. Available on both free and Pro tiers."
+        "text": "Glove Mode enlarges supported buttons and form controls for field use. Available on both free and Pro tiers."
       }
     }
   ]
@@ -200,7 +200,7 @@ description: "Run your entire one-person HVAC shop from your iPhone — clients,
         <p class="text-sm text-gray-400 mt-4">Free tier forever. No credit card for the free tier. Manage subscriptions through Apple. </p>
       </div>
 
-      <!-- Hero Visual: iPhone 17 with Leak Rate Calculator -->
+      <!-- Actual 1.1 simulator capture, explicitly labeled as a prerelease preview -->
       <div class="relative fade-in-up-delay-2">
         <div class="mx-auto max-w-[290px] sm:max-w-[310px]">
           <!-- iPhone Frame -->
@@ -213,16 +213,12 @@ description: "Run your entire one-person HVAC shop from your iPhone — clients,
 
             <!-- Screen -->
             <div class="iphone-screen">
-              <video id="hero-dashboard-video" class="block w-full h-auto"
-                     muted loop playsinline preload="none"
-                     poster="{{ '/assets/images/View%20recent%20photos.png' | relative_url }}"
-                     data-src="{{ '/assets/images/1770965662589860.mp4' | relative_url }}">
-                <img src="{{ '/assets/images/View%20recent%20photos.png' | relative_url }}"
-                     alt="FieldPad Dashboard: 8 active jobs, $11,056 pending, EPA compliance alerts"
-                     class="block w-full h-auto" />
-              </video>
+              <img src="{{ '/assets/images/fieldpad-1-1-preview-dashboard.jpg' | relative_url }}"
+                   alt="FieldPad 1.1 prerelease dashboard with synthetic sample records"
+                   width="368" height="800" class="block w-full h-auto" />
             </div>
           </div>
+          <p class="text-xs leading-relaxed text-gray-500 text-center mt-4">1.1 preview &middot; sample data.<br>Public version: 1.0.1. <a href="{{ '/release-status/' | relative_url }}" class="underline">View release status</a>.</p>
         </div>
       </div>
     </div>
@@ -755,31 +751,3 @@ description: "Run your entire one-person HVAC shop from your iPhone — clients,
     </p>
   </div>
 </section>
-
-<script>
-  (function () {
-    var v = document.getElementById('hero-dashboard-video');
-    if (!v || !v.dataset.src) return;
-    var reducedMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    var conn = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
-    var saveData = conn && (conn.saveData || /(^|-)2g$/.test(conn.effectiveType || ''));
-    if (reducedMotion || saveData) return;
-    var load = function () {
-      if (v.src) return;
-      v.src = v.dataset.src;
-      v.load();
-      var p = v.play();
-      if (p && typeof p.catch === 'function') p.catch(function () {});
-    };
-    if ('IntersectionObserver' in window) {
-      var io = new IntersectionObserver(function (entries) {
-        entries.forEach(function (e) {
-          if (e.isIntersecting) { load(); io.disconnect(); }
-        });
-      }, { rootMargin: '200px' });
-      io.observe(v);
-    } else {
-      load();
-    }
-  })();
-</script>
