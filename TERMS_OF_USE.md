@@ -98,8 +98,8 @@ FieldPad is a **record-keeping and calculation tool**. It is **not** a substitut
 The App calculates leak rates using EPA Section 608 and AIM Act Subpart C formulas applied to data you manually enter. These calculations:
 
 - Are performed **on-demand** when you log a recharge event — they are **not** real-time sensor-based monitoring
-- Use Method 1 (annualized) or Method 2 (screening) formulas as defined by EPA regulations
-- Compare results against applicable EPA thresholds (e.g., 20% for commercial refrigeration; 15% for comfort cooling under Section 608, 10% under Subpart C)
+- Use the annualizing or rolling-average formulas as defined by EPA regulations
+- Compare results against applicable EPA thresholds (e.g., 20% for commercial refrigeration; 10% for covered comfort cooling under either framework)
 - Are only as accurate as the data you enter
 
 **The App does not connect to any sensors, IoT devices, or monitoring equipment.** Leak rate "detection" in the App means calculation from your manually entered service data, not automated environmental sensing.
@@ -115,7 +115,7 @@ The App schedules local notifications (e.g., repair deadline reminders, inspecti
 
 ### 3.5 A2L Safety Checklists
 
-A2L refrigerant safety checklists in the App are informational aids. The App tracks six mandatory safety items for A2L refrigerant service: dissipation confirmed, spark-free tools verified, ventilation verified, PPE verified, A2L-rated leak detector used, and equipment grounded. An optional seventh item — emergency plan reviewed — may also be recorded. Three additional informational items (maximum charge verified, installation location verified, recovery equipment rated) may also be recorded for reference but are not required for checklist completion. These checklists:
+A2L refrigerant safety checklists in the App are informational aids. The App tracks six documentation prompts for A2L refrigerant service: dissipation confirmed, spark-free tools verified, ventilation verified, PPE verified, A2L-rated leak detector used, and equipment grounded. An optional seventh item — emergency plan reviewed — may also be recorded. Three additional informational items (maximum charge verified, installation location verified, recovery equipment rated) may also be recorded for reference but are not required for checklist completion. These checklists:
 
 - Do not replace proper safety training
 - Do not replace manufacturer-specific handling guidelines
@@ -124,7 +124,7 @@ A2L refrigerant safety checklists in the App are informational aids. The App tra
 
 ### 3.6 Verification Test Deadline Warnings
 
-The App displays informational warnings when follow-up verification tests are recorded past the regulatory deadline window (10 days for Subpart C, 30 days for Section 608). These warnings are **informational only** and do not block test submission. They are provided to assist your awareness of regulatory timelines but do not constitute legal advice about compliance status.
+The App displays informational warnings when follow-up verification tests are recorded past the regulatory deadline window (generally within 10 days of the successful initial verification test or return to normal operating conditions, as applicable under each rule). These warnings are **informational only** and do not block test submission. They are provided to assist your awareness of regulatory timelines but do not constitute legal advice about compliance status.
 
 ### 3.7 Compliance Recommendations
 

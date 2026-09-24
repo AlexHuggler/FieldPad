@@ -1,139 +1,35 @@
 ---
 layout: article
-title: "Preparing for an EPA Audit: Documentation Every Solo Tech Needs Ready"
-description: "A practical checklist for HVAC technicians to prepare for EPA compliance audits, including required documentation, record organization, and common audit findings."
-date: 2026-01-26
-category: tools
+title: "Preparing refrigerant service records for review"
+description: "Keep the applicability decision, calculation inputs, service evidence and required reports together."
+date: 2026-09-23
+last_modified: 2026-09-23
+category: compliance
 author: "FieldPad Team"
-read_time: 7
-summary: "EPA compliance audits can happen with or without advance notice, and the consequences of inadequate documentation are severe — fines can reach $44,539 per day per violation. Solo HVAC technicians need to maintain audit-ready records at all times, including service logs for every refrigerant handling event, leak rate calculations, repair documentation, verification test records, technician certification copies, and equipment profiles. Digital compliance tools that enforce required fields, calculate leak rates automatically, and retain records for the mandated 3-year period ensure technicians are always audit-ready without dedicated administrative time."
-keywords: ["EPA audit", "compliance audit", "HVAC documentation", "audit preparation", "EPA fines", "compliance records", "audit-ready", "EPA enforcement"]
+read_time: 3
+summary: "Recordkeeping duties depend on the applicable rule, appliance and service. Keep original evidence, document corrections, and review retention and reporting requirements rather than relying on a generic checklist."
 ---
 
-## The Reality of EPA Enforcement
+## Start with the applicable requirement
 
-EPA enforcement actions against HVAC technicians are not hypothetical. The EPA's [Office of Enforcement and Compliance Assurance](https://www.epa.gov/enforcement) conducts **thousands of inspections annually** across the refrigerant management sector. With the addition of [Subpart C](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-84) enforcement for HFC refrigerants in 2026, inspection activity has expanded to cover a larger portion of the refrigerant service industry.
+For federal appliance leak repair, review [40 CFR 82.157](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157) and [40 CFR 84.106](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-84/subpart-C/section-84.106). Covered ODS appliances generally have a full charge of at least 50 pounds. Part 84 covers qualifying HFC/HFC-substitute appliances with at least 15 pounds, but excludes residential and light-commercial AC and heat pumps. Separate certification, recovery and venting duties can still apply outside these leak-repair thresholds.
 
-The penalty structure makes non-compliance extremely costly. Maximum penalties for [Clean Air Act](https://www.epa.gov/clean-air-act-overview) violations reach **$44,539 per day per violation**. While actual assessed penalties account for factors like business size and cooperation, even reduced penalties can be catastrophic for a one-person operation. A single audit finding involving multiple service calls generates **stacked violations** — one per missing or incomplete record.
+## Keep a traceable service record
 
-## What Triggers an EPA Audit
+For covered work, retain the appliance identity and location, full-charge determination, refrigerant identity, service dates and amounts added or removed, the calculation method and inputs, applicable category and threshold, and relevant technician and owner/operator documentation. Record exceptions and supporting facts when they apply. The detailed required fields and who must provide or retain them are in paragraph (l) of each rule.
 
-Audits can be triggered by several factors, and they may be **announced or unannounced**:
+For covered appliances, the current thresholds are **10% comfort cooling**, **20% commercial refrigeration** and **30% industrial process refrigeration**. When a calculation exceeds the threshold, preserve the triggering event and associated leak inspection, repair, verification, extension and retrofit/retirement evidence.
 
-- **Routine inspections.** The EPA targets specific sectors in inspection cycles. HVAC service providers are regularly included.
-- **Tips and complaints.** A disgruntled employee, competitor, or concerned customer can file an anonymous tip with the EPA.
-- **Refrigerant purchase records.** Distributors report sales data. Unusually high refrigerant purchases relative to your documented customer base can trigger scrutiny.
-- **Follow-up inspections.** Previous violations or warnings increase the likelihood of re-inspection.
-- **State agency referrals.** State environmental agencies may refer findings to the EPA for federal enforcement.
+The ordinary repair period is 30 days. The 120-day period applies when an industrial process shutdown is required, not to all industrial equipment. Both rules generally require follow-up verification within 10 days of successful initial verification, or of reaching normal operating conditions after evacuation for repair; review the detailed timing and exceptions in paragraph (e).
 
-An unannounced inspection means an EPA inspector arrives at your shop or a customer site and requests records immediately. You will not have time to organize or locate missing documentation.
+## Retention and reports are separate duties
 
-## What Auditors Look For
+Most required records must be retained for at least three years. Full-charge and certain other appliance records have longer event-based retention, including until three years after retirement. Preserve originals and document corrections so the sequence remains reviewable.
 
-EPA auditors verify that records are **complete, consistent, and contemporaneous** — created at or near the time of service, not reconstructed afterward.
+The chronic-leaker reporting provision concerns losses of **125% or more of the appliance's full charge in a calendar year**, not 125% of its 10%, 20% or 30% repair threshold. Review paragraph (j) and the reporting provisions of the applicable rule for the report contents, deadline and submission route.
 
-### 1. Technician Certification
+## Using FieldPad records
 
-You must produce your **EPA Section 608 Technician Certification** on demand. Keep a digital copy on your phone, a physical copy in your vehicle, and a backup in cloud storage.
+Keep source evidence with the relevant equipment and service history, and check exported records for completeness before relying on them. An export or reminder is a recordkeeping aid; it does not establish that every required action or submission occurred. Follow the current rule and applicable state/local requirements for the particular work.
 
-### 2. Service Logs for Every Refrigerant Event
-
-Every instance of adding, recovering, or transferring refrigerant requires a log containing:
-
-- Date of service and technician identification
-- Customer name and site address
-- Equipment identification (manufacturer, model, serial number)
-- **Refrigerant type** (specific designation, e.g., R-410A)
-- **Amount added or recovered** (in pounds and ounces)
-- **Full charge of the appliance**
-- Technician certification number
-
-Auditors flag every omission. Missing any field constitutes an incomplete record.
-
-### 3. Leak Rate Calculations
-
-For systems above the charge threshold (**50 lbs** for Section 608, **15 lbs** for Subpart C with GWP > 53), auditors verify that a leak rate was calculated every time refrigerant was added, the calculation method is documented, and the rate was compared against the applicable threshold (20% commercial, 15%/10% comfort cooling, 30% industrial).
-
-### 4. Repair Documentation
-
-When a leak rate exceeds the threshold, the auditor looks for:
-
-- Date the exceedance was identified
-- Description of the repair performed
-- Date the repair was completed (within **30 days** for commercial/comfort cooling, **120 days** for industrial)
-- **Initial verification test** results and date
-- **Follow-up verification test** within 30 days of repair
-- If repair was delayed, a documented **repair extension request** or **retrofit/retirement plan**
-
-### 5. Refrigerant Disposition Records
-
-When refrigerant is recovered, auditors want to know what happened to it — returned to a reclaimer (with transfer documentation), stored in a tracked cylinder, or recycled on-site. Chain-of-custody documentation is increasingly scrutinized under Subpart C.
-
-## Common Audit Findings and Penalties
-
-The most frequent compliance findings for solo HVAC technicians:
-
-| Finding | Consequence |
-|---|---|
-| **Missing service logs** | Per-event violation for each undocumented refrigerant handling |
-| **Incomplete leak rate calculations** | Treated as failure to calculate; triggers repair obligation review |
-| **Missed repair deadlines** | Per-day violation from deadline expiration to repair completion |
-| **No verification test records** | Separate violation for failure to verify |
-| **Records not retained for 3 years** | Per-record violation for each prematurely discarded log |
-| **Illegible or undated records** | Treated as incomplete; may be deemed non-contemporaneous |
-| **No certification on file** | Immediate violation; potential referral for uncertified work |
-
-The pattern is clear: **documentation failures are the most common source of violations**, not the underlying technical work. Many technicians who perform excellent field work expose themselves to enforcement action because their paperwork does not reflect what they actually did.
-
-## Organizing Records for Audit Readiness
-
-Your documentation system must allow you to quickly produce records organized by:
-
-- **Customer** — all service records for a specific client
-- **Equipment** — all service records for a specific piece of equipment, including leak rate history
-- **Date range** — all records within the 3-year retention window
-- **Refrigerant type** — all records involving a specific refrigerant
-
-If an auditor asks for all R-410A service records for the past two years and you cannot produce them within a reasonable timeframe, the audit is already going poorly.
-
-## The Digital Advantage
-
-Digital compliance tools address the most common failure points by design:
-
-- **Required fields are enforced at entry time**, eliminating incomplete records.
-- **Leak rates are calculated automatically**, eliminating arithmetic errors.
-- **Repair deadlines are tracked with notifications**, eliminating missed timelines.
-- **Records are stored for the full retention period** without manual filing.
-- **Search and export functions** produce any subset of records in seconds.
-- **Timestamped entries** demonstrate contemporaneous record creation — something paper cannot inherently prove.
-
-## FieldPad's Audit-Ready Exports
-
-**FieldPad** was designed with audit readiness as a core requirement:
-
-- **Compliance dashboard** showing all active equipment, current leak rates, pending repairs, and overdue verification tests at a glance.
-- **PDF export** of individual or bulk compliance logs, filtered by customer, equipment, date range, or refrigerant type.
-- **CSV export** for detailed data analysis in structured format.
-- **Chronic leaker reports** identifying equipment exceeding 125% of the applicable threshold annually, as required by Subpart C.
-- **Complete audit trail** with timestamps showing when each record was created and modified.
-
-All exports generate **on-device without an internet connection**, so you can produce records immediately during an unannounced inspection at a job site with no cell service.
-
-## Key Takeaways
-
-- **EPA audits can be unannounced**, with fines up to $44,539 per day per violation. Maintain audit-ready records at all times.
-- **Documentation failures — not technical errors — are the most common violations** for solo technicians.
-- **Every refrigerant event requires a complete service log** with date, customer, equipment ID, refrigerant type, amounts, full charge, and technician certification.
-- **Leak rate calculations must be documented** for every refrigerant addition to systems above the applicable charge threshold.
-- **Repair actions, verification tests, and refrigerant disposition** must all be documented with dates and details.
-- **Records must be retained for 3 years** and be producible on demand, organized by customer, equipment, date, or refrigerant type.
-- **Digital tools like FieldPad** eliminate the most common audit findings by enforcing completeness, automating calculations, and generating audit-ready exports on demand.
-
----
-
-## Sources & Regulatory References
-
-- [EPA Enforcement — Clean Air Act](https://www.epa.gov/enforcement) — EPA enforcement authority and penalty structures
-- [EPA Section 608](https://www.epa.gov/section608) — Section 608 compliance requirements and technician certification
-- [40 CFR Part 82, Subpart F](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F) — Full text of Section 608 regulations
-- [40 CFR Part 84](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-84) — AIM Act Subpart C regulations for HFC compliance
+This article intentionally does not state a universal penalty amount, predict enforcement frequency, or claim that a generic checklist establishes compliance.

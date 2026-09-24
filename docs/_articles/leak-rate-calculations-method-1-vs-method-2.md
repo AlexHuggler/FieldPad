@@ -1,170 +1,49 @@
 ---
 layout: article
-title: "Leak Rate Calculations Demystified: Method 1 vs Method 2 for Field Technicians"
-description: "Learn how to calculate refrigerant leak rates using EPA Method 1 (annualized) and Method 2 (screening) formulas, when to use each method, and what the results mean for your compliance obligations."
-date: 2026-01-25
+title: "Leak rate calculations: annualizing and rolling average"
+description: "Use the applicable EPA calculation method, full charge and appliance classification before comparing leak rates."
+date: 2026-09-23
+last_modified: 2026-09-23
 category: compliance
 author: "FieldPad Team"
-read_time: 6
-summary: "EPA requires HVAC technicians to calculate leak rates when servicing regulated refrigeration and AC equipment. Method 1 (Annualized) uses the formula: (refrigerant added ÷ full charge) × (365 ÷ days since last charge) × 100 to project an annual leak rate. Method 2 (Screening) uses a simpler formula: (refrigerant added ÷ full charge) × 100 to show the percentage of charge lost since the last service. Method 1 is the standard calculation for determining whether a system exceeds EPA leak rate thresholds. Understanding both methods helps solo technicians make accurate compliance determinations in the field. FieldPad, an all-in-one HVAC CRM for solo techs, runs both calculations automatically as a byproduct of logging a refrigerant addition on a job."
-keywords: ["leak rate calculation", "Method 1 annualized", "Method 2 screening", "EPA leak rate formula", "refrigerant leak rate", "HVAC compliance calculation", "full charge determination"]
-takeaways:
-  - "Method 1 (Annualized) is the EPA regulatory standard: (Added / Full Charge) x (365 / Days) x 100"
-  - "Method 2 (Screening) shows actual loss without annualizing: (Added / Full Charge) x 100"
-  - "Short intervals can produce inflated Method 1 results — use Method 2 for context"
-  - "Accurate full charge determination is foundational to all leak rate calculations"
-  - "Exceeding thresholds triggers mandatory 30-day repair, verification tests, and documentation"
-faqs:
-  - q: "What is the EPA Method 1 leak rate formula?"
-    a: "Method 1 (Annualized): (Refrigerant Added / Full Charge) x (365 / Days Since Last Charge) x 100. This projects the observed loss over a full year and is the EPA standard for regulatory threshold determinations."
-  - q: "What is the difference between Method 1 and Method 2 leak rate calculations?"
-    a: "Method 1 annualizes the leak rate to project a full-year loss rate, while Method 2 simply shows the percentage of charge lost since the last service without annualizing. Method 1 is used for regulatory threshold comparison; Method 2 provides context and is useful for customer communication."
-  - q: "When is a leak rate calculation required?"
-    a: "A leak rate calculation is required whenever you add refrigerant to a regulated system (50+ lbs ODS under Section 608, or 15+ lbs HFC with GWP > 53 under Subpart C) to compensate for loss. It is not required for initial charging, seasonal adjustment, or post-retrofit complete recharge."
-  - q: "What happens when a leak rate exceeds the EPA threshold?"
-    a: "The system owner must repair the leak within 30 days (120 days for industrial process), perform an initial verification test at repair completion, perform a follow-up verification test within 30 days (Section 608) or 10 days (Subpart C), and document all calculations, repairs, and test results for a minimum of 3 years."
+read_time: 4
+summary: "EPA defines annualizing and rolling-average methods. A single-addition screening percentage is not a substitute for the rolling-average history. Determine whether the appliance is covered before applying the 10%, 20% or 30% threshold."
 ---
 
-## Why Leak Rate Calculations Matter
+## Determine applicability first
 
-Every time you add refrigerant to a regulated system, the EPA expects you to determine whether that system is leaking at an unacceptable rate. The leak rate calculation separates a routine top-off from a compliance event requiring mandatory repair, verification testing, and documented follow-up.
+[40 CFR 82.157](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157) generally covers appliances containing at least 50 pounds of a class I or class II ozone-depleting refrigerant, or a blend containing one. [40 CFR 84.106](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-84/subpart-C/section-84.106) covers qualifying appliances with at least 15 pounds of an HFC or substitute for an HFC with GWP greater than 53, beginning January 1, 2026. It excludes residential and light-commercial air conditioning and heat pumps. A rooftop unit's charge and refrigerant alone do not establish coverage.
 
-Under **[Section 608](https://www.epa.gov/section608)**, leak rate tracking applies to ODS systems with **50 or more pounds** of charge. Under **[Subpart C](https://www.epa.gov/climate-hfcs-reduction)**, it applies to HFC systems (GWP > 53) with **15 or more pounds**. If your system meets those thresholds and you are adding refrigerant, you must calculate the leak rate.
+A five-pound residential AC system is not subject to these federal leak-repair provisions. Separate certification, recovery, venting, safety and other applicable requirements still matter.
 
-Two recognized methods exist: **Method 1 (Annualized)** and **Method 2 (Screening)**. Each serves a different purpose.
+## Annualizing method
 
-## Method 1: Annualized Leak Rate
+The definitions in [40 CFR 82.152](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152) and [40 CFR 84.102](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-84/subpart-C/section-84.102) specify:
 
-Method 1 is the **standard EPA calculation** for determining whether a system exceeds the applicable leak rate threshold. It projects observed refrigerant loss over a full 365-day period.
+**Leak rate = (pounds added to restore full charge / full charge) × (365 / elapsed days, capped at 365) × 100**
 
-### The Formula
+Include multiple additions related to the same leak as the rule requires. Short intervals can produce a high annualized rate; that does not authorize changing methods to obtain a lower result.
 
-**Leak Rate = (Refrigerant Added / Full Charge) x (365 / Days Since Last Charge) x 100**
+For a covered R-404A walk-in cooler with a 55-pound full charge, an eight-pound addition after 200 days gives **26.5%**. This exceeds the **20% commercial-refrigeration threshold under Part 84**. R-404A alone does not place the appliance under Section 608's ODS leak-repair provisions. This example assumes the first-calculation transition rule discussed below does not apply.
 
-- **Refrigerant Added**: pounds of refrigerant added during the current service event.
-- **Full Charge**: total refrigerant charge of the system when operating normally.
-- **Days Since Last Charge**: calendar days since the most recent previous addition (or initial charge).
+## Rolling-average method
 
-### Worked Example 1: Commercial Rooftop Unit
+**Leak rate = (sum of pounds added during the applicable lookback period / full charge) × 100**
 
-An R-410A rooftop unit with a **24-pound** full charge. Last addition was **90 days ago**. You add **3 pounds** today.
+The lookback is the preceding 365 days, or the shorter period since the last successful follow-up verification test showing that all identified leaks were repaired. For example, eligible additions totaling 12 pounds to a 55-pound covered walk-in cooler produce **21.8%**, above its 20% threshold.
 
-**Leak Rate = (3 / 24) x (365 / 90) x 100 = 0.125 x 4.056 x 100 = 50.7%**
+A single eight-pound addition divided by 55 pounds is **14.5%**. That number is a useful service quantity, but is the legal rolling-average result only if eight pounds is the complete eligible lookback total. Our earlier article incorrectly called a single-addition screening calculation EPA's second method.
 
-This **50.7% annualized rate** far exceeds the Subpart C comfort cooling threshold of 10%, triggering mandatory leak repair within 30 days.
+Use the same calculation method for covered appliances at an operating facility. Part 84 also restricts method changes; do not switch freely between methods to avoid an exceedance. See the definitions and §84.106(b)(3).
 
-### Worked Example 2: Walk-In Cooler
+## First Part 84 calculation beginning in 2026
 
-An R-404A walk-in cooler with a **55-pound** charge. Last charge was **200 days ago**. You add **8 pounds**.
+For the first annualizing calculation after January 1, 2026, §84.106(b)(1) substitutes **365 days** for elapsed days. For the first rolling-average calculation, §84.106(b)(2) uses pounds added since January 1, 2026. Apply these provisions before interpreting a worked example.
 
-**Leak Rate = (8 / 55) x (365 / 200) x 100 = 0.1455 x 1.825 x 100 = 26.5%**
+## Compare and retain the evidence
 
-This **26.5% rate** exceeds the 20% commercial refrigeration threshold under both Section 608 and Subpart C.
+For covered appliances, both frameworks use **10% for comfort cooling**, **20% for commercial refrigeration** and **30% for industrial process refrigeration**. A rate must exceed the applicable threshold to trigger the repair provisions. Refrigerant identity, appliance category and charge all matter.
 
-### When Annualization Distorts Results
+The ordinary repair period is 30 days; 120 days applies when an industrial process shutdown is required. Initial and follow-up verification tests are separate steps. Both rules generally require follow-up within 10 days of successful initial verification, or of returning to normal operating conditions when evacuated for repair. Review the detailed exceptions, extensions and retrofit/retirement provisions in §§82.157 and 84.106.
 
-Method 1 can produce misleadingly high results with short intervals. Adding 1 pound to a 50-pound system just 7 days after the last charge:
-
-**Leak Rate = (1 / 50) x (365 / 7) x 100 = 104.3%**
-
-That single pound annualizes to over 100% because the formula assumes the same loss rate would continue all year. This is where Method 2 provides a useful sanity check.
-
-## Method 2: Screening Leak Rate
-
-Method 2 provides a **non-annualized snapshot** of how much charge the system lost since the last service.
-
-### The Formula
-
-**Screening Rate = (Refrigerant Added / Full Charge) x 100**
-
-### Worked Example
-
-Using the walk-in cooler above (55-pound charge, 8 pounds added):
-
-**Screening Rate = (8 / 55) x 100 = 14.5%**
-
-This tells you the system lost **14.5% of its charge** since the last service -- useful context, but **not the EPA's standard for threshold comparison**. You still need Method 1 for regulatory determinations.
-
-### When to Use Method 2
-
-- **Short intervals between charges**: Provides context when Method 1 produces inflated results.
-- **Customer communication**: "Your system lost 14.5% of its charge" is more intuitive than a 26.5% annualized rate.
-- **Initial screening**: A quick check before performing the full Method 1 calculation.
-- **Cumulative loss tracking**: Helps identify chronic leaker candidates over multiple service visits.
-
-## What Triggers a Calculation?
-
-A leak rate calculation is required whenever you **add refrigerant** to a regulated system where:
-
-- The refrigerant is regulated (ODS for Section 608, HFC with GWP > 53 for Subpart C).
-- The charge meets the applicable threshold (50 lbs or 15 lbs).
-- The addition compensates for a loss (not initial charging, seasonal adjustment, or post-retrofit charging).
-
-If you perform a maintenance inspection without adding refrigerant, no calculation is required -- though documenting evidence of leaks (oil stains, frost patterns, pressure anomalies) is best practice.
-
-## When Thresholds Are Exceeded
-
-A Method 1 exceedance triggers a compliance sequence:
-
-1. **Repair** the leak within **30 days** (commercial/comfort cooling) or **120 days** (industrial).
-2. **Initial verification test** at repair completion.
-3. **Follow-up verification** within **30 days** (Section 608) or **10 days** (Subpart C).
-4. **Document** all calculations, repairs, and test results. Retain for 3 years minimum.
-5. **Retrofit or retirement plan** if repeated repairs fail.
-
-## Exemptions and Special Cases
-
-The EPA recognizes several exemptions under [40 CFR 82.156](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156) and [84.106](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-84):
-
-- **Initial charge or post-repair recharge**: Refrigerant added during installation, complete evacuation and recharge, or post-retrofit charging is excluded.
-- **Seasonal variance**: Systems shut down seasonally may adjust the calculation period to reflect operational days rather than calendar days.
-- **Catastrophic external loss**: Refrigerant lost due to vehicle strikes, severe weather, or vandalism may be excluded with full documentation.
-- **Systems under retrofit/retirement plans**: Exempt from further repair obligations once a documented plan is submitted.
-
-## Determining Full Charge Accurately
-
-Both methods depend on an accurate full charge value. The EPA accepts:
-
-- **Nameplate data** from the manufacturer
-- **Manufacturer specifications** including line-set corrections
-- **Measured charge** recovered from a fully operational system
-- **Calculated charge** based on component volumes and line-set length
-
-An inaccurate full charge produces inaccurate leak rates. Always document the method you used to determine it.
-
-## How FieldPad's CRM Automates Both Leak Rate Methods
-
-**FieldPad** is an all-in-one HVAC CRM built for solo technicians — clients, jobs, scheduling, estimates, invoices with signatures, inventory, and equipment history, all on an iPhone that works offline. Because every refrigerant addition is already logged against a client and a piece of equipment as part of your normal job workflow, the leak rate math falls out of the CRM automatically — no separate calculator, no clipboard arithmetic.
-
-Specifically, when you log a refrigerant addition in FieldPad:
-
-- **Method 1 (Annualized)** runs automatically using the equipment profile's full charge and the last service date.
-- **Method 2 (Screening)** displays side-by-side with Method 1 for context on short-interval additions.
-- **Threshold comparison** checks the result against the correct framework — Section 608 or Subpart C — for the refrigerant on file.
-- **Deadline generation** creates the 30-day or 120-day repair clock and follow-up verification reminders when a threshold is exceeded.
-- **History tracking** records the calculation in the equipment's compliance log for audit readiness and chronic leaker monitoring.
-
-Every compliance log lives on the same client and equipment record as the invoice, the estimate, and the equipment history — so when an auditor asks how you calculated a rate, the inputs and the result are one tap away.
-
-## Compliance Is the Byproduct, Not the Product
-
-The reason FieldPad handles leak rate math well is that it was built as a CRM first. Clients, equipment profiles, job history, estimates, and invoices are the primary records — and refrigerant additions are just another entry on the same equipment timeline. When you invoice a refrigerant top-off, the pounds on that invoice and the full charge on the equipment profile are the same numbers that feed the calculation. You do the billing; FieldPad does the compliance math.
-
-## Key Takeaways
-
-- **Method 1 (Annualized)** is the EPA's standard for determining threshold exceedances, projecting loss over 365 days.
-- **Method 2 (Screening)** shows actual charge loss since last service -- useful for context and customer communication.
-- **A calculation is required** every time you add refrigerant to a regulated system meeting the applicable charge threshold.
-- **Short intervals** can produce inflated Method 1 results -- use Method 2 alongside for context.
-- **Accurate full charge data** is essential; document your determination method.
-- **Exemptions exist** for initial charges, seasonal adjustments, and catastrophic losses, but must be documented.
-- **FieldPad automates both methods**, compares against the correct threshold, and generates repair deadlines and verification reminders automatically.
-
----
-
-## Sources & Regulatory References
-
-- [40 CFR 82.156](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.156) — Required practices for leak repair under Section 608
-- [40 CFR Part 84](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-84) — AIM Act Subpart C regulations for HFC leak repair
-- [EPA Section 608](https://www.epa.gov/section608) — EPA's Section 608 regulatory page
-- [EPA AIM Act — HFC Phasedown](https://www.epa.gov/climate-hfcs-reduction) — EPA overview of HFC reduction requirements
+Retain the full-charge basis, addition history, calculation method, applicable rule and verification evidence. Initial installation, qualifying seasonal variance and immediately post-retrofit additions have specific treatment; a generic post-repair recharge is not automatically excluded. FieldPad supports calculation and recordkeeping; an app result does not certify compliance.
