@@ -3,7 +3,7 @@ layout: article
 title: "Refrigerant GWP and leak-repair applicability"
 description: "Refrigerant identity and GWP are inputs to an applicability decision, alongside full charge and appliance subsector."
 date: 2026-09-23
-last_modified: 2026-09-23
+last_modified: 2026-10-02
 category: tools
 author: "FieldPad Team"
 read_time: 3
@@ -18,7 +18,7 @@ Global warming potential compares a substance's climate effect with carbon dioxi
 
 [40 CFR 82.157](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157) generally covers appliances with at least 50 pounds of a class I or class II ozone-depleting refrigerant, or a blend containing one. This is an ODS-based test, not a GWP threshold.
 
-[40 CFR 84.106(a)](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-84/subpart-C/section-84.106) addresses appliances with at least 15 pounds containing a regulated HFC or an HFC substitute with GWP greater than 53. It excludes appliances containing solely an ODS and the residential/light-commercial air-conditioning and heat-pump subsector. Review mixed refrigerants and the precise appliance classification rather than assigning one rule from a refrigerant label alone.
+[40 CFR 84.106(a)](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-84/subpart-C/section-84.106) addresses qualifying appliances with a full charge of at least 15 pounds of refrigerant containing either a regulated substance, or a substitute for a regulated substance whose GWP is greater than 53. The GWP cutoff belongs to the substitute branch. It excludes appliances containing solely an ODS and the residential/light-commercial air-conditioning and heat-pump subsector. Review mixed refrigerants and the precise appliance classification rather than assigning one rule from a refrigerant label alone.
 
 For covered appliances, both frameworks use **10% comfort cooling**, **20% commercial refrigeration** and **30% industrial process refrigeration**. The refrigerant's GWP does not choose among those categories.
 

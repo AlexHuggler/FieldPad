@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "HVAC CRM & All-in-One Business App for Solo Techs"
-description: "Run your entire one-person HVAC shop from your iPhone — clients, scheduling, estimates, invoices with signatures, inventory, recurring maintenance, and equipment history. Offline-ready. $29.99/mo or $249.99/yr, built around service calls. EPA Section 608 and Subpart C compliance tracking included at no extra cost."
+description: "Manage customers, service jobs, estimates, invoices, inventory and equipment history on your iPhone. FieldPad is built for solo HVAC operators, with offline records and refrigerant recordkeeping. $29.99/mo or $249.99/yr. Connected 1.1 features are under validation."
 ---
 
 <!-- Schema.org SoftwareApplication Structured Data -->
@@ -53,10 +53,10 @@ description: "Run your entire one-person HVAC shop from your iPhone — clients,
     "Calendar and inspection scheduling",
     "Offline-first architecture",
     "Glove Mode enlarged touch targets",
-    "iCloud sync and backup",
+    "Private iCloud sync for supported records",
     "EPA Section 608 compliance logging (included)",
     "AIM Act Subpart C HFC tracking (included)",
-    "Leak rate calculations Method 1 & 2 (included)",
+        "Leak rate calculations and retained service history for review (included)",
     "A2L refrigerant safety checklists (included)",
     "5,000 Rule repair vs replace calculator (included)",
     "Chronic leaker detection and reporting (included)"
@@ -152,12 +152,12 @@ description: "Run your entire one-person HVAC shop from your iPhone — clients,
       "@type": "HowToStep",
       "position": 4,
       "name": "Monitor Chronic Leaker Status",
-      "text": "FieldPad monitors cumulative refrigerant additions per equipment per calendar year. If additions reach 125% or more of full charge, it flags the equipment as a chronic leaker and tracks the March 1 EPA reporting deadline."
+      "text": "Review documented annual leakage and supporting service records; covered appliances leaking at least 125% of full charge require an owner/operator report by March 1 of the following year."
     },
     {
       "@type": "HowToStep",
       "position": 5,
-      "name": "Export Audit-Ready Reports",
+      "name": "Export Service Records",
       "text": "Export records for your own review and any required reporting; export alone does not establish compliance."
     }
   ]
@@ -213,12 +213,12 @@ description: "Run your entire one-person HVAC shop from your iPhone — clients,
 
             <!-- Screen -->
             <div class="iphone-screen">
-              <img src="{{ '/assets/images/fieldpad-1-1-preview-dashboard.jpg' | relative_url }}"
-                   alt="FieldPad 1.1 prerelease dashboard with synthetic sample records"
+              <img src="{{ '/assets/images/fieldpad-1-1-rc7-preview-dashboard.jpg' | relative_url }}"
+                   alt="FieldPad 1.1 prerelease dashboard with test records and Quick Actions centered above the five navigation tabs"
                    width="368" height="800" class="block w-full h-auto" />
             </div>
           </div>
-          <p class="text-xs leading-relaxed text-gray-500 text-center mt-4">1.1 preview &middot; sample data.<br>Public version: 1.0.1. <a href="{{ '/release-status/' | relative_url }}" class="underline">View release status</a>.</p>
+          <p class="text-xs leading-relaxed text-gray-500 text-center mt-4">1.1 preview &middot; test data.<br>Public version: 1.0.1. <a href="{{ '/release-status/' | relative_url }}" class="underline">View release status</a>.</p>
         </div>
       </div>
     </div>
@@ -459,12 +459,12 @@ description: "Run your entire one-person HVAC shop from your iPhone — clients,
       <div class="text-center">
         <div class="w-14 h-14 bg-fieldpad-700 text-white rounded-2xl flex items-center justify-center mx-auto mb-3 text-xl font-bold">2</div>
         <h3 class="font-semibold text-fieldpad-900 mb-1 text-sm">Auto-Calculate</h3>
-        <p class="text-xs text-gray-500">Leak rates via Method 1 or 2 against Section 608 or Subpart C thresholds</p>
+        <p class="text-xs text-gray-500">Review supported leak-rate calculations using the applicable method and retained service history</p>
       </div>
       <div class="text-center">
         <div class="w-14 h-14 bg-fieldpad-700 text-white rounded-2xl flex items-center justify-center mx-auto mb-3 text-xl font-bold">3</div>
         <h3 class="font-semibold text-fieldpad-900 mb-1 text-sm">Track Repairs</h3>
-        <p class="text-xs text-gray-500">30-day repair deadlines, verification tests, and inspection schedules</p>
+        <p class="text-xs text-gray-500">Track applicable repair, verification, and inspection dates</p>
       </div>
       <div class="text-center">
         <div class="w-14 h-14 bg-fieldpad-700 text-white rounded-2xl flex items-center justify-center mx-auto mb-3 text-xl font-bold">4</div>
@@ -486,7 +486,7 @@ description: "Run your entire one-person HVAC shop from your iPhone — clients,
       </div>
       <div class="bg-white rounded-xl border border-gray-200 p-5">
         <div class="text-sm font-bold text-fieldpad-900 mb-2">&#10003; Subpart C Logging</div>
-        <p class="text-xs text-gray-600">Covered HFC appliances (GWP &gt; 53), 15+ lb full charge, from Jan 1, 2026. Residential and light-commercial AC/heat pumps are excluded from this leak-repair rule.</p>
+        <p class="text-xs text-gray-600">15+ lb full charge, from Jan 1, 2026. Refrigerant scope and appliance exclusions determine coverage; see the threshold notes below.</p>
       </div>
       <div class="bg-white rounded-xl border border-gray-200 p-5">
         <div class="text-sm font-bold text-fieldpad-900 mb-2">&#10003; A2L Safety Checklists</div>
@@ -509,15 +509,15 @@ description: "Run your entire one-person HVAC shop from your iPhone — clients,
     <!-- Threshold Table -->
     <div class="bg-white rounded-2xl border border-gray-200 overflow-hidden shadow-sm">
       <div class="px-6 py-4 bg-fieldpad-800 text-white">
-        <h3 class="font-bold text-lg">EPA Leak Rate Thresholds Tracked Automatically</h3>
+        <h3 class="font-bold text-lg">Federal Leak-Repair Thresholds for Covered Appliances</h3>
       </div>
       <div class="table-wrapper">
         <table class="w-full text-sm">
           <thead>
             <tr class="bg-fieldpad-50 text-left">
               <th class="px-6 py-3 font-semibold text-fieldpad-800">Appliance Type</th>
-              <th class="px-6 py-3 font-semibold text-fieldpad-800">Section 608</th>
-              <th class="px-6 py-3 font-semibold text-fieldpad-800">Subpart C</th>
+              <th class="px-6 py-3 font-semibold text-fieldpad-800">Part 82 (Section 608)</th>
+              <th class="px-6 py-3 font-semibold text-fieldpad-800">Part 84 (Subpart C)</th>
               <th class="px-6 py-3 font-semibold text-fieldpad-800">Charge Minimum</th>
             </tr>
           </thead>
@@ -529,7 +529,7 @@ description: "Run your entire one-person HVAC shop from your iPhone — clients,
               <td class="px-6 py-3">608: &ge;50 lbs &bull; C: &ge;15 lbs</td>
             </tr>
             <tr>
-              <td class="px-6 py-3 font-medium">Comfort Cooling (AC)</td>
+              <td class="px-6 py-3 font-medium">Covered Comfort Cooling</td>
               <td class="px-6 py-3">10%</td>
               <td class="px-6 py-3 text-amber-600 font-semibold">10%</td>
               <td class="px-6 py-3">608: &ge;50 lbs &bull; C: &ge;15 lbs</td>
@@ -542,15 +542,15 @@ description: "Run your entire one-person HVAC shop from your iPhone — clients,
             </tr>
             <tr>
               <td class="px-6 py-3 font-medium">Refrigerated Transport</td>
-              <td class="px-6 py-3 text-gray-400">N/A</td>
               <td class="px-6 py-3">10%</td>
-              <td class="px-6 py-3">C: &ge;15 lbs (GWP &gt; 53)</td>
+              <td class="px-6 py-3">10%</td>
+              <td class="px-6 py-3">608: &ge;50 lbs &bull; C: &ge;15 lbs</td>
             </tr>
           </tbody>
         </table>
       </div>
       <div class="px-6 py-3 bg-gray-50 text-xs text-gray-500">
-        Leak-repair scope: Section 608 covers qualifying ODS appliances with at least 50 lb full charge. Part 84 covers qualifying appliances with at least 15 lb of an HFC or HFC substitute with GWP greater than 53, beginning January 1, 2026. Residential and light-commercial AC/heat pumps are excluded from Part 84 leak repair. Technician certification, recovery and venting requirements are separate. See <a class="underline" href="https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157">40 CFR 82.157</a> and <a class="underline" href="https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-84/subpart-C/section-84.106">40 CFR 84.106</a>. Rates must exceed the applicable threshold to trigger leak-repair duties; exceptions and timing rules matter.
+        Leak-repair scope: Part 82 covers qualifying 50+ lb ODS appliances, including ODS-containing blends. From January 1, 2026, Part 84 covers qualifying 15+ lb appliances containing a regulated substance, or a substitute with GWP greater than 53. Solely ODS appliances and residential/light-commercial AC and heat pumps are excluded from Part 84 leak repair. Certification, recovery and venting duties are separate. See <a class="underline" href="https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157">40 CFR 82.157</a> and <a class="underline" href="https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-84/subpart-C/section-84.106">40 CFR 84.106</a>. Rates must exceed the applicable threshold; exceptions and timing matter.
       </div>
     </div>
 

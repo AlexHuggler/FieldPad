@@ -2,7 +2,7 @@
 # GitHub Pages Jekyll Configuration
 
 title: "FieldPad: HVAC CRM for Solo Techs"
-description: "The all-in-one HVAC CRM for solo technicians. Clients, scheduling, estimates, invoices with signatures, inventory, recurring maintenance, and equipment history on your iPhone — offline-ready, built around service calls. EPA Section 608 and Subpart C compliance tracking included at no extra cost."
+description: "Customer records, service jobs, estimates, invoices and equipment history for solo HVAC operators. Local records support work without a signal. Public version 1.0.1; optional connected 1.1 features are under validation."
 url: "https://fieldpadpro.com"
 baseurl: ""
 lang: "en-US"

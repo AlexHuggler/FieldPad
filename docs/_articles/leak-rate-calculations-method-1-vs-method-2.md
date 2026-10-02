@@ -3,7 +3,7 @@ layout: article
 title: "Leak rate calculations: annualizing and rolling average"
 description: "Use the applicable EPA calculation method, full charge and appliance classification before comparing leak rates."
 date: 2026-09-23
-last_modified: 2026-09-23
+last_modified: 2026-10-02
 category: compliance
 author: "FieldPad Team"
 read_time: 4
@@ -12,7 +12,7 @@ summary: "EPA defines annualizing and rolling-average methods. A single-addition
 
 ## Determine applicability first
 
-[40 CFR 82.157](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157) generally covers appliances containing at least 50 pounds of a class I or class II ozone-depleting refrigerant, or a blend containing one. [40 CFR 84.106](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-84/subpart-C/section-84.106) covers qualifying appliances with at least 15 pounds of an HFC or substitute for an HFC with GWP greater than 53, beginning January 1, 2026. It excludes residential and light-commercial air conditioning and heat pumps. A rooftop unit's charge and refrigerant alone do not establish coverage.
+[40 CFR 82.157](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157) generally covers appliances containing at least 50 pounds of a class I or class II ozone-depleting refrigerant, or a blend containing one. [40 CFR 84.106](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-84/subpart-C/section-84.106) covers qualifying appliances from January 1, 2026 with a full charge of at least 15 pounds of refrigerant containing either a regulated substance, or a substitute for a regulated substance whose GWP is greater than 53. The GWP cutoff belongs to the substitute branch. It excludes residential and light-commercial air conditioning and heat pumps. A rooftop unit's charge and refrigerant alone do not establish coverage.
 
 A five-pound residential AC system is not subject to these federal leak-repair provisions. Separate certification, recovery, venting, safety and other applicable requirements still matter.
 

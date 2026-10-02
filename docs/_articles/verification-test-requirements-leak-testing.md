@@ -1,154 +1,31 @@
 ---
 layout: article
-title: "Verification Test Requirements: Initial and Follow-Up Leak Testing Under Section 608 and Subpart C"
-description: "Understanding EPA requirements for initial and follow-up verification leak tests after refrigerant leak repairs, including timing requirements under both Section 608 and Subpart C frameworks."
-date: 2026-02-08
+title: "Leak-repair verification: scope and deadlines"
+description: "Covered leak repairs require initial and follow-up verification. Both frameworks generally use a 10-day follow-up window; a failed test does not reset the repair period."
+date: 2026-10-02
+last_modified: 2026-10-02
 category: compliance
 author: "FieldPad Team"
-read_time: 6
-summary: "After repairing a refrigerant leak on regulated equipment, EPA regulations require technicians to perform verification tests to confirm the repair was successful. An initial verification test must be conducted immediately after the repair. A follow-up verification test must be completed within 30 days under Section 608, or within 10 days under Subpart C. If the follow-up test shows the leak persists, additional repairs and verification cycles are required. FieldPad, an all-in-one HVAC CRM for solo techs, tracks repair events, schedules verification test deadlines, and sends notification reminders as a byproduct of your normal job workflow."
-keywords: ["verification test", "leak test", "follow-up verification", "EPA repair requirements", "leak repair verification", "Section 608 testing", "Subpart C testing"]
+read_time: 3
+summary: "Covered leak repairs require initial and follow-up verification. Both frameworks generally use a 10-day follow-up window; a failed test does not reset the repair period."
 ---
 
-## What Triggers the Verification Requirement
+## Confirm the covered repair
 
-A verification test obligation is triggered whenever a **refrigerant leak repair** is performed on regulated equipment. Under [Section 608](https://www.epa.gov/section608), this applies to equipment containing **50 pounds or more** of refrigerant. Under [AIM Act Subpart C](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-84), the threshold drops to **15 pounds or more** for systems with a GWP above 53.
+[Section 82.157](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.157) generally covers appliances with a full charge of at least 50 pounds of an ODS refrigerant or a blend containing ODS. [Section 84.106](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-84/subpart-C/section-84.106) applies from January 1, 2026 to qualifying appliances with a full charge of at least 15 pounds of refrigerant containing either a regulated substance, or a substitute for a regulated substance whose GWP is greater than 53. The GWP cutoff belongs to the substitute branch. Part 84 excludes solely-ODS appliances and residential/light-commercial AC and heat pumps. Refrigerant identity or charge alone does not establish coverage.
 
-The trigger is the **repair itself**. Once you braze a joint, replace a Schrader valve core, tighten a flare fitting, or perform any action intended to stop a refrigerant leak, you must verify the repair through a structured two-stage testing process.
+Paragraph (e) of each rule requires initial and follow-up tests for leaks repaired under its paragraph (d). This is not a blanket statement that every repair on every appliance triggers the same federal testing duties. Separate equipment instructions and applicable safety requirements still matter.
 
-This process exists because some repairs that appear successful immediately can fail under operating conditions. Thermal cycling, vibration, and pressure fluctuations can re-open a leak that seemed sealed during the initial test.
+## Initial and follow-up testing
 
-## Stage 1: Initial Verification Test
+Initial verification belongs within the applicable repair period: ordinarily 30 days, or 120 days when an industrial process shutdown is required, subject to the rule's extensions. It must be performed after the repair and before adding refrigerant, with the detailed procedure depending on whether evacuation was necessary.
 
-The initial test must be performed **at the time of the repair**, before you leave the job site. It confirms the repair is not actively leaking under current conditions.
+**Both §82.157(e)(2) and §84.106(e)(2) generally require follow-up within 10 days of successful initial verification, or within 10 days of reaching normal operating conditions when the appliance or isolated component was evacuated for repair.** Review the provisions for situations where normal-operation testing is unsafe or impossible.
 
-**Acceptable test methods include:**
+A failed test does **not** automatically reset the original repair period. Additional repairs and tests must fit within the applicable period; continuing leakage may require a retrofit/retirement plan under paragraph (h), or a qualifying extension under paragraph (f).
 
-- **Pressure or vacuum standing test** on the repaired section, held long enough to detect leaks at the required sensitivity
-- **Electronic leak detection** meeting regulation sensitivity requirements (typically 0.1 oz/year for Section 608, with enhanced requirements under Subpart C)
-- **Ultrasonic leak detection** for pressurized systems where electronic detection is impractical
-- **Soap bubble testing** at the repair location as a supplementary method (generally not accepted standalone for larger systems)
+## Preserve the actual evidence
 
-**What you must record:** date and time, test method, specific location tested, result (pass or fail), and any corrective action taken on failure.
+The definitions in [§82.152](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F/section-82.152) and [§84.102](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-84/subpart-C/section-84.102) describe verification tests and potential methods. Select methods appropriate to the appliance and repair; this article does not prescribe a universal detector sensitivity or prohibit appropriate soap-bubble testing.
 
-## Stage 2: Follow-Up Verification Test
-
-The follow-up test is conducted after the system has returned to normal operation and run through multiple operating cycles. It catches repairs that hold initially but fail under real-world conditions.
-
-**The critical difference between frameworks is the deadline:**
-
-| Regulatory Framework | Follow-Up Deadline |
-|---|---|
-| **Section 608** (ODS refrigerants, systems >= 50 lbs) | Within **30 days** of repair |
-| **Subpart C** (HFC refrigerants, GWP > 53, systems >= 15 lbs) | Within **10 days** of repair |
-
-The Subpart C timeline is significantly tighter, reflecting heightened concern around high-GWP HFC emissions. For solo technicians servicing mixed equipment fleets, tracking which deadline applies to which system is one of the more challenging compliance tasks.
-
-### Why Deadlines Matter
-
-Missing a follow-up deadline is a **standalone violation**, separate from the underlying leak. Even if the repair was successful and the system is no longer leaking, failing to perform and document the test within the required window is a citable offense carrying the same penalty authority as substantive violations.
-
-## What Constitutes a Passing Test
-
-A test passes when **no leak is detected at the repair location** using the specified method. For pressure-based tests, the system must hold test pressure within tolerances for the specified duration. For electronic detection, no alarm at the calibrated sensitivity level.
-
-**Important distinctions:**
-
-- The test covers the **repair location specifically**, not the entire system
-- The follow-up should be conducted while the system is operating or has recently operated, so thermal cycling and vibration have stressed the repair
-- **Detector calibration must be current** -- an uncalibrated detector can invalidate the result during an audit
-
-## When Follow-Up Tests Fail
-
-If the follow-up reveals the repair location is still leaking, the compliance clock resets:
-
-1. **Perform an additional repair** to address the persistent leak
-2. **Conduct a new initial verification test** at the time of re-repair
-3. **Schedule a new follow-up test** within the applicable deadline from the re-repair date
-4. **Recalculate the leak rate** if additional refrigerant was added
-
-This cycle repeats until the follow-up passes or the equipment owner decides to **retrofit or retire** the equipment. Each failed cycle increases cumulative refrigerant additions, potentially pushing equipment toward **chronic leaker** classification at 125% of full charge.
-
-## Section 608 vs. Subpart C: Full Comparison
-
-| Requirement | Section 608 | Subpart C |
-|---|---|---|
-| **Charge threshold** | >= 50 lbs | >= 15 lbs (GWP > 53) |
-| **Follow-up deadline** | 30 days | 10 days |
-| **Detector sensitivity** | Standard 608 requirements | Enhanced for certain HFC blends |
-| **A2L safety requirements** | Not applicable | Required for mildly flammable refrigerants |
-
-### A2L Safety During Verification
-
-When testing systems using **A2L refrigerants** (R-32, R-454B, etc.), additional precautions apply before any leak detection work:
-
-- Verify refrigerant sensors in the equipment space are operational
-- Confirm adequate ventilation in the work area
-- Use detection equipment rated for flammable refrigerants
-- Follow manufacturer A2L service procedures, including de-energizing ignition sources
-
-These safety steps must be documented as part of the compliance record alongside the test itself.
-
-## Documentation Requirements
-
-Every verification test requires:
-
-- **Date and time** of the test
-- **Test type**: Initial or follow-up
-- **Equipment identification**: Location, type, serial number
-- **Repair being verified**: Reference to the repair record
-- **Test method and equipment**: Make, model, serial number, and calibration date for detectors
-- **Specific location tested**
-- **Result**: Pass or fail
-- **Technician identification**: Name and EPA certification number
-- **If failed**: Failure description and reference to subsequent repair
-
-All documentation must be retained for a minimum of **3 years**.
-
-## Scheduling Challenges for Solo Technicians
-
-The follow-up test requires returning to the same job site within 10 or 30 days. For technicians with busy schedules and geographically dispersed customers, this return visit is easy to forget or deprioritize.
-
-**Practical strategies:**
-
-- Schedule the return visit before leaving the initial repair site
-- Group follow-up visits geographically to minimize drive time
-- Prioritize Subpart C follow-ups due to the tighter 10-day window
-- Use automated reminders that escalate as deadlines approach
-
-## How FieldPad's CRM Tracks Verification Deadlines Automatically
-
-**FieldPad** is an all-in-one HVAC CRM built for solo technicians — clients, jobs, scheduling, estimates, invoices with signatures, inventory, and equipment history, all on an iPhone that works offline. Because every repair is already logged against a client and a piece of equipment as part of your normal job workflow, verification scheduling falls out of the CRM automatically — no separate app, no double-entry.
-
-Specifically, when you log a leak repair in FieldPad:
-
-- **Automatic deadline calculation** pulls the equipment's regulatory framework from its profile and schedules the correct 30-day or 10-day follow-up.
-- **Escalating reminders** fire at 7, 3, and 1 days remaining for Section 608, and at 5, 2, and 1 days for Subpart C.
-- **Compliance dashboard** displays pending tests with color-coded urgency; overdue tests are flagged prominently.
-- **Linked records** tie the initial test, follow-up test, and repair together on the same equipment profile for a complete audit trail.
-- **Failed test workflow** logs a new repair and creates a fresh deadline automatically.
-- **A2L safety checklist** runs inline in the verification workflow for mildly flammable refrigerant systems.
-
-Every compliance log lives on the same client and equipment record as the invoice, the estimate, and the equipment history — so when you return for the follow-up, the full context is one tap away.
-
-## Compliance Is the Byproduct, Not the Product
-
-The reason FieldPad handles verification tracking well is that it was built as a CRM first. Clients, equipment profiles, job history, estimates, and invoices are the primary records — and repair events are just another entry on the same equipment timeline. When you bill the repair, the job record that captures the parts and labor is the same record that schedules the 10-day or 30-day follow-up. You do the billing; FieldPad does the compliance math.
-
-## Key Takeaways
-
-- **Every leak repair triggers two-stage verification**: initial test at repair time plus follow-up within the applicable deadline.
-- **Section 608 allows 30 days; Subpart C allows only 10.** Know which framework applies to each system.
-- **Missing a deadline is a standalone violation**, independent of repair success.
-- **Failed follow-ups restart the cycle**: new repair, new initial test, new deadline.
-- **Document every test completely**, including method, equipment, result, and technician ID.
-- **A2L systems require additional safety steps** that must also be documented.
-- **FieldPad automates deadline tracking**, sends escalating reminders, and links all verification records for audit-ready compliance.
-
----
-
-## Sources & Regulatory References
-
-- [40 CFR Part 82, Subpart F](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-82/subpart-F) — Section 608 verification test requirements
-- [40 CFR Part 84](https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-84) — AIM Act Subpart C verification requirements with 10-day follow-up deadline
-- [EPA Section 608](https://www.epa.gov/section608) — EPA's regulatory page for stationary refrigeration compliance
+Retain the dates, repaired leak locations, methods and results required by the relevant recordkeeping provisions. FieldPad can organize these records and reminders. Check the governing dates and supporting evidence; a checklist or notification does not certify successful repair, timely verification or compliance.
